@@ -42,3 +42,13 @@ def download(bucket_name, server_file_path, output_path):
 	except Exception as e:
 		logging.error("Error occurred in downloading file.")
 		logging.error(e)
+
+# print("uploading...")
+# upload_raw_data("1_070394_0225.csv")
+
+s3 = boto3.resource('s3')
+print("BUCKETS:")
+for bucket in s3.buckets.all():
+    print(bucket.name)
+client = boto3.client('s3')
+print(client.list_objects(Bucket="si7021-temperature-humidity-sensor"))
