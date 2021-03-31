@@ -1,10 +1,11 @@
 import os
 import sys
 from en_tx_manager import *
+from iasc_common import *
 
 
-pending_dir = "/home/pi/Desktop/iasc/sensor_out_dir"
 ignored_files = []
+en_id = os.environ.get('EN_ID')
 
 # # Configure RFM9x LoRa Radio
 # CS = DigitalInOut(board.CE1)
