@@ -1,0 +1,121 @@
+#######################################################################################################
+#### NOTE : This file will only get sourced during a window bringup event .. not for prompt-less login
+####           (pretend the whole file is wrapped with if ($?prompt) then ... endif
+####        Also it will not get sourced when a parent shell spawns a child shell.
+####     [[ PLEASE READ FURTHER NOTES AT THE BOTTOM OF THIS TEMPLATE .cshrc.user FILE ]]
+#######################################################################################################
+
+
+
+
+#################################################################
+# Setup a project by default, whatever project you most often setup to
+
+setup_project common
+
+## EXAMPLES OF HOW TO HAVE IT DIFFERENT PER SITE:
+# if ($APPLE_SITE == "scv") then
+#	setup_project maui
+# endif
+# if ($APPLE_SITE == "austin")   then
+#	setup_project maui
+# endif
+
+
+#################################################################
+# Collect aliases and complete directives.  
+#
+#  NOTES:
+#
+#  1. the .alias file will get sourced on every "setup_project <name>" so you can have
+#     aliases etc that change per project
+#  2. the .alias file will get sourced when you spawn a terminal FROM ANOTHER TERMINAL
+#     to allow you to re-assert your aliases
+#  3. because "set" commands also DO NOT INHERIT naturally, put all "set" commands
+#     in .alias including "set prompt" and "set symlinks" and "set autologout" etc
+#
+#################################################################
+
+
+if (-r ~/.alias)              source ~/.alias
+if (-r ~/.complete)           source ~/.complete
+
+
+#################################################################
+# Put any "setenv" commands here.  Note that there is provided
+# a useful utility "env_modify" :
+
+# env_modify is a handy command to add/remove things from env variables (even works with bash)
+#
+#     env_modify  <VARNAME> <FUNCTION> <ITEM>
+# 
+# examples :  env_modify MANPATH add    /home/username/manfiles  (put path on front)
+#             env_modify MANPATH remove /old/legacy/path         (remove from list)
+#             env_modify MANPATH add    /something     APPEND    (put path on end)
+#             env_modify MANPATH                                 (show the list)
+#             env_modify MANPATH uniquify                        (remove any duplications)
+#             env_modify PATH    find   someBinary.pl            (find ALL matches of someBinary.pl)
+
+# Note that "path" is a shorthand for "env_modify PATH" .. so
+# this is quicker :
+#
+#     path add $HOME/bin
+
+# Note also that you can get a "clean formatted sorted" environment dump with:
+#
+#     env_modify env
+
+# Another sample for you ... "natural" mouse wheel direction, match the mac OSX lion
+# xmodmap -e "pointer = 1 2 3 5 4 6 7 8 9" >& /dev/null
+
+
+
+
+
+###################################################################################################
+###################################################################################################
+###         NOTES
+###################################################################################################
+###################################################################################################
+
+# # This file SHOULD CONTAIN :
+# # 
+# #     Personal setenv statements like "setenv EDITOR .." or "setenv PRINTER ..."
+# #     A default setup_project <name>
+# #
+# # There are a number of CAUTION warnings :
+# # 
+# #     DO NOT modify the "PROJECT" environment variables. These are all provided as project specific variables within the environment.
+# #         $LD_LIBRARY_PATH
+# #         $PERL5LIB
+# #         $GLOBAL_PATH
+# #         $P4PORT
+# #         $PROJECT
+# #         $PROJECT_DIR
+# #         $PROJECT_PROCESS
+# #         $PROJECT_MODULE
+# #         $PATH
+# #         exception to $PATH is we're allowing ~/bin ... if you want this then use the following command INSIDE your if ($?prompt)
+# #         path add $HOME/bin 
+# #     DO NOT do any "module loads" or other commands that update the above vars in your .cshrc
+# #         if you're looking to adjust a default tool version use setenv TOOL_MODULE_VER_<tool> <ver>
+# #         (See the main CommonEnvironment page for questions on this) 
+# #     DO NOT put and "set" commands or "alias" commands in the .cshrc. This includes "set prompt ..." and "set autolist ..." etc.
+# #         use the .alias to hold "set ..." commands and "alias" commands.  If you do put "set ...." commands in the .cshrc then 
+# #         when you spawn a window from another window these settings WONT get carried over (we do re-source the .alias which 
+# #         is why it should go there) 
+# # 
+# # There are also a few IMPORTANT NOTES :
+# # 
+# #     If you spawn a window FROM another window that is setup for a project it'll inherit the environment of the parent window.
+# #         This is achieved through the required header block in then central .cshrc ...it will "early exit" when it detects this condition.
+# #         This means this file WILL NOT GET READ AT ALL in this case.
+# #         This feature is required for a number of flows to properly give environment-enabled windows. 
+
+###################################################################################################
+###################################################################################################
+
+# SMART HISTORY
+bindkey -k up history-search-backward     # up arrow
+bindkey -k down history-search-forward    # down arrow
+bindkey " " magic-space                   # auto-history expansion
