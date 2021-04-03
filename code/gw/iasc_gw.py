@@ -6,7 +6,7 @@ parent_dir = os.path.dirname(current_dir)
 sys.path.insert(0, parent_dir)
 
 from common.iasc_common import *
-from en.en_tx_manager import *
+from gw.gw_tx_manager import *
 
 
 ignore_list = []

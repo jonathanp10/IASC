@@ -2,7 +2,7 @@
 
 # vim: autoindent noexpandtab tabstop=8 shiftwidth=8
 
-import boto3, os, logging, inspect
+import boto3, os, sys, logging, inspect
 # modify PYTHONPATH in order to imprt internal modules from parent directory.
 current_dir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
 parent_dir = os.path.dirname(current_dir)
