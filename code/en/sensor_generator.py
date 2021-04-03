@@ -1,9 +1,14 @@
-import sys
-import os
+import os, sys, inspect
+import time
 from datetime import datetime
 import random
 import string
-from iasc_common import *
+
+# modify PYTHONPATH in order to imprt internal modules from parent directory.
+current_dir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
+parent_dir = os.path.dirname(current_dir)
+sys.path.insert(0, parent_dir) 
+from common.iasc_common import *
 
 file_size_in_kb = int(sys.argv[1])
 
