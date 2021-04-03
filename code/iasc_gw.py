@@ -35,7 +35,7 @@ def pseudo_recieve():
 
 
 def extract_metadata(metadata):
-    logging.debug("[{}][{}][Entered function]".format(__name__, inspect.currentframe().f_code.co_name) + "metadata is: " + metadata)
+    logging.debug("[{}][{}][Entered function]".format(__name__, inspect.currentframe().f_code.co_name + "metadata is: " + metadata))
     metadata_lst = metadata.split('.csv_')
     filename = metadata_lst[0] + '.csv'
     first, last, sequence_num = metadata_lst[1].split('_')
@@ -43,7 +43,7 @@ def extract_metadata(metadata):
 
 
 def upload_to_cloud(filepath):
-    logging.debug("[{}][{}][Entered function]".format(__name__, inspect.currentframe().f_code.co_name) + "filepath is: " + filepath)
+    logging.debug("[{}][{}][Entered function]".format(__name__, inspect.currentframe().f_code.co_name + "filepath is: " + filepath))
     send_file_to_aws(filepath)
 
 ###################################################
@@ -54,11 +54,11 @@ while True:
     # msg = recieve()
     msg, source_id = pseudo_recieve()
     if msg == "__EMPTY_DIR__":
-        logging.info("[{}] bridge_dir is empty".format(__name))
+        logging.info("[{}] bridge_dir is empty".format(__name__))
         break
     first, last, sequence_num, filename = extract_metadata(msg.split('\n')[0])
     msg_data = "\n".join(msg.split('\n')[1::])
-    logging.info("[{}] msg_metadata: {} {} {} {} id {} \nmsgdata:\n {}".format(filename, str(first), str(last), str(sequence_num), source_id, msg_data))
+    logging.info("[{}] msg_metadata: {} {} {} {} id {} \nmsgdata:\n {}".format(__name__, filename, str(first), str(last), str(sequence_num), source_id, msg_data))
     filepath = gw_queues_dir + '/' + filename
     if first:
         curr_en_queue = open(filepath, 'w')

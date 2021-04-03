@@ -1,6 +1,6 @@
 import sys
 import os
-import time
+from datetime import datetime
 import random
 import string
 from iasc_common import *
@@ -8,7 +8,7 @@ from iasc_common import *
 file_size_in_kb = int(sys.argv[1])
 
 def get_time_str():
-    timestr = time.strftime("%Y-%m-%dT%H:%M:%S")
+    timestr = datetime.now().strftime("%Y-%m-%dT%H-%M-%S.%f")
     return timestr
 
 def get_num_of_csv_lines(size):
@@ -21,7 +21,7 @@ def get_rand_csv_data():
 
 num_of_lines = get_num_of_csv_lines(file_size_in_kb)
 time_str = get_time_str()
-filename = "temperature_humidity_records_" + time_str + ".000000.csv"
+filename = "temperature_humidity_records_" + time_str + ".csv"
 filepath = pending_dir + "/" + filename
 print("generating " + filename + "...")
 

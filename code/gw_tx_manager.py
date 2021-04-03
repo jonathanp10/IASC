@@ -52,5 +52,5 @@ def download(bucket_name, server_file_path, output_path):
 
 def send_file_to_aws(filepath):
 	logging.debug("[{}][{}][Entered function]".format(__name__, inspect.currentframe().f_code.co_name))
-	logging.info("[{}][{}] uploading {}...".format(__name__, inspect.currentframe().f_code.co_name), filepath)
+	logging.info("[{}][{}] uploading {}...".format(__name__, inspect.currentframe().f_code.co_name, filepath))
 	upload_raw_data(filepath)

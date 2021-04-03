@@ -111,7 +111,7 @@ en_id = os.environ.get('EN_ID')
 
 
 def get_timestamp_lst(filename):
-    logging.debug("[{}][{}][Entered function] filename is {}".format(__name__, inspect.currentframe().f_code.co_name), filename)
+    logging.debug("[{}][{}][Entered function] filename is {}".format(__name__, inspect.currentframe().f_code.co_name, filename))
     original_filename = filename
     filename.replace("temperature_humidity_records_", "")
     filename = filename.replace(".csv", "")
@@ -146,7 +146,7 @@ def get_pending_files_queue():
 
 
 def send_file_to_gw(filename):
-    logging.debug("[{}][{}][Entered function] filename is {}".format(__name__, inspect.currentframe().f_code.co_name), filename)
+    logging.debug("[{}][{}][Entered function] filename is {}".format(__name__, inspect.currentframe().f_code.co_name, filename))
     send_file_to_gw_with_lora(filename)
 
 
