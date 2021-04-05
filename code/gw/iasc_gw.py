@@ -7,6 +7,7 @@ sys.path.insert(0, parent_dir)
 
 from common.iasc_common import *
 from gw.gw_tx_manager import *
+from gw.cloud_status import *
 
 
 ignore_list = []
@@ -72,5 +73,7 @@ while True:
         if last:
             curr_en_queue.close()
             upload_to_cloud(filepath)
+            if check_success(filename):
+                print("Something went wrong... output file is not identical to original file.\n")
 
 

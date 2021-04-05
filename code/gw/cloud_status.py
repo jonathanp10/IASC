@@ -5,6 +5,8 @@
 import boto3
 import os
 import logging
+from common.iasc_common import *
+ 
 
 LOG_FILE_NAME = "cloud_gw_download.log"
 logging.basicConfig(filename = LOG_FILE_NAME, level = logging.INFO, format = "%(asctime)s:%(levelname)-8s %(message)s")
@@ -27,9 +29,32 @@ def download(bucket_name, server_file_path, output_path):
 	except Exception as e:
 		logging.error("Error occurred in downloading file.")
 		logging.error(e)
-
-
-
+        
+def check_success(filename): # return True for failure, False for success
+    # download file from cloud
+    server_file_path = "raw_data/" + filename
+    output_path = filename + ".expected"
+    download("rpi-lora-lte",server_file_path,output_path)
+    
+    # path to original file
+    original_file_path = pending_dir + "/filename"
+    
+    # first test - compare size
+    if os.path.getsize(output_path) != os.path.getsize(original_file_path):
+        logging.error("FAILURE: Size mismatch between original file ({original_size}) and file downloaded from server ({output_size}).\n".format(original_size=os.path.getsize(original_file_path), output_size=os.path.getsize(output_path)))
+        return True
+        
+    # Second test - diff files
+    with open(original_file_path, 'r') as original_file:
+        with open(output_path, 'r') as output:
+            difference = set(original_file).difference(output)
+            if len(difference) > 0:
+                logging.error("FAILURE: {diff_num} differences were found between original and output files: {differences}\n".format(diff_num=len(difference), differences=str(difference)))
+                return True
+    logging.info("Original file and output file perfectly match!")
+    return False
+    
+    
 client = boto3.client('s3')
 print(client.list_objects(Bucket="rpi-lora-lte"))
 
