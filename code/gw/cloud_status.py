@@ -66,5 +66,5 @@ def check_success(filename): # return True for failure, False for success
 #download("rpi-lora-lte","raw_data/temperature_humidity_records_2021-03-31T19-25-38.000000.csv","temperature_humidity_records_2021-03-31T19-25-38.000000.csv.expected")
 
 # test check_success function.
-check_success("temperature_humidity_records_2021-04-05T14-59-14.344970.csv")
+#check_success("temperature_humidity_records_2021-04-05T14-59-14.344970.csv")
 
