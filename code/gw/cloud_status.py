@@ -3,8 +3,12 @@
 # vim: autoindent noexpandtab tabstop=8 shiftwidth=8
 
 import boto3
-import os
-import logging
+import os, sys, inspect,logging
+
+# modify PYTHONPATH in order to imprt internal modules from parent directory.
+current_dir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
+parent_dir = os.path.dirname(current_dir)
+sys.path.insert(0, parent_dir)
 from common.iasc_common import *
  
 
@@ -37,7 +41,7 @@ def check_success(filename): # return True for failure, False for success
     download("rpi-lora-lte",server_file_path,output_path)
     
     # path to original file
-    original_file_path = pending_dir + "/filename"
+    original_file_path = pending_dir + "/" + filename
     
     # first test - compare size
     if os.path.getsize(output_path) != os.path.getsize(original_file_path):
@@ -55,9 +59,12 @@ def check_success(filename): # return True for failure, False for success
     return False
     
     
-client = boto3.client('s3')
-print(client.list_objects(Bucket="rpi-lora-lte"))
+#client = boto3.client('s3')
+#print(client.list_objects(Bucket="rpi-lora-lte"))
 
-print("Downloading data from cloud...")
-download("rpi-lora-lte","raw_data/temperature_humidity_records_2021-03-31T19-25-38.000000.csv","temperature_humidity_records_2021-03-31T19-25-38.000000.csv.expected")
+#print("Downloading data from cloud...")
+#download("rpi-lora-lte","raw_data/temperature_humidity_records_2021-03-31T19-25-38.000000.csv","temperature_humidity_records_2021-03-31T19-25-38.000000.csv.expected")
+
+# test check_success function.
+check_success("temperature_humidity_records_2021-04-05T14-59-14.344970.csv")
 

@@ -7,7 +7,7 @@ sys.path.insert(0, parent_dir)
 
 from common.iasc_common import *
 from gw.gw_tx_manager import *
-from gw.cloud_status import *
+from gw.cloud_status import check_success
 
 
 ignore_list = []
