@@ -12,6 +12,9 @@ from common.iasc_common import *
 
 file_size_in_kb = int(sys.argv[1])
 
+
+
+
 def get_time_str():
     timestr = datetime.now().strftime("%Y-%m-%dT%H-%M-%S.%f")
     return timestr
@@ -24,12 +27,15 @@ def get_rand_csv_data():
     letters = string.ascii_lowercase
     return "".join(random.choice(letters) for i in range(8))
 
+
 num_of_lines = get_num_of_csv_lines(file_size_in_kb)
 time_str = get_time_str()
-filename = "temperature_humidity_records_" + time_str + ".csv"
+filename = "rpi_lora_lte_records_" + time_str + ".csv"
 filepath = pending_dir + "/" + filename
 print("generating " + filename + "...")
 
+if not os.path.exists(pending_dir):
+    os.mkdir(pending_dir)
 res = open(filepath, 'w')
 res.write("time[sec], I[mA]")
 for i in range(num_of_lines):

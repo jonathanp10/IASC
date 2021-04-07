@@ -1,5 +1,7 @@
+import os
 max_payload_len = 252
-pending_dir = "/home/pi/Desktop/iasc/sensor_out"
-en_gw_bridge_dir = "/home/pi/Desktop/iasc/en_gw_bridge"
-working_dir = "/home/pi/Desktop/iasc/code"
-gw_queues_dir = "/home/pi/Desktop/iasc/gw_queues"
+iasc_path = os.environ.get('IASC_PATH')
+pending_dir = "{}/sensor_out".format(iasc_path)
+en_gw_bridge_dir = "{}/en_gw_bridge".format(iasc_path)
+working_dir = "{}/code".format(iasc_path)
+gw_queues_dir = "{}/gw_queues".format(iasc_path)

@@ -1,4 +1,4 @@
-import os, sys, inspect, logging
+import os, sys, inspect, logging, argparse
 
 # modify PYTHONPATH in order to imprt internal modules from parent directory.
 current_dir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
@@ -9,9 +9,15 @@ from en.en_tx_manager import *
 
 if __name__ == "__main__":
     LOG_FILE_NAME = "iasc_en.log"
-    logging.basicConfig(filename=LOG_FILE_NAME, level=logging.INFO, format="%(asctime)s:%(levelname)-8s %(message)s")
+    logging.basicConfig(filename=LOG_FILE_NAME, filemode='w', level=logging.INFO, format="%(asctime)s:%(levelname)-8s %(message)s")
 ignored_files = []
 en_id = os.environ.get('EN_ID')
+
+
+# parser = argparse.ArgumentParser()
+# args = parser.parse_args()
+
+compression_mode = True
 
 
 # # Configure RFM9x LoRa Radio
@@ -115,7 +121,7 @@ en_id = os.environ.get('EN_ID')
 def get_timestamp_lst(filename):
     logging.debug("[{}][{}][Entered function] filename is {}".format(__name__, inspect.currentframe().f_code.co_name, filename))
     original_filename = filename
-    filename.replace("temperature_humidity_records_", "")
+    filename.replace("rpi_lora_lte_records_", "")
     filename = filename.replace(".csv", "")
     filename = filename.replace('-', '.')
     filename = filename.replace(':', '.')
@@ -147,13 +153,13 @@ def get_pending_files_queue():
     return sorted_pending_files
 
 
-def send_file_to_gw(filename):
+def send_file_to_gw(filename, compression_mode):
     logging.debug("[{}][{}][Entered function] filename is {}".format(__name__, inspect.currentframe().f_code.co_name, filename))
-    send_file_to_gw_with_lora(filename)
+    send_file_to_gw_with_lora(filename, compression_mode)
 
 
 pending_files_queue = get_pending_files_queue()
 logging.info("[{}]: The sorted pending queue is: {}".format(__name__, str(pending_files_queue)))
 for pending_file in pending_files_queue:
-    send_file_to_gw(pending_file)
+    send_file_to_gw(pending_file, compression_mode)
     # insert to pending queue

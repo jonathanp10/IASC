@@ -9,11 +9,12 @@ from common.iasc_common import *
 from gw.gw_tx_manager import *
 from gw.cloud_status import check_success
 
+compression_mode = False
 
 ignore_list = []
 if __name__ == "__main__":
     LOG_FILE_NAME = "iasc_gw.log"
-    logging.basicConfig(filename=LOG_FILE_NAME, level=logging.INFO, format="%(asctime)s:%(levelname)-8s %(message)s")
+    logging.basicConfig(filename=LOG_FILE_NAME, filemode='w', level=logging.INFO, format="%(asctime)s:%(levelname)-8s %(message)s")
 
 
 def get_id_from_filename(filename):
@@ -58,11 +59,12 @@ while True:
     # msg = recieve()
     msg, source_id = pseudo_recieve()
     if msg == "__EMPTY_DIR__":
-        logging.info("[{}] bridge_dir is empty".format(__name__))
+        logging.info("[{}][COMPRESSION_MODE:{}] bridge_dir is empty".format(__name__,str(compression_mode))
         break
     first, last, sequence_num, filename = extract_metadata(msg.split('\n')[0])
     msg_data = "\n".join(msg.split('\n')[1::])
-    logging.info("[{}] msg_metadata: {} {} {} {} id {} \nmsgdata:\n {}".format(__name__, filename, str(first), str(last), str(sequence_num), source_id, msg_data))
+    logging.info("[{}] msg_metadata: {} {} {} {} id {} \n".format(__name__, filename, str(first), str(last), str(sequence_num), source_id, msg_data))
+    logging.debug("[{}] MsgData: {} \n".format(__name__, msg_data))
     filepath = gw_queues_dir + '/' + filename
     if first:
         curr_en_queue = open(filepath, 'w')

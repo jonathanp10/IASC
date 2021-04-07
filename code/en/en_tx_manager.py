@@ -1,4 +1,4 @@
-import os, sys, inspect, logging
+import os, sys, inspect, logging, zipfile
 import time
 
 # modify PYTHONPATH in order to imprt internal modules from parent directory.
@@ -13,12 +13,17 @@ if __name__ == "__main__":
 en_id = os.environ.get('EN_ID')
 
 
-def lora_pseudo_send(msg):
+def lora_pseudo_send(msg, compression_mode):
     logging.debug("[{}][{}][Entered function] with msg:\n {}".format(__name__, inspect.currentframe().f_code.co_name, msg))
     msg_first_line = msg.split('\n')[0]
     msg_filepath = en_gw_bridge_dir + "/" + en_id + "_" + msg_first_line
     logging.info("[{}][{}][Entered function] generating {}".format(__name__, inspect.currentframe().f_code.co_name, msg_filepath))
-    msg_file = open(msg_filepath, 'w')
+    if not os.path.exists(en_gw_bridge_dir):
+        os.mkdir(en_gw_bridge_dir)
+    if compression_mode:
+        msg_file = open(msg_filepath, 'wb')
+    else:
+        msg_file = open(msg_filepath, 'w')
     msg_file.write(msg)
     msg_file.close()
     time.sleep(0.05)
@@ -31,11 +36,17 @@ def get_metadata(filename, last, sequence_num):
 
 
 
-def send_file_to_gw_with_lora(filename):
+def send_file_to_gw_with_lora(filename, compression_mode):
     logging.debug("[{}][{}][Entered function] with filename: {}".format(__name__, inspect.currentframe().f_code.co_name, filename))
     sequence_num = 0
     file_path = pending_dir + "/" + filename
-    file_to_send = open(file_path, 'r')
+    if compression_mode:
+        with zipfile.ZipFile("{}.zip".format(file_path), 'w', compression=zipfile.ZIP_DEFLATED) as zip_to_send:
+            zip_to_send.write(file_path)
+        file_to_send = open("{}.zip".format(file_path), 'rb')
+        logging.info("[{}][{}][Compressing...] TEXT FILE: {}\nZI FILE: {}".format(__name__, inspect.currentframe().f_code.co_name, file_path, os.path.abspath(file_to_send.name)))
+    else:
+        file_to_send = open(file_path, 'r')
     payload = ""
     for line in file_to_send:
         line_length = len(line)
@@ -44,14 +55,14 @@ def send_file_to_gw_with_lora(filename):
         else:
             msg = get_metadata(filename, 0, sequence_num) + payload
             # blocking send msg
-            lora_pseudo_send(msg)
+            lora_pseudo_send(msg, compression_mode)
             sequence_num += 1
             logging.info("[{}][{}] the msg that is sent:\n{}".format(__name__, inspect.currentframe().f_code.co_name, msg))
             payload = line # init payload
     file_to_send.close()
     msg = get_metadata(filename, 1, sequence_num) + payload
     # send msg
-    lora_pseudo_send(msg)
+    lora_pseudo_send(msg, compression_mode)
     logging.info("[{}][{}] the LAST msg that is sent:\n{}".format(__name__, inspect.currentframe().f_code.co_name, msg))
 
 

@@ -13,7 +13,8 @@ from common.iasc_common import *
  
 
 LOG_FILE_NAME = "cloud_gw_download.log"
-logging.basicConfig(filename = LOG_FILE_NAME, level = logging.INFO, format = "%(asctime)s:%(levelname)-8s %(message)s")
+if __name__ == "__main__":
+    logging.basicConfig(filename = LOG_FILE_NAME, filemode='w', level = logging.INFO, format = "%(asctime)s:%(levelname)-8s %(message)s")
 logging.getLogger('boto3').setLevel(logging.CRITICAL)
 logging.getLogger('botocore').setLevel(logging.CRITICAL)
 logging.getLogger('s3transfer').setLevel(logging.CRITICAL)
