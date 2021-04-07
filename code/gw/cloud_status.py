@@ -21,9 +21,6 @@ logging.getLogger('s3transfer').setLevel(logging.CRITICAL)
 logging.getLogger('urllib3').setLevel(logging.CRITICAL)
 
 
-def download_timings_file():
-	download("si7021-temperature-humidity-sensor", "config_files/timings.ini", "timings.ini")
-
 
 def download(bucket_name, server_file_path, output_path):
 	logging.debug("Downloading {server_file_path} from bucket {bucket_name} to {output_path}...".format(server_file_path = server_file_path, bucket_name = bucket_name, output_path = output_path))
@@ -35,6 +32,7 @@ def download(bucket_name, server_file_path, output_path):
 		logging.error("Error occurred in downloading file.")
 		logging.error(e)
         
+
 def check_success(filename): # return True for failure, False for success
     # download file from cloud
     server_file_path = "raw_data/" + filename
@@ -60,12 +58,13 @@ def check_success(filename): # return True for failure, False for success
     return False
     
     
-#client = boto3.client('s3')
-#print(client.list_objects(Bucket="rpi-lora-lte"))
+client = boto3.client('s3')
+print(client.list_objects(Bucket="rpi-lora-lte"))
 
 #print("Downloading data from cloud...")
-#download("rpi-lora-lte","raw_data/temperature_humidity_records_2021-03-31T19-25-38.000000.csv","temperature_humidity_records_2021-03-31T19-25-38.000000.csv.expected")
 
 # test check_success function.
 #check_success("temperature_humidity_records_2021-04-05T14-59-14.344970.csv")
+
+
 
