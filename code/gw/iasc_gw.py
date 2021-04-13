@@ -1,4 +1,4 @@
-import os, sys, inspect, logging
+import os, sys, inspect, logging, lzma
 
 # modify PYTHONPATH in order to imprt internal modules from parent directory.
 current_dir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
@@ -9,7 +9,7 @@ from common.iasc_common import *
 from gw.gw_tx_manager import *
 from gw.cloud_status import check_success
 
-compression_mode = False
+compression_mode = True
 
 ignore_list = []
 if __name__ == "__main__":
@@ -31,7 +31,7 @@ def pseudo_recieve():
     rx_msgs = [os.path.join('.',f) for f in rx_msgs]
     rx_msgs.sort(key=lambda x: os.path.getmtime(x))
     # print("rx msgs:\n " + str(rx_msgs))
-    curr_file = open(rx_msgs[0], 'r')
+    curr_file = open(rx_msgs[0], 'rb')
     curr_msg = curr_file.read()
     curr_file.close()
     os.remove(rx_msgs[0])
@@ -67,12 +67,19 @@ while True:
     logging.debug("[{}] MsgData: {} \n".format(__name__, msg_data))
     filepath = gw_queues_dir + '/' + filename
     if first:
-        curr_en_queue = open(filepath, 'w')
+        curr_en_queue = open(filepath, 'wb')
         curr_en_queue.write(msg_data)
     else:
-        curr_en_queue = open(filepath, 'a')
+        curr_en_queue = open(filepath, 'ab+') # open in append + read mode. Reading is needed only in compression mode.
         curr_en_queue.write(msg_data)
         if last:
+            if compression_mode:
+                curr_en_queue.seek(0)
+                compressed_data = curr_en_queue.read()
+                curr_en_queue.close()
+                data = lzma.decompress(compressed_data)
+                curr_en_queue = open(filepath, 'wb')  # open once again the file - for overriding its compressed data with the real data
+                curr_en_queue.write(data)       
             curr_en_queue.close()
             upload_to_cloud(filepath)
             if check_success(filename):
