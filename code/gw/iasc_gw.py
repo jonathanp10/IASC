@@ -1,4 +1,4 @@
-import os, sys, inspect, logging
+import os, sys, inspect, logging, lzma
 
 # modify PYTHONPATH in order to imprt internal modules from parent directory.
 current_dir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
@@ -9,7 +9,7 @@ from common.iasc_common import *
 from gw.gw_tx_manager import *
 from gw.cloud_status import check_success
 
-compression_mode = False
+compression_mode = True
 
 ignore_list = []
 if __name__ == "__main__":
@@ -31,7 +31,7 @@ def pseudo_recieve():
     rx_msgs = [os.path.join('.',f) for f in rx_msgs]
     rx_msgs.sort(key=lambda x: os.path.getmtime(x))
     # print("rx msgs:\n " + str(rx_msgs))
-    curr_file = open(rx_msgs[0], 'r')
+    curr_file = open(rx_msgs[0], 'rb')
     curr_msg = curr_file.read()
     curr_file.close()
     os.remove(rx_msgs[0])
@@ -59,23 +59,31 @@ while True:
     # msg = recieve()
     msg, source_id = pseudo_recieve()
     if msg == "__EMPTY_DIR__":
-        logging.info("[{}][COMPRESSION_MODE:{}] bridge_dir is empty".format(__name__,str(compression_mode))
+        logging.info("[{}][COMPRESSION_MODE:{}] bridge_dir is empty".format(__name__,str(compression_mode)))
         break
     first, last, sequence_num, filename = extract_metadata(msg.split('\n')[0])
     msg_data = "\n".join(msg.split('\n')[1::])
     logging.info("[{}] msg_metadata: {} {} {} {} id {} \n".format(__name__, filename, str(first), str(last), str(sequence_num), source_id, msg_data))
     logging.debug("[{}] MsgData: {} \n".format(__name__, msg_data))
     filepath = gw_queues_dir + '/' + filename
-    if first:
-        curr_en_queue = open(filepath, 'w')
-        curr_en_queue.write(msg_data)
-    else:
-        curr_en_queue = open(filepath, 'a')
-        curr_en_queue.write(msg_data)
-        if last:
-            curr_en_queue.close()
-            upload_to_cloud(filepath)
-            if check_success(filename):
-                print("Something went wrong... output file is not identical to original file.\n")
 
+    # first msg - create new file
+    if first:
+        curr_en_queue = open(filepath, 'wb+')
+        chunk = b''
+    curr_en_queue.write(msg_data)
+    # last msg - close file and upload to cloud
+    if last:
+        if compression_mode:
+            curr_en_queue.seek(0)
+            compressed_data = curr_en_queue.read()
+            print("DEBUG: Received compressed data of {} Bytes\n".format(len(compressed_data)))
+            data = lzma.decompress(compressed_data)
+            print("DEBUG: Decompressed data size: {} Bytes\n".format(len(data)))
+            curr_en_queue.seek(0)
+            curr_en_queue.write(data)
+        curr_en_queue.close()
+        upload_to_cloud(filepath)
+        if check_success(filename):
+            print("Something went wrong... output file is not identical to original file.\n")
 

@@ -58,8 +58,8 @@ def check_success(filename): # return True for failure, False for success
     return False
     
     
-client = boto3.client('s3')
-print(client.list_objects(Bucket="rpi-lora-lte"))
+#client = boto3.client('s3')
+#print(client.list_objects(Bucket="rpi-lora-lte"))
 
 #print("Downloading data from cloud...")
 
