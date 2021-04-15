@@ -34,32 +34,26 @@ def get_metadata(filename, last, sequence_num):
 
 
 def send_file_to_gw_with_lora(filename, compression_mode):
-    CHUNK_SIZE = 10000  #TODO: if in use - move to common module
     logging.debug("[{}][{}][Entered function] with filename: {}".format(__name__, inspect.currentframe().f_code.co_name, filename))
     sequence_num = 0
     file_path = pending_dir + "/" + filename
     file_to_send = open(file_path, 'rb')
-    file_size = os.stat(file_path).st_size
-    CHUNK_SIZE = file_size # debug - reading entire file at once
     compressed_size = 0
-    chunks_num = file_size / CHUNK_SIZE
-    for i in range(chunks_num+1):
-        chunk = file_to_send.read(CHUNK_SIZE)
-        if compression_mode:
-            chunk = lzma.compress(chunk)
-            compressed_size += len(chunk)
-        idx = 0
-        while idx < len(chunk):
-            payload, last = get_lora_payload(chunk,idx)  # get block in size of LoRa payload from the compressed data. If it's the last payload in the chunk - returns last = 1
-            if i != chunks_num: # if it's not the last chunk - set last back to 0. 
-                last = 0
-            msg = get_metadata(filename, last, sequence_num) + payload
-            # blocking send msg
-            lora_pseudo_send(msg)
-            sequence_num += 1
-            idx += max_payload_len
-            logging.info("[{}][{}] the msg that is sent:\n{}".format(__name__, inspect.currentframe().f_code.co_name, msg))
+
+    data = file_to_send.read()
     file_to_send.close()
+    if compression_mode:
+        data = lzma.compress(data)
+        compressed_size += len(data)
+    idx = 0
+    while idx < len(data):
+        payload, last = get_lora_payload(data,idx)  # get block in size of LoRa payload from the compressed data. If it's the last payload in the chunk - returns last = 1
+        msg = get_metadata(filename, last, sequence_num) + payload
+        # blocking send msg
+        lora_pseudo_send(msg)
+        sequence_num += 1
+        idx += max_payload_len
+        logging.info("[{}][{}] the msg that is sent:\n{}".format(__name__, inspect.currentframe().f_code.co_name, msg))
     print("DEBUG: sent compressed data size: {} Bytes\n".format(compressed_size))
 
 def get_lora_payload(data, idx):

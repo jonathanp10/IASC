@@ -71,21 +71,7 @@ while True:
     if first:
         curr_en_queue = open(filepath, 'wb+')
         chunk = b''
-
-    # handle data compression mode
-    #if compression_mode:
-    #    if chunk_is_ready:
-    #        decompressed_chunk = lzma.decompress(chunk)
-    #        curr_en_queue.write(decompressed_chunk)
-    #    else:
-    #        chunk += msg_data
-
-    # without data compression
-    #else:
-    #    curr_en_queue.write(msg_data)
-
     curr_en_queue.write(msg_data)
-
     # last msg - close file and upload to cloud
     if last:
         if compression_mode:
