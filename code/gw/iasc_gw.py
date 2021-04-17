@@ -1,4 +1,5 @@
-import os, sys, inspect, logging, lzma
+import os, sys, inspect, logging, lzma, argparse
+from timeit import default_timer as timer
 
 # modify PYTHONPATH in order to imprt internal modules from parent directory.
 current_dir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
@@ -9,12 +10,24 @@ from common.iasc_common import *
 from gw.gw_tx_manager import *
 from gw.cloud_status import check_success
 
-compression_mode = True
-
 ignore_list = []
 if __name__ == "__main__":
     LOG_FILE_NAME = "iasc_gw.log"
     logging.basicConfig(filename=LOG_FILE_NAME, filemode='w', level=logging.INFO, format="%(asctime)s:%(levelname)-8s %(message)s")
+
+
+arg_parser = argparse.ArgumentParser()
+arg_parser.add_argument('-comp', required=False, action = "store_true", help = "in this mode en compress all tx files")
+arg_parser.add_argument('-compression', required=False, action = "store_true", help = "in this mode en compress all tx files")
+args = arg_parser.parse_args()
+
+compression_mode = (args.comp or args.compression)
+if compression_mode:
+   compression_mode_str = "Compression Mode is ON"
+else:
+   compression_mode_str = "Compression Mode is OFF"
+logging.info("[{}]: Compression mode is {}".format(__name__, compression_mode_str))
+
 
 
 def get_id_from_filename(filename):
