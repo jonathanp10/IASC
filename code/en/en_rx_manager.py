@@ -20,7 +20,7 @@ def get_timestamp_lst(filename):
     return timestamp_lst
 
 
-def get_pending_files_queue():
+def get_pending_files_queue(ignored_files):
     logging.debug("[{}][{}][Entered function]".format(__name__, inspect.currentframe().f_code.co_name))
     # ignored_files = []
     pending_files = []
@@ -49,10 +49,11 @@ def send_file_to_gw(filename, compression_mode):
 def run_rx(compression_mode):
     ignored_lst = []
     while True:
-        pending_files_queue = get_pending_files_queue()
+        pending_files_queue = get_pending_files_queue(ignored_lst)
         logging.info("[{}]: The sorted pending queue is: {}".format(__name__, str(pending_files_queue)))
         for pending_file in pending_files_queue:
             if pending_file in ignored_lst:
                 continue
             send_file_to_gw(pending_file, compression_mode)
             ignored_lst.append(pending_file)
+        break # TODO - remove this when we really want it to work forever. For now it's here to avoid infinite loop.
