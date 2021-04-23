@@ -17,13 +17,14 @@ en_id = os.environ.get('EN_ID')
 def lora_pseudo_send(msg):
     logging.debug("[{}][{}][Entered function] with msg:\n {}".format(__name__, inspect.currentframe().f_code.co_name, msg))
     msg_first_line = msg.split('\n')[0]
-    msg_filepath = en_gw_bridge_dir + "/" + en_id + "_" + msg_first_line
+    msg_filepath = en_gw_bridge_dir + "/" + en_id + "_" + msg_first_line + "_NOT_READY"
     logging.info("[{}][{}][Entered function] generating {}".format(__name__, inspect.currentframe().f_code.co_name, msg_filepath))
     if not os.path.exists(en_gw_bridge_dir):
         os.mkdir(en_gw_bridge_dir)
     msg_file = open(msg_filepath, 'wb')
     msg_file.write(msg)
     msg_file.close()
+    os.rename(msg_filepath, msg_filepath.replace("_NOT_READY",""))
     time.sleep(0.05)
 
 
@@ -54,7 +55,6 @@ def send_file_to_gw_with_lora(filename, compression_mode):
         sequence_num += 1
         idx += max_payload_len
         logging.info("[{}][{}] the msg that is sent:\n{}".format(__name__, inspect.currentframe().f_code.co_name, msg))
-    print("DEBUG: sent compressed data size: {} Bytes\n".format(compressed_size))
 
 def get_lora_payload(data, idx):
     payload = b''

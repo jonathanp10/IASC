@@ -1,4 +1,5 @@
 import os, sys, inspect, logging, argparse
+from timeit import default_timer as timer
 
 # modify PYTHONPATH in order to imprt internal modules from parent directory.
 current_dir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
@@ -46,10 +47,10 @@ def send_file_to_gw(filename, compression_mode):
     logging.debug("[{}][{}][Entered function] filename is {}".format(__name__, inspect.currentframe().f_code.co_name, filename))
     send_file_to_gw_with_lora(filename, compression_mode)
 
-def run_rx(compression_mode):
-    ignored_lst = []
-    en_stats = {}
+
+def run_rx(ignored_lst, compression_mode):
     while True:
+        en_stats = {}
         pending_files_queue = get_pending_files_queue(ignored_lst)
         logging.info("[{}]: The sorted pending queue is: {}".format(__name__, str(pending_files_queue)))
         for pending_file in pending_files_queue:
@@ -61,4 +62,4 @@ def run_rx(compression_mode):
             en_stats[pending_file] = [pending_file, os.path.getsize("{}/{}".format(pending_dir,pending_file)), end-start, compression_mode] # filename, size, start-time, TTH, compressed
             ignored_lst.append(pending_file)
         set_stats_csv(en_stats, "en_stats.csv")
-        break # TODO - remove this when we really want it to work forever. For now it's here to avoid infinite loop.
+        # break # TODO - remove this when we really want it to work forever. For now it's here to avoid infinite loop.
