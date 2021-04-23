@@ -48,12 +48,17 @@ def send_file_to_gw(filename, compression_mode):
 
 def run_rx(compression_mode):
     ignored_lst = []
+    en_stats = {}
     while True:
         pending_files_queue = get_pending_files_queue(ignored_lst)
         logging.info("[{}]: The sorted pending queue is: {}".format(__name__, str(pending_files_queue)))
         for pending_file in pending_files_queue:
             if pending_file in ignored_lst:
                 continue
+            start = timer()
             send_file_to_gw(pending_file, compression_mode)
+            end = timer()
+            en_stats[pending_file] = [pending_file, os.path.getsize("{}/{}".format(pending_dir,pending_file)), end-start, compression_mode] # filename, size, start-time, TTH, compressed
             ignored_lst.append(pending_file)
+        set_stats_csv(en_stats, "en_stats.csv")
         break # TODO - remove this when we really want it to work forever. For now it's here to avoid infinite loop.
