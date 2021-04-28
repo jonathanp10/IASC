@@ -1,4 +1,5 @@
 alias ll 'ls -l'
+alias ka 'kill %1; kill %2; kill %3; kill %4; kill %5; kill %6; kill %7; kill %8; kill %9; kill %10;'
 alias lla 'ls -la'
 alias .. 'cd ..'
 alias ... 'cd ../..'
@@ -9,7 +10,8 @@ alias gw "cd $GW_PATH"
 alias iasc 'cd $IASC_PATH'
 alias runen "cd $EN_PATH; python $EN_PATH/iasc_en.py"
 alias rungw "cd $GW_PATH; python $GW_PATH/iasc_gw.py"
-alias clean_reg "cd $IASC_PATH/utils; ./clean_reg.sh"
+alias cleanreg "cd $IASC_PATH/utils; ./clean_reg.sh"
 alias rungen "cd $EN_PATH; python $EN_PATH/gen_simulation.py"
+alias runme "cleanreg; rungen &; runen &; rungw &"
 
 
