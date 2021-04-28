@@ -1,0 +1,623 @@
+2021-04-28 10:15:01,909:INFO     [__main__]: Compression mode is Compression Mode is OFF
+2021-04-28 10:15:01,911:INFO     [gw.gw_rx_manager] Starting run...]
+2021-04-28 10:15:01,915:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-08.626898.csv True False 0 id 1 
+
+2021-04-28 10:15:01,920:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-08.626898.csv False False 1 id 1 
+
+2021-04-28 10:15:01,924:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-08.626898.csv False False 2 id 1 
+
+2021-04-28 10:15:01,928:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-08.626898.csv False False 3 id 1 
+
+2021-04-28 10:15:01,932:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-08.626898.csv False False 4 id 1 
+
+2021-04-28 10:15:01,936:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-08.626898.csv False False 5 id 1 
+
+2021-04-28 10:15:01,940:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-08.626898.csv False False 6 id 1 
+
+2021-04-28 10:15:01,944:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-08.626898.csv False False 7 id 1 
+
+2021-04-28 10:15:01,948:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-08.626898.csv False False 8 id 1 
+
+2021-04-28 10:15:01,952:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-08.626898.csv False False 9 id 1 
+
+2021-04-28 10:15:01,956:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-08.626898.csv False False 10 id 1 
+
+2021-04-28 10:15:01,960:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-08.626898.csv False False 11 id 1 
+
+2021-04-28 10:15:01,963:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-08.626898.csv False False 12 id 1 
+
+2021-04-28 10:15:01,967:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-08.626898.csv False False 13 id 1 
+
+2021-04-28 10:15:01,972:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-08.626898.csv False False 14 id 1 
+
+2021-04-28 10:15:01,977:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-08.626898.csv False False 15 id 1 
+
+2021-04-28 10:15:01,980:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-08.626898.csv False False 16 id 1 
+
+2021-04-28 10:15:01,985:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-08.626898.csv False False 17 id 1 
+
+2021-04-28 10:15:01,988:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-08.626898.csv False False 18 id 1 
+
+2021-04-28 10:15:01,992:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-08.626898.csv False False 19 id 1 
+
+2021-04-28 10:15:01,996:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-08.626898.csv False False 20 id 1 
+
+2021-04-28 10:15:01,999:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-08.626898.csv False False 21 id 1 
+
+2021-04-28 10:15:02,004:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-08.626898.csv False False 22 id 1 
+
+2021-04-28 10:15:02,021:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-08.626898.csv False False 23 id 1 
+
+2021-04-28 10:15:02,025:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-08.626898.csv False False 24 id 1 
+
+2021-04-28 10:15:02,029:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-08.626898.csv False False 25 id 1 
+
+2021-04-28 10:15:02,032:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-08.626898.csv False False 26 id 1 
+
+2021-04-28 10:15:02,035:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-08.626898.csv False False 27 id 1 
+
+2021-04-28 10:15:02,039:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-08.626898.csv False False 28 id 1 
+
+2021-04-28 10:15:02,042:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-08.626898.csv False False 29 id 1 
+
+2021-04-28 10:15:02,045:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-08.626898.csv False False 30 id 1 
+
+2021-04-28 10:15:02,049:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-08.626898.csv False False 31 id 1 
+
+2021-04-28 10:15:02,052:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-08.626898.csv False False 32 id 1 
+
+2021-04-28 10:15:02,055:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-08.626898.csv False False 33 id 1 
+
+2021-04-28 10:15:02,058:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-08.626898.csv False False 34 id 1 
+
+2021-04-28 10:15:02,061:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-08.626898.csv False False 35 id 1 
+
+2021-04-28 10:15:02,064:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-08.626898.csv False False 36 id 1 
+
+2021-04-28 10:15:02,067:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-08.626898.csv False False 37 id 1 
+
+2021-04-28 10:15:02,070:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-08.626898.csv False False 38 id 1 
+
+2021-04-28 10:15:02,073:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-08.626898.csv False False 39 id 1 
+
+2021-04-28 10:15:02,076:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-08.626898.csv False True 40 id 1 
+
+2021-04-28 10:15:02,077:INFO     [gw.gw_tx_manager][send_file_to_aws] uploading /home/pi/Desktop/iasc/gw_queues/rpi_lora_lte_records_2021-04-28T10-01-08.626898.csv_1...
+2021-04-28 10:15:04,184:INFO     [gw.gw_rx_manager] STATS_LINE: rpi_lora_lte_records_2021-04-28T10-01-08.626898.csv_1,10240,2.1064260006,False
+
+2021-04-28 10:15:04,190:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-38.676878.csv True False 0 id 1 
+
+2021-04-28 10:15:04,194:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-38.676878.csv False False 1 id 1 
+
+2021-04-28 10:15:04,197:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-38.676878.csv False False 2 id 1 
+
+2021-04-28 10:15:04,201:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-38.676878.csv False False 3 id 1 
+
+2021-04-28 10:15:04,205:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-38.676878.csv False False 4 id 1 
+
+2021-04-28 10:15:04,208:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-38.676878.csv False False 5 id 1 
+
+2021-04-28 10:15:04,212:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-38.676878.csv False False 6 id 1 
+
+2021-04-28 10:15:04,215:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-38.676878.csv False False 7 id 1 
+
+2021-04-28 10:15:04,219:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-38.676878.csv False False 8 id 1 
+
+2021-04-28 10:15:04,222:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-38.676878.csv False False 9 id 1 
+
+2021-04-28 10:15:04,225:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-38.676878.csv False False 10 id 1 
+
+2021-04-28 10:15:04,229:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-38.676878.csv False False 11 id 1 
+
+2021-04-28 10:15:04,232:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-38.676878.csv False False 12 id 1 
+
+2021-04-28 10:15:04,235:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-38.676878.csv False False 13 id 1 
+
+2021-04-28 10:15:04,238:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-38.676878.csv False False 14 id 1 
+
+2021-04-28 10:15:04,242:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-38.676878.csv False False 15 id 1 
+
+2021-04-28 10:15:04,245:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-38.676878.csv False False 16 id 1 
+
+2021-04-28 10:15:04,248:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-38.676878.csv False False 17 id 1 
+
+2021-04-28 10:15:04,251:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-38.676878.csv False False 18 id 1 
+
+2021-04-28 10:15:04,254:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-38.676878.csv False False 19 id 1 
+
+2021-04-28 10:15:04,257:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-38.676878.csv False False 20 id 1 
+
+2021-04-28 10:15:04,260:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-38.676878.csv False False 21 id 1 
+
+2021-04-28 10:15:04,263:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-38.676878.csv False False 22 id 1 
+
+2021-04-28 10:15:04,266:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-38.676878.csv False False 23 id 1 
+
+2021-04-28 10:15:04,269:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-38.676878.csv False False 24 id 1 
+
+2021-04-28 10:15:04,272:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-38.676878.csv False False 25 id 1 
+
+2021-04-28 10:15:04,275:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-38.676878.csv False False 26 id 1 
+
+2021-04-28 10:15:04,277:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-38.676878.csv False False 27 id 1 
+
+2021-04-28 10:15:04,280:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-38.676878.csv False False 28 id 1 
+
+2021-04-28 10:15:04,283:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-38.676878.csv False False 29 id 1 
+
+2021-04-28 10:15:04,285:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-38.676878.csv False False 30 id 1 
+
+2021-04-28 10:15:04,288:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-38.676878.csv False False 31 id 1 
+
+2021-04-28 10:15:04,291:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-38.676878.csv False False 32 id 1 
+
+2021-04-28 10:15:04,293:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-38.676878.csv False False 33 id 1 
+
+2021-04-28 10:15:04,296:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-38.676878.csv False False 34 id 1 
+
+2021-04-28 10:15:04,298:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-38.676878.csv False False 35 id 1 
+
+2021-04-28 10:15:04,300:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-38.676878.csv False False 36 id 1 
+
+2021-04-28 10:15:04,303:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-38.676878.csv False False 37 id 1 
+
+2021-04-28 10:15:04,305:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-38.676878.csv False False 38 id 1 
+
+2021-04-28 10:15:04,308:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-38.676878.csv False False 39 id 1 
+
+2021-04-28 10:15:04,310:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-01-38.676878.csv False True 40 id 1 
+
+2021-04-28 10:15:04,311:INFO     [gw.gw_tx_manager][send_file_to_aws] uploading /home/pi/Desktop/iasc/gw_queues/rpi_lora_lte_records_2021-04-28T10-01-38.676878.csv_1...
+2021-04-28 10:15:05,261:INFO     [gw.gw_rx_manager] STATS_LINE: rpi_lora_lte_records_2021-04-28T10-01-38.676878.csv_1,10240,0.95033788681,False
+
+2021-04-28 10:15:05,264:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-02-08.746855.csv True False 0 id 1 
+
+2021-04-28 10:15:05,266:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-02-08.746855.csv False False 1 id 1 
+
+2021-04-28 10:15:05,268:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-02-08.746855.csv False False 2 id 1 
+
+2021-04-28 10:15:05,271:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-02-08.746855.csv False False 3 id 1 
+
+2021-04-28 10:15:05,273:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-02-08.746855.csv False False 4 id 1 
+
+2021-04-28 10:15:05,275:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-02-08.746855.csv False False 5 id 1 
+
+2021-04-28 10:15:05,277:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-02-08.746855.csv False False 6 id 1 
+
+2021-04-28 10:15:05,279:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-02-08.746855.csv False False 7 id 1 
+
+2021-04-28 10:15:05,281:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-02-08.746855.csv False False 8 id 1 
+
+2021-04-28 10:15:05,283:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-02-08.746855.csv False False 9 id 1 
+
+2021-04-28 10:15:05,285:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-02-08.746855.csv False False 10 id 1 
+
+2021-04-28 10:15:05,287:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-02-08.746855.csv False False 11 id 1 
+
+2021-04-28 10:15:05,288:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-02-08.746855.csv False False 12 id 1 
+
+2021-04-28 10:15:05,290:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-02-08.746855.csv False False 13 id 1 
+
+2021-04-28 10:15:05,292:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-02-08.746855.csv False False 14 id 1 
+
+2021-04-28 10:15:05,294:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-02-08.746855.csv False False 15 id 1 
+
+2021-04-28 10:15:05,295:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-02-08.746855.csv False False 16 id 1 
+
+2021-04-28 10:15:05,297:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-02-08.746855.csv False False 17 id 1 
+
+2021-04-28 10:15:05,299:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-02-08.746855.csv False False 18 id 1 
+
+2021-04-28 10:15:05,300:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-02-08.746855.csv False False 19 id 1 
+
+2021-04-28 10:15:05,302:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-02-08.746855.csv False False 20 id 1 
+
+2021-04-28 10:15:05,303:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-02-08.746855.csv False False 21 id 1 
+
+2021-04-28 10:15:05,305:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-02-08.746855.csv False False 22 id 1 
+
+2021-04-28 10:15:05,306:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-02-08.746855.csv False False 23 id 1 
+
+2021-04-28 10:15:05,308:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-02-08.746855.csv False False 24 id 1 
+
+2021-04-28 10:15:05,309:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-02-08.746855.csv False False 25 id 1 
+
+2021-04-28 10:15:05,310:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-02-08.746855.csv False False 26 id 1 
+
+2021-04-28 10:15:05,312:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-02-08.746855.csv False False 27 id 1 
+
+2021-04-28 10:15:05,313:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-02-08.746855.csv False False 28 id 1 
+
+2021-04-28 10:15:05,314:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-02-08.746855.csv False False 29 id 1 
+
+2021-04-28 10:15:05,315:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-02-08.746855.csv False False 30 id 1 
+
+2021-04-28 10:15:05,316:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-02-08.746855.csv False False 31 id 1 
+
+2021-04-28 10:15:05,318:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-02-08.746855.csv False False 32 id 1 
+
+2021-04-28 10:15:05,319:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-02-08.746855.csv False False 33 id 1 
+
+2021-04-28 10:15:05,320:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-02-08.746855.csv False False 34 id 1 
+
+2021-04-28 10:15:05,321:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-02-08.746855.csv False False 35 id 1 
+
+2021-04-28 10:15:05,322:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-02-08.746855.csv False False 36 id 1 
+
+2021-04-28 10:15:05,323:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-02-08.746855.csv False False 37 id 1 
+
+2021-04-28 10:15:05,324:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-02-08.746855.csv False False 38 id 1 
+
+2021-04-28 10:15:05,324:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-02-08.746855.csv False False 39 id 1 
+
+2021-04-28 10:15:05,325:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-02-08.746855.csv False True 40 id 1 
+
+2021-04-28 10:15:05,326:INFO     [gw.gw_tx_manager][send_file_to_aws] uploading /home/pi/Desktop/iasc/gw_queues/rpi_lora_lte_records_2021-04-28T10-02-08.746855.csv_1...
+2021-04-28 10:15:06,332:INFO     [gw.gw_rx_manager] STATS_LINE: rpi_lora_lte_records_2021-04-28T10-02-08.746855.csv_1,10240,1.00646901131,False
+
+2021-04-28 10:15:06,334:INFO     [gw.gw_rx_manager][COMPRESSION_MODE:False] bridge_dir is empty
+2021-04-28 10:15:11,344:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-04.080603.csv True False 0 id 1 
+
+2021-04-28 10:15:11,349:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-04.080603.csv False False 1 id 1 
+
+2021-04-28 10:15:11,354:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-04.080603.csv False False 2 id 1 
+
+2021-04-28 10:15:11,358:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-04.080603.csv False False 3 id 1 
+
+2021-04-28 10:15:11,363:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-04.080603.csv False False 4 id 1 
+
+2021-04-28 10:15:11,367:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-04.080603.csv False False 5 id 1 
+
+2021-04-28 10:15:11,372:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-04.080603.csv False False 6 id 1 
+
+2021-04-28 10:15:11,376:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-04.080603.csv False False 7 id 1 
+
+2021-04-28 10:15:11,380:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-04.080603.csv False False 8 id 1 
+
+2021-04-28 10:15:11,383:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-04.080603.csv False False 9 id 1 
+
+2021-04-28 10:15:11,386:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-04.080603.csv False False 10 id 1 
+
+2021-04-28 10:15:11,388:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-04.080603.csv False False 11 id 1 
+
+2021-04-28 10:15:11,391:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-04.080603.csv False False 12 id 1 
+
+2021-04-28 10:15:11,394:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-04.080603.csv False False 13 id 1 
+
+2021-04-28 10:15:11,396:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-04.080603.csv False False 14 id 1 
+
+2021-04-28 10:15:11,399:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-04.080603.csv False False 15 id 1 
+
+2021-04-28 10:15:11,401:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-04.080603.csv False False 16 id 1 
+
+2021-04-28 10:15:11,404:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-04.080603.csv False False 17 id 1 
+
+2021-04-28 10:15:11,406:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-04.080603.csv False False 18 id 1 
+
+2021-04-28 10:15:11,409:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-04.080603.csv False False 19 id 1 
+
+2021-04-28 10:15:11,411:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-04.080603.csv False False 20 id 1 
+
+2021-04-28 10:15:11,413:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-04.080603.csv False False 21 id 1 
+
+2021-04-28 10:15:11,415:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-04.080603.csv False False 22 id 1 
+
+2021-04-28 10:15:11,417:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-04.080603.csv False False 23 id 1 
+
+2021-04-28 10:15:11,419:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-04.080603.csv False False 24 id 1 
+
+2021-04-28 10:15:11,421:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-04.080603.csv False False 25 id 1 
+
+2021-04-28 10:15:11,423:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-04.080603.csv False False 26 id 1 
+
+2021-04-28 10:15:11,425:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-04.080603.csv False False 27 id 1 
+
+2021-04-28 10:15:11,427:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-04.080603.csv False False 28 id 1 
+
+2021-04-28 10:15:11,429:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-04.080603.csv False False 29 id 1 
+
+2021-04-28 10:15:11,431:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-04.080603.csv False False 30 id 1 
+
+2021-04-28 10:15:11,432:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-04.080603.csv False False 31 id 1 
+
+2021-04-28 10:15:11,434:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-04.080603.csv False False 32 id 1 
+
+2021-04-28 10:15:11,435:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-04.080603.csv False False 33 id 1 
+
+2021-04-28 10:15:11,437:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-04.080603.csv False False 34 id 1 
+
+2021-04-28 10:15:11,439:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-04.080603.csv False False 35 id 1 
+
+2021-04-28 10:15:11,440:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-04.080603.csv False False 36 id 1 
+
+2021-04-28 10:15:11,441:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-04.080603.csv False False 37 id 1 
+
+2021-04-28 10:15:11,442:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-04.080603.csv False False 38 id 1 
+
+2021-04-28 10:15:11,444:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-04.080603.csv False False 39 id 1 
+
+2021-04-28 10:15:11,445:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-04.080603.csv False True 40 id 1 
+
+2021-04-28 10:15:11,445:INFO     [gw.gw_tx_manager][send_file_to_aws] uploading /home/pi/Desktop/iasc/gw_queues/rpi_lora_lte_records_2021-04-28T10-15-04.080603.csv_1...
+2021-04-28 10:15:12,453:INFO     [gw.gw_rx_manager] STATS_LINE: rpi_lora_lte_records_2021-04-28T10-15-04.080603.csv_1,10240,1.00686597824,False
+
+2021-04-28 10:15:12,454:INFO     [gw.gw_rx_manager][COMPRESSION_MODE:False] bridge_dir is empty
+2021-04-28 10:15:17,460:INFO     [gw.gw_rx_manager][COMPRESSION_MODE:False] bridge_dir is empty
+2021-04-28 10:15:22,467:INFO     [gw.gw_rx_manager][COMPRESSION_MODE:False] bridge_dir is empty
+2021-04-28 10:15:27,473:INFO     [gw.gw_rx_manager][COMPRESSION_MODE:False] bridge_dir is empty
+2021-04-28 10:15:32,480:INFO     [gw.gw_rx_manager][COMPRESSION_MODE:False] bridge_dir is empty
+2021-04-28 10:15:37,490:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-34.151372.csv True False 0 id 1 
+
+2021-04-28 10:15:37,494:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-34.151372.csv False False 1 id 1 
+
+2021-04-28 10:15:37,499:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-34.151372.csv False False 2 id 1 
+
+2021-04-28 10:15:37,503:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-34.151372.csv False False 3 id 1 
+
+2021-04-28 10:15:37,507:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-34.151372.csv False False 4 id 1 
+
+2021-04-28 10:15:37,511:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-34.151372.csv False False 5 id 1 
+
+2021-04-28 10:15:37,514:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-34.151372.csv False False 6 id 1 
+
+2021-04-28 10:15:37,517:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-34.151372.csv False False 7 id 1 
+
+2021-04-28 10:15:37,520:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-34.151372.csv False False 8 id 1 
+
+2021-04-28 10:15:37,522:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-34.151372.csv False False 9 id 1 
+
+2021-04-28 10:15:37,525:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-34.151372.csv False False 10 id 1 
+
+2021-04-28 10:15:37,528:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-34.151372.csv False False 11 id 1 
+
+2021-04-28 10:15:37,530:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-34.151372.csv False False 12 id 1 
+
+2021-04-28 10:15:37,533:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-34.151372.csv False False 13 id 1 
+
+2021-04-28 10:15:37,535:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-34.151372.csv False False 14 id 1 
+
+2021-04-28 10:15:37,538:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-34.151372.csv False False 15 id 1 
+
+2021-04-28 10:15:37,540:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-34.151372.csv False False 16 id 1 
+
+2021-04-28 10:15:37,542:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-34.151372.csv False False 17 id 1 
+
+2021-04-28 10:15:37,545:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-34.151372.csv False False 18 id 1 
+
+2021-04-28 10:15:37,547:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-34.151372.csv False False 19 id 1 
+
+2021-04-28 10:15:37,549:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-34.151372.csv False False 20 id 1 
+
+2021-04-28 10:15:37,551:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-34.151372.csv False False 21 id 1 
+
+2021-04-28 10:15:37,553:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-34.151372.csv False False 22 id 1 
+
+2021-04-28 10:15:37,555:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-34.151372.csv False False 23 id 1 
+
+2021-04-28 10:15:37,558:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-34.151372.csv False False 24 id 1 
+
+2021-04-28 10:15:37,559:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-34.151372.csv False False 25 id 1 
+
+2021-04-28 10:15:37,561:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-34.151372.csv False False 26 id 1 
+
+2021-04-28 10:15:37,563:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-34.151372.csv False False 27 id 1 
+
+2021-04-28 10:15:37,565:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-34.151372.csv False False 28 id 1 
+
+2021-04-28 10:15:37,567:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-34.151372.csv False False 29 id 1 
+
+2021-04-28 10:15:37,568:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-34.151372.csv False False 30 id 1 
+
+2021-04-28 10:15:37,570:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-34.151372.csv False False 31 id 1 
+
+2021-04-28 10:15:37,571:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-34.151372.csv False False 32 id 1 
+
+2021-04-28 10:15:37,573:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-34.151372.csv False False 33 id 1 
+
+2021-04-28 10:15:37,574:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-34.151372.csv False False 34 id 1 
+
+2021-04-28 10:15:37,575:INFO     [gw.gw_rx_manager][COMPRESSION_MODE:False] bridge_dir is empty
+2021-04-28 10:15:42,582:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-34.151372.csv False False 35 id 1 
+
+2021-04-28 10:15:42,584:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-34.151372.csv False False 36 id 1 
+
+2021-04-28 10:15:42,586:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-34.151372.csv False False 37 id 1 
+
+2021-04-28 10:15:42,588:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-34.151372.csv False False 38 id 1 
+
+2021-04-28 10:15:42,590:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-34.151372.csv False False 39 id 1 
+
+2021-04-28 10:15:42,592:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-15-34.151372.csv False True 40 id 1 
+
+2021-04-28 10:15:42,593:INFO     [gw.gw_tx_manager][send_file_to_aws] uploading /home/pi/Desktop/iasc/gw_queues/rpi_lora_lte_records_2021-04-28T10-15-34.151372.csv_1...
+2021-04-28 10:15:43,661:INFO     [gw.gw_rx_manager] STATS_LINE: rpi_lora_lte_records_2021-04-28T10-15-34.151372.csv_1,10240,1.0685479641,False
+
+2021-04-28 10:15:43,663:INFO     [gw.gw_rx_manager][COMPRESSION_MODE:False] bridge_dir is empty
+2021-04-28 10:15:48,669:INFO     [gw.gw_rx_manager][COMPRESSION_MODE:False] bridge_dir is empty
+2021-04-28 10:15:53,675:INFO     [gw.gw_rx_manager][COMPRESSION_MODE:False] bridge_dir is empty
+2021-04-28 10:15:58,682:INFO     [gw.gw_rx_manager][COMPRESSION_MODE:False] bridge_dir is empty
+2021-04-28 10:16:01,972:INFO     [common.iasc_dir_cleaner]: Cleaner in progress!
+
+2021-04-28 10:16:01,973:INFO     [common.iasc_dir_cleaner]: Cleaner aggressive mode is OFF
+
+2021-04-28 10:16:01,974:INFO     [common.iasc_dir_cleaner]: Cleaner is done: 0 files were deleted
+
+2021-04-28 10:16:03,689:INFO     [gw.gw_rx_manager][COMPRESSION_MODE:False] bridge_dir is empty
+2021-04-28 10:16:08,707:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-04.266226.csv True False 0 id 1 
+
+2021-04-28 10:16:08,711:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-04.266226.csv False False 1 id 1 
+
+2021-04-28 10:16:08,714:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-04.266226.csv False False 2 id 1 
+
+2021-04-28 10:16:08,717:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-04.266226.csv False False 3 id 1 
+
+2021-04-28 10:16:08,719:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-04.266226.csv False False 4 id 1 
+
+2021-04-28 10:16:08,722:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-04.266226.csv False False 5 id 1 
+
+2021-04-28 10:16:08,724:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-04.266226.csv False False 6 id 1 
+
+2021-04-28 10:16:08,726:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-04.266226.csv False False 7 id 1 
+
+2021-04-28 10:16:08,728:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-04.266226.csv False False 8 id 1 
+
+2021-04-28 10:16:08,730:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-04.266226.csv False False 9 id 1 
+
+2021-04-28 10:16:08,732:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-04.266226.csv False False 10 id 1 
+
+2021-04-28 10:16:08,734:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-04.266226.csv False False 11 id 1 
+
+2021-04-28 10:16:08,736:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-04.266226.csv False False 12 id 1 
+
+2021-04-28 10:16:08,738:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-04.266226.csv False False 13 id 1 
+
+2021-04-28 10:16:08,740:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-04.266226.csv False False 14 id 1 
+
+2021-04-28 10:16:08,741:INFO     [gw.gw_rx_manager][COMPRESSION_MODE:False] bridge_dir is empty
+2021-04-28 10:16:13,762:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-04.266226.csv False False 15 id 1 
+
+2021-04-28 10:16:13,766:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-04.266226.csv False False 16 id 1 
+
+2021-04-28 10:16:13,771:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-04.266226.csv False False 17 id 1 
+
+2021-04-28 10:16:13,775:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-04.266226.csv False False 18 id 1 
+
+2021-04-28 10:16:13,778:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-04.266226.csv False False 19 id 1 
+
+2021-04-28 10:16:13,781:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-04.266226.csv False False 20 id 1 
+
+2021-04-28 10:16:13,785:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-04.266226.csv False False 21 id 1 
+
+2021-04-28 10:16:13,788:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-04.266226.csv False False 22 id 1 
+
+2021-04-28 10:16:13,791:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-04.266226.csv False False 23 id 1 
+
+2021-04-28 10:16:13,794:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-04.266226.csv False False 24 id 1 
+
+2021-04-28 10:16:13,797:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-04.266226.csv False False 25 id 1 
+
+2021-04-28 10:16:13,800:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-04.266226.csv False False 26 id 1 
+
+2021-04-28 10:16:13,803:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-04.266226.csv False False 27 id 1 
+
+2021-04-28 10:16:13,806:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-04.266226.csv False False 28 id 1 
+
+2021-04-28 10:16:13,808:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-04.266226.csv False False 29 id 1 
+
+2021-04-28 10:16:13,811:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-04.266226.csv False False 30 id 1 
+
+2021-04-28 10:16:13,813:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-04.266226.csv False False 31 id 1 
+
+2021-04-28 10:16:13,816:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-04.266226.csv False False 32 id 1 
+
+2021-04-28 10:16:13,818:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-04.266226.csv False False 33 id 1 
+
+2021-04-28 10:16:13,820:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-04.266226.csv False False 34 id 1 
+
+2021-04-28 10:16:13,822:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-04.266226.csv False False 35 id 1 
+
+2021-04-28 10:16:13,824:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-04.266226.csv False False 36 id 1 
+
+2021-04-28 10:16:13,826:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-04.266226.csv False False 37 id 1 
+
+2021-04-28 10:16:13,828:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-04.266226.csv False False 38 id 1 
+
+2021-04-28 10:16:13,830:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-04.266226.csv False False 39 id 1 
+
+2021-04-28 10:16:13,832:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-04.266226.csv False True 40 id 1 
+
+2021-04-28 10:16:13,833:INFO     [gw.gw_tx_manager][send_file_to_aws] uploading /home/pi/Desktop/iasc/gw_queues/rpi_lora_lte_records_2021-04-28T10-16-04.266226.csv_1...
+2021-04-28 10:16:14,812:INFO     [gw.gw_rx_manager] STATS_LINE: rpi_lora_lte_records_2021-04-28T10-16-04.266226.csv_1,10240,0.979081869125,False
+
+2021-04-28 10:16:14,813:INFO     [gw.gw_rx_manager][COMPRESSION_MODE:False] bridge_dir is empty
+2021-04-28 10:16:19,819:INFO     [gw.gw_rx_manager][COMPRESSION_MODE:False] bridge_dir is empty
+2021-04-28 10:16:24,826:INFO     [gw.gw_rx_manager][COMPRESSION_MODE:False] bridge_dir is empty
+2021-04-28 10:16:29,833:INFO     [gw.gw_rx_manager][COMPRESSION_MODE:False] bridge_dir is empty
+2021-04-28 10:16:34,839:INFO     [gw.gw_rx_manager][COMPRESSION_MODE:False] bridge_dir is empty
+2021-04-28 10:16:39,849:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-34.373714.csv True False 0 id 1 
+
+2021-04-28 10:16:39,854:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-34.373714.csv False False 1 id 1 
+
+2021-04-28 10:16:39,859:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-34.373714.csv False False 2 id 1 
+
+2021-04-28 10:16:39,864:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-34.373714.csv False False 3 id 1 
+
+2021-04-28 10:16:39,868:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-34.373714.csv False False 4 id 1 
+
+2021-04-28 10:16:39,873:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-34.373714.csv False False 5 id 1 
+
+2021-04-28 10:16:39,877:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-34.373714.csv False False 6 id 1 
+
+2021-04-28 10:16:39,881:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-34.373714.csv False False 7 id 1 
+
+2021-04-28 10:16:39,885:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-34.373714.csv False False 8 id 1 
+
+2021-04-28 10:16:39,890:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-34.373714.csv False False 9 id 1 
+
+2021-04-28 10:16:39,894:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-34.373714.csv False False 10 id 1 
+
+2021-04-28 10:16:39,898:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-34.373714.csv False False 11 id 1 
+
+2021-04-28 10:16:39,902:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-34.373714.csv False False 12 id 1 
+
+2021-04-28 10:16:39,905:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-34.373714.csv False False 13 id 1 
+
+2021-04-28 10:16:39,909:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-34.373714.csv False False 14 id 1 
+
+2021-04-28 10:16:39,913:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-34.373714.csv False False 15 id 1 
+
+2021-04-28 10:16:39,917:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-34.373714.csv False False 16 id 1 
+
+2021-04-28 10:16:39,920:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-34.373714.csv False False 17 id 1 
+
+2021-04-28 10:16:39,924:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-34.373714.csv False False 18 id 1 
+
+2021-04-28 10:16:39,928:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-34.373714.csv False False 19 id 1 
+
+2021-04-28 10:16:39,930:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-34.373714.csv False False 20 id 1 
+
+2021-04-28 10:16:39,932:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-34.373714.csv False False 21 id 1 
+
+2021-04-28 10:16:39,933:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-34.373714.csv False False 22 id 1 
+
+2021-04-28 10:16:39,934:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-34.373714.csv False False 23 id 1 
+
+2021-04-28 10:16:39,936:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-34.373714.csv False False 24 id 1 
+
+2021-04-28 10:16:39,937:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-34.373714.csv False False 25 id 1 
+
+2021-04-28 10:16:39,939:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-34.373714.csv False False 26 id 1 
+
+2021-04-28 10:16:39,940:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-34.373714.csv False False 27 id 1 
+
+2021-04-28 10:16:39,941:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-34.373714.csv False False 28 id 1 
+
+2021-04-28 10:16:39,942:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-34.373714.csv False False 29 id 1 
+
+2021-04-28 10:16:39,944:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-34.373714.csv False False 30 id 1 
+
+2021-04-28 10:16:39,945:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-34.373714.csv False False 31 id 1 
+
+2021-04-28 10:16:39,946:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-34.373714.csv False False 32 id 1 
+
+2021-04-28 10:16:39,947:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-34.373714.csv False False 33 id 1 
+
+2021-04-28 10:16:39,948:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-34.373714.csv False False 34 id 1 
+
+2021-04-28 10:16:39,949:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-34.373714.csv False False 35 id 1 
+
+2021-04-28 10:16:39,950:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-34.373714.csv False False 36 id 1 
+
+2021-04-28 10:16:39,951:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-34.373714.csv False False 37 id 1 
+
+2021-04-28 10:16:39,952:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-34.373714.csv False False 38 id 1 
+
+2021-04-28 10:16:39,953:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-34.373714.csv False False 39 id 1 
+
+2021-04-28 10:16:39,954:INFO     [gw.gw_rx_manager] msg_metadata: rpi_lora_lte_records_2021-04-28T10-16-34.373714.csv False True 40 id 1 
+
+2021-04-28 10:16:39,954:INFO     [gw.gw_tx_manager][send_file_to_aws] uploading /home/pi/Desktop/iasc/gw_queues/rpi_lora_lte_records_2021-04-28T10-16-34.373714.csv_1...
+2021-04-28 10:16:41,088:INFO     [gw.gw_rx_manager] STATS_LINE: rpi_lora_lte_records_2021-04-28T10-16-34.373714.csv_1,10240,1.13378190994,False
+
+2021-04-28 10:16:41,089:INFO     [gw.gw_rx_manager][COMPRESSION_MODE:False] bridge_dir is empty
+2021-04-28 10:16:46,095:INFO     [gw.gw_rx_manager][COMPRESSION_MODE:False] bridge_dir is empty

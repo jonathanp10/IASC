@@ -10,9 +10,6 @@ parent_dir = os.path.dirname(current_dir)
 sys.path.insert(0, parent_dir) 
 from common.iasc_common import *
 
-if __name__ == "__main__":
-   file_size_in_kb = int(sys.argv[1])
-   generate_sensor_res(file_size_in_kb)
 
 
 def get_time_str():
@@ -46,3 +43,6 @@ def generate_sensor_res(file_size_in_kb):
    os.rename(filepath, filepath+".csv")
    print("generated " + filepath)
 
+if __name__ == "__main__":
+   file_size_in_kb = int(sys.argv[1])
+   generate_sensor_res(file_size_in_kb)

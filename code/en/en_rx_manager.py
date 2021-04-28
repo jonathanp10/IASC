@@ -52,7 +52,11 @@ def run_rx(ignored_lst, compression_mode):
     while True:
         en_stats = {}
         pending_files_queue = get_pending_files_queue(ignored_lst)
-        logging.info("[{}]: The sorted pending queue is: {}".format(__name__, str(pending_files_queue)))
+        if len(pending_files_queue) == 0:
+            logging.info("[{}]: The sorted pending queue is empty\nGoing to sleep for {} sec".format(__name__, en_sleep_time_in_sec))
+            time.sleep(en_sleep_time_in_sec)
+        else:
+            logging.info("[{}]: The sorted pending queue is: {}".format(__name__, str(pending_files_queue)))
         for pending_file in pending_files_queue:
             if pending_file in ignored_lst:
                 continue
