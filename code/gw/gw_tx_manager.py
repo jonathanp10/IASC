@@ -18,15 +18,6 @@ logging.getLogger('botocore').setLevel(logging.CRITICAL)
 logging.getLogger('s3transfer').setLevel(logging.CRITICAL)
 logging.getLogger('urllib3').setLevel(logging.CRITICAL)
 
-
-def upload_raw_data(filename):
-	upload(os.path.abspath(filename), "rpi-lora-lte", "raw_data/{}".format(os.path.basename(filename)))
-
-
-def upload_log(filename):
-	upload(os.path.abspath(filename), "rpi-lora-lte", "logs/{}".format(os.path.basename(filename)))
-
-
 def upload(file_basename, bucket_name, server_file_path):
 	logging.debug("Uploading {file_basename} to bucket {bucket_name} as {server_file_path}".format(file_basename = file_basename, bucket_name = bucket_name, server_file_path = server_file_path))
 	s3 = boto3.resource('s3')
@@ -41,4 +32,9 @@ def upload(file_basename, bucket_name, server_file_path):
 def send_file_to_aws(filepath):
 	logging.debug("[{}][{}][Entered function]".format(__name__, inspect.currentframe().f_code.co_name))
 	logging.info("[{}][{}] uploading {}...".format(__name__, inspect.currentframe().f_code.co_name, filepath))
-	upload_raw_data(filepath)
+        upload(os.path.abspath(filepath), "rpi-lora-lte", "raw_data/{}".format(os.path.basename(filepath)))
+
+
+def upload_to_cloud(filepath):
+    logging.debug("[{}][{}][Entered function]".format(__name__, inspect.currentframe().f_code.co_name + "filepath is: " + filepath))
+    send_file_to_aws(filepath)

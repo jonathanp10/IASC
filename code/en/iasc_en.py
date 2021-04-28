@@ -8,6 +8,7 @@ sys.path.insert(0, parent_dir)
 from common.iasc_common import *
 from common.iasc_dir_cleaner import dir_cleanup
 from en.en_rx_manager import run_rx
+from en.en_tx_manager import en_id
 
 
 if __name__ == "__main__":
@@ -19,13 +20,15 @@ if __name__ == "__main__":
     
     
     arg_parser = argparse.ArgumentParser()
-    arg_parser.add_argument('en_id', action='store', nargs='*', type=int, help = "EN_ID", default=os.environ.get('EN_ID'))
+    # arg_parser.add_argument('en_id', action='store', nargs='*', type=int, help = "EN_ID", default=os.environ.get('EN_ID'))
     arg_parser.add_argument('-comp', required=False, action = "store_true", help = "in this mode en compress all tx files")
     arg_parser.add_argument('-compression', required=False, action = "store_true", help = "in this mode en compress all tx files")
     args = arg_parser.parse_args()
 
     compression_mode = (args.comp or args.compression)
-    en_id = args.en_id
+    # global en_id
+    # en_id = args.en_id
+    os.environ['EN_ID'] = str(en_id)
     if compression_mode:
        compression_mode_str = "Compression Mode is ON"
     else:

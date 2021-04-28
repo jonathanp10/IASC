@@ -38,8 +38,9 @@ def download(bucket_name, server_file_path, output_path):
 def check_success(filename, source_id): # return True for failure, False for success
     # download file from cloud
     server_file_path = "raw_data/" + filename + "_" + source_id
-    output_path = filename + "_" + source_id + ".expected"
+    output_path = "{}/{}_{}.actual".format(gw_downloads,filename, source_id)
     download("rpi-lora-lte",server_file_path,output_path)
+    print("CHECK_SUCCESS: OUTPUTPATH: " + output_path)
     
     # path to original file
     original_file_path = pending_dir + "/" + filename
