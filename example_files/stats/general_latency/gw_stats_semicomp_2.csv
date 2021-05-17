@@ -1,0 +1,19 @@
+filename, file size, TTH (time to handle), compression
+rpi_lora_lte_records_2021-05-14T22-00-55.770345.csv_1,18416,6.91930198669,False
+rpi_lora_lte_records_2021-05-14T22-01-00.061157.csv_1,19104,4.51783084869,False
+rpi_lora_lte_records_2021-05-14T22-01-04.846848.csv_1,19100,4.51473808289,False
+rpi_lora_lte_records_2021-05-14T22-00-55.770345.csv_2,18416,6.88995695114,False
+rpi_lora_lte_records_2021-05-14T22-01-12.344210.csv_1,18384,4.55394887924,False
+rpi_lora_lte_records_2021-05-14T22-01-00.061157.csv_2,19104,4.89859580994,False
+rpi_lora_lte_records_2021-05-14T22-01-15.807989.csv_1,19108,4.61972904205,False
+rpi_lora_lte_records_2021-05-14T22-01-04.846848.csv_2,19100,4.58679294586,False
+rpi_lora_lte_records_2021-05-14T22-01-19.081368.csv_1,18380,4.62185883522,False
+rpi_lora_lte_records_2021-05-14T22-01-22.742326.csv_1,18856,4.69133806229,False
+rpi_lora_lte_records_2021-05-14T22-01-12.344210.csv_2,18384,4.52659296989,False
+rpi_lora_lte_records_2021-05-14T22-01-25.822730.csv_1,18456,4.72014498711,False
+rpi_lora_lte_records_2021-05-14T22-01-15.807989.csv_2,19108,4.55299520493,False
+rpi_lora_lte_records_2021-05-14T22-01-28.438154.csv_1,19128,4.53960514069,False
+rpi_lora_lte_records_2021-05-14T22-01-19.081368.csv_2,18380,4.46428990364,False
+rpi_lora_lte_records_2021-05-14T22-01-22.742326.csv_2,18856,4.66152906418,False
+rpi_lora_lte_records_2021-05-14T22-01-25.822730.csv_2,18456,4.50834703445,False
+rpi_lora_lte_records_2021-05-14T22-01-28.438154.csv_2,19128,4.48872208595,False

@@ -1,8 +1,0 @@
-filename, file size, TTH (time to handle), compression
-rpi_lora_lte_records_2021-04-28T10-01-08.626898.csv_1,10240,2.1064260006,False
-rpi_lora_lte_records_2021-04-28T10-01-38.676878.csv_1,10240,0.95033788681,False
-rpi_lora_lte_records_2021-04-28T10-02-08.746855.csv_1,10240,1.00646901131,False
-rpi_lora_lte_records_2021-04-28T10-15-04.080603.csv_1,10240,1.00686597824,False
-rpi_lora_lte_records_2021-04-28T10-15-34.151372.csv_1,10240,1.0685479641,False
-rpi_lora_lte_records_2021-04-28T10-16-04.266226.csv_1,10240,0.979081869125,False
-rpi_lora_lte_records_2021-04-28T10-16-34.373714.csv_1,10240,1.13378190994,False
