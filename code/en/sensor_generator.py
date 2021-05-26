@@ -3,6 +3,7 @@ import time
 from datetime import datetime
 import random
 import string
+from timeit import default_timer as timer
 
 # modify PYTHONPATH in order to imprt internal modules from parent directory.
 current_dir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
@@ -40,6 +41,7 @@ def generate_sensor_res(file_size_in_kb):
        res.write(line)
    res.close()
 # en_rx scanning for *.csv only
+   print(str(timer())) 
    os.rename(filepath, filepath+".csv")
    print("generated " + filepath)
 

@@ -11,6 +11,7 @@ parent_dir = os.path.dirname(current_dir)
 sys.path.insert(0, parent_dir)
 from common.iasc_common import *
 from en.en_tx_manager import *
+from gw.gw_tx_manager import upload_to_cloud
 
 def get_timestamp_lst(filename):
     logging.debug("[{}][{}][Entered function] filename is {}".format(__name__, inspect.currentframe().f_code.co_name, filename))
@@ -64,12 +65,12 @@ def run_rx(ignored_lst, compression_mode):
     except RuntimeError as error:
         print("Simulation Mode - No actual Lora")
         rfm9x = None
-    
     while True:
         en_stats = {}
         pending_files_queue = get_pending_files_queue(ignored_lst)
         if len(pending_files_queue) == 0:
             logging.info("[{}]: The sorted pending queue is empty\nGoing to sleep for {} sec".format(__name__, en_sleep_time_in_sec))
+            print("EN {}: Empty dir. sleeping...".format(en_id))
             time.sleep(en_sleep_time_in_sec)
         else:
             logging.info("[{}]: The sorted pending queue is: {}".format(__name__, str(pending_files_queue)))
@@ -78,6 +79,7 @@ def run_rx(ignored_lst, compression_mode):
                 continue
             start = timer()
             send_file_to_gw(pending_file, compression_mode, rfm9x)
+            #upload_to_cloud(pending_dir + "/" + pending_file)
             end = timer()
             en_stats[pending_file] = [pending_file, os.path.getsize("{}/{}".format(pending_dir,pending_file)), end-start, compression_mode] # filename, size, start-time, TTH, compressed
             ignored_lst.append(pending_file)
