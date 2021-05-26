@@ -1,5 +1,9 @@
 import os, sys, inspect, logging, argparse
 from timeit import default_timer as timer
+import busio
+from digitalio import DigitalInOut
+import board
+import adafruit_rfm9x
 
 # modify PYTHONPATH in order to imprt internal modules from parent directory.
 current_dir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
@@ -43,12 +47,24 @@ def get_pending_files_queue(ignored_files):
     return sorted_pending_files
 
 
-def send_file_to_gw(filename, compression_mode):
+def send_file_to_gw(filename, compression_mode, rfm9x):
     logging.debug("[{}][{}][Entered function] filename is {}".format(__name__, inspect.currentframe().f_code.co_name, filename))
-    send_file_to_gw_with_lora(filename, compression_mode)
+    send_file_to_gw_with_lora(filename, compression_mode, rfm9x)
 
 
 def run_rx(ignored_lst, compression_mode):
+    # configure LoRa module
+    CS = DigitalInOut(board.CE1)
+    RESET = DigitalInOut(board.D25)
+    spi = busio.SPI(board.SCK, MOSI=board.MOSI, MISO=board.MISO)
+    logging.info("[{}]: Configured LoRa".format(__name__))
+    try:
+        rfm9x = adafruit_rfm9x.RFM9x(spi,CS,RESET,915.0)
+        logging.info("[{}]: Configured LoRa".format(__name__))
+    except RuntimeError as error:
+        print("Simulation Mode - No actual Lora")
+        rfm9x = None
+    
     while True:
         en_stats = {}
         pending_files_queue = get_pending_files_queue(ignored_lst)
@@ -61,7 +77,7 @@ def run_rx(ignored_lst, compression_mode):
             if pending_file in ignored_lst:
                 continue
             start = timer()
-            send_file_to_gw(pending_file, compression_mode)
+            send_file_to_gw(pending_file, compression_mode, rfm9x)
             end = timer()
             en_stats[pending_file] = [pending_file, os.path.getsize("{}/{}".format(pending_dir,pending_file)), end-start, compression_mode] # filename, size, start-time, TTH, compressed
             ignored_lst.append(pending_file)

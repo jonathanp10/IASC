@@ -34,7 +34,7 @@ def get_metadata(filename, last, sequence_num):
     return metadata
 
 
-def send_file_to_gw_with_lora(filename, compression_mode):
+def send_file_to_gw_with_lora(filename, compression_mode, rfm9x=None):
     logging.debug("[{}][{}][Entered function] with filename: {}".format(__name__, inspect.currentframe().f_code.co_name, filename))
     sequence_num = 0
     file_path = pending_dir + "/" + filename
@@ -48,24 +48,29 @@ def send_file_to_gw_with_lora(filename, compression_mode):
         compressed_size += len(data)
     idx = 0
     while idx < len(data):
-        payload, last = get_lora_payload(data,idx)  # get block in size of LoRa payload from the compressed data. If it's the last payload in the chunk - returns last = 1
-        msg = bytes(get_metadata(filename, last, sequence_num), 'utf-8') + payload
+        payload, last = get_lora_payload(data,idx,filename)  # get block in size of LoRa payload from the compressed data. If it's the last payload in the chunk - returns last = 1
+        metadata = bytes(get_metadata(filename, last, sequence_num), 'utf-8')
+        print("metadata length: {}\n Metadata is {}".format(len(metadata), metadata))
+        msg = metadata + payload
         # blocking send msg
-        # lora_pseudo_send(msg)
-        rfm9x.send_with_ack(msg)
+        if rfm9x == None:
+            lora_pseudo_send(msg)
+        else:
+            print("MSG LENGTH: {}".format(len(msg)))
+            rfm9x.send_with_ack(msg)
         sequence_num += 1
-        idx += max_payload_len
+        max_payload_len_without_metadata = max_payload_len - max_metadata_flags_len - len(filename)
+        idx += max_payload_len_without_metadata 
         logging.info("[{}][{}] the msg that is sent:\n{}".format(__name__, inspect.currentframe().f_code.co_name, msg))
 
-def get_lora_payload(data, idx):
+def get_lora_payload(data, idx, filename):
     payload = b''
     last = 0
-    
+    max_payload_len_without_metadata = max_payload_len - max_metadata_flags_len - len(filename)
     # not last
-    if idx+max_payload_len <= len(data):
-        payload = data[idx:idx+max_payload_len]
+    if idx+max_payload_len_without_metadata <= len(data):
+        payload = data[idx:idx+max_payload_len_without_metadata]
     else:  # last
-
         payload = data[idx:]
         last = 1
     return payload, last
