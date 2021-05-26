@@ -15,8 +15,8 @@ from common.iasc_dir_cleaner import dir_cleanup
 
 if __name__ == "__main__":
     LOG_FILE_NAME = "iasc_gw.log"
-    logging.basicConfig(filename=LOG_FILE_NAME, filemode='w', level=logging.INFO, format="%(asctime)s:%(levelname)-8s %(message)s")
-    # logging.basicConfig(filename=LOG_FILE_NAME, filemode='w', level=logging.DEBUG, format="%(asctime)s:%(levelname)-8s %(message)s")
+    #logging.basicConfig(filename=LOG_FILE_NAME, filemode='w', level=logging.INFO, format="%(asctime)s:%(levelname)-8s %(message)s")
+    logging.basicConfig(filename=LOG_FILE_NAME, filemode='w', level=logging.DEBUG, format="%(asctime)s:%(levelname)-8s %(message)s")
     
     # initializations
     ignored_lst = []

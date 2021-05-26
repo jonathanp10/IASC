@@ -1,4 +1,4 @@
-import os, sys, inspect, logging, zipfile
+import os, sys, inspect, logging, zipfile, adafruit_rfm9x
 import time
 import lzma
 
@@ -51,8 +51,8 @@ def send_file_to_gw_with_lora(filename, compression_mode):
         payload, last = get_lora_payload(data,idx)  # get block in size of LoRa payload from the compressed data. If it's the last payload in the chunk - returns last = 1
         msg = bytes(get_metadata(filename, last, sequence_num), 'utf-8') + payload
         # blocking send msg
-        # lora_pseudo_send(msg)
-        rfm9x.send_with_ack(msg)
+        lora_pseudo_send(msg)
+#rfm9x.send_with_ack(msg)
         sequence_num += 1
         idx += max_payload_len
         logging.info("[{}][{}] the msg that is sent:\n{}".format(__name__, inspect.currentframe().f_code.co_name, msg))
