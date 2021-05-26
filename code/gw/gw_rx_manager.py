@@ -53,10 +53,12 @@ def extract_metadata(metadata):
     
 def handle_msgs(rx_fifo, ignored_lst, compression_mode):
     queues_dict = {}
+    cnt = 0
     logging.info("[{}] msg handler awake".format(__name__))
     while True:
         if rx_fifo.empty():  # no msgs are waiting - go to sleep
             logging.info("[{}] rx_fifo is empty, going to sleep for {} sec".format(__name__, gw_sleep_time_in_sec))
+            print("RX_FIFO EMPTY, going to sleep...")
             time.sleep(gw_sleep_time_in_sec)
         else:
             msg, source_id = rx_fifo.get() 
@@ -87,12 +89,14 @@ def handle_msgs(rx_fifo, ignored_lst, compression_mode):
                 queues_dict.pop(filepath)
                 ignored_lst.append("{}_{}".format(filename, source_id))
                 end = timer()
+                cnt +=1
+                print("GW uploaded {} files".format(str(cnt)))
                 append_gw_stats(filename + "_" + source_id, end-start, compression_mode) # filename, size, start-time, TTH, compressed
                 if check_success(filename, source_id):
                     print("Something went wrong... output file is not identical to original file.\n")
                 else:
                     print(filename + " UPLOAD PERFECTLY MATCH :) ")
-
+               
 
 def append_gw_stats(filename, tth, compression_mode): 
     gw_stats = open(gw_stats_path, 'a')
@@ -112,6 +116,7 @@ def run_rx(rx_fifo):
         if msg == "__EMPTY_DIR__":
             logging.info("[{}] bridge_dir is empty".format(__name__))
             time.sleep(gw_sleep_time_in_sec)
+            print("gw_finished")
             # break
         else:
             rx_fifo.put((msg,source_id))

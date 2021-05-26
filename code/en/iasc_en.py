@@ -8,7 +8,6 @@ sys.path.insert(0, parent_dir)
 from common.iasc_common import *
 from common.iasc_dir_cleaner import dir_cleanup
 from en.en_rx_manager import run_rx
-from en.en_tx_manager import en_id
 
 
 if __name__ == "__main__":
@@ -28,7 +27,6 @@ if __name__ == "__main__":
     compression_mode = (args.comp or args.compression)
     # global en_id
     # en_id = args.en_id
-    os.environ['EN_ID'] = str(en_id)
     if compression_mode:
        compression_mode_str = "Compression Mode is ON"
     else:
@@ -44,7 +42,7 @@ if __name__ == "__main__":
     while True:
       time.sleep(60)
       en_cleanup_t = threading.Thread(target=dir_cleanup, args = (ignored_files,pending_dir,))
-      en_cleanup_t.start()
+# en_cleanup_t.start()
     
 
 
