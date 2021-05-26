@@ -30,9 +30,9 @@ def upload(file_basename, bucket_name, server_file_path):
 
 
 def send_file_to_aws(filepath):
-	logging.debug("[{}][{}][Entered function]".format(__name__, inspect.currentframe().f_code.co_name))
-	logging.info("[{}][{}] uploading {}...".format(__name__, inspect.currentframe().f_code.co_name, filepath))
-        upload(os.path.abspath(filepath), "rpi-lora-lte", "raw_data/{}".format(os.path.basename(filepath)))
+    logging.debug("[{}][{}][Entered function]".format(__name__, inspect.currentframe().f_code.co_name))
+    logging.info("[{}][{}] uploading {}...".format(__name__, inspect.currentframe().f_code.co_name, filepath))
+    upload(os.path.abspath(filepath), "rpi-lora-lte", "raw_data/{}".format(os.path.basename(filepath)))
 
 
 def upload_to_cloud(filepath):

@@ -1,5 +1,5 @@
 import os, sys, inspect, logging, lzma, argparse, threading, time
-from Queue import Queue
+from queue import Queue as Queue
 
 
 
