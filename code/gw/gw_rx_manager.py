@@ -1,6 +1,6 @@
 import os, sys, inspect, logging, lzma
 from timeit import default_timer as timer
-from Queue import Queue
+from queue import Queue as Queue
 import time
 
 # modify PYTHONPATH in order to imprt internal modules from parent directory.
@@ -25,7 +25,7 @@ def pseudo_recieve():
     for msg in rx_msgs:
       if "NOT_READY" in msg:
          rx_msgs.remove(msg)
-    if len(rx_msgs) == 0:
+    if len(list(rx_msgs)) == 0:
         return "__EMPTY_DIR__", -1
     rx_msgs = [os.path.join('.',f) for f in rx_msgs]
     rx_msgs.sort(key=lambda x: os.path.getmtime(x))
