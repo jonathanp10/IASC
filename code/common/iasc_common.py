@@ -1,5 +1,6 @@
 import os, logging
-max_payload_len = 252
+max_payload_len =  252
+max_metadata_flags_len = 9 # 1 first, 1 last, 3 sequence + seperators + \n
 en_sleep_time_in_sec = 5
 gw_sleep_time_in_sec = 10
 iasc_path = os.environ.get('IASC_PATH')

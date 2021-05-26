@@ -19,7 +19,7 @@ def get_time_str():
 
 def get_num_of_csv_lines(size):
     bytes_in_line = 18
-    return size * 2 ** 10 / bytes_in_line 
+    return int(size * 2 ** 10 / bytes_in_line)
 
 def get_rand_csv_data():
     letters = string.ascii_lowercase
