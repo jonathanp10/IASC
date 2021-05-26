@@ -1,7 +1,10 @@
-import os, sys, inspect, logging, lzma
+import os, sys, inspect, logging, lzma, adafruit_rfm9x
+import time
+import busio
+import board
+from digitalio import DigitalInOut
 from timeit import default_timer as timer
 from queue import Queue as Queue
-import time
 
 # modify PYTHONPATH in order to imprt internal modules from parent directory.
 current_dir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
@@ -16,6 +19,17 @@ def get_id_from_filename(filename):
     logging.debug("[{}][{}][Entered function]".format(__name__, inspect.currentframe().f_code.co_name))
     return filename.replace('./', '').split('_')[0]
 
+
+def lora_receive(rfm9x):
+    msg = rfm9x.receive(with_ack=True, with_header=True, timeout=1000)
+    if msg is None: 
+       print("Packet is None")
+       return lora_receive(rfm9x)
+    else:
+       msg_str = msg[4:].decode('utf-8', 'ignore')
+       print("Packet is: {}".format(msg_str))
+       print("Header: {} ".format(str([hex(x) for x in msg[0:4]])))
+    return msg[4::], str(msg[1])
 
 def pseudo_recieve():
     logging.debug("[{}][{}][Entered function]".format(__name__, inspect.currentframe().f_code.co_name))
@@ -43,7 +57,9 @@ def pseudo_recieve():
 
 
 def extract_metadata(metadata):
+    print("BEFORE CONVERTING TO STR: {}".format(metadata))
     metadata = str(metadata, 'utf-8')
+    print("AFTER CONVERTING TO STR: {}".format(metadata))
     logging.debug("[{}][{}][Entered function]".format(__name__, inspect.currentframe().f_code.co_name + "metadata is: " + metadata))
     metadata_lst = metadata.split('.csv_')
     filename = metadata_lst[0] + '.csv'
@@ -63,11 +79,14 @@ def handle_msgs(rx_fifo, ignored_lst, compression_mode):
             time.sleep(gw_sleep_time_in_sec)
         else:
             msg, source_id = rx_fifo.get() 
-            first, last, sequence_num, filename = extract_metadata(msg.split(b'\n')[0])
+            metadata = msg.split(b'\n')[0]
+            print("Metadata: {}".format(metadata))
+            first, last, sequence_num, filename = extract_metadata(metadata)
             msg_data = b'\n'.join(msg.split(b'\n')[1::])
             logging.info("[{}] msg_metadata: {} {} {} {} id {} \n".format(__name__, filename, str(first), str(last), str(sequence_num), source_id, msg_data))
             logging.debug("[{}] MsgData: {} \n".format(__name__, msg_data))
             filepath = "{}/{}_{}".format(gw_queues_dir, filename, source_id)
+            print("Filpath: " + filepath)
 
             # first msg - create new file
             if first:
@@ -109,9 +128,15 @@ def append_gw_stats(filename, tth, compression_mode):
 
 def run_rx(rx_fifo):
     logging.info("[{}] rx manager is awake".format(__name__))
+    # Configure LoRa radio
+    CS = DigitalInOut(board.CE1)
+    RESET = DigitalInOut(board.D25)
+    spi = busio.SPI(board.SCK, MOSI=board.MOSI, MISO=board.MISO)
+    rfm9x = adafruit_rfm9x.RFM9x(spi, CS, RESET, 915.0)
+    logging.info("[{}] Configured Lora".format(__name__))
     while True:
-        # msg = recieve()
-        msg, source_id = pseudo_recieve()
+        #msg, source_id = pseudo_recieve()
+        msg, source_id = lora_receive(rfm9x)
         # print("RUN_RX Entered 50 chars: {}".format(msg[:50]))
         if msg == "__EMPTY_DIR__":
             logging.info("[{}] bridge_dir is empty".format(__name__))

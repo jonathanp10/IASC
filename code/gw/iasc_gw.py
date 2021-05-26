@@ -46,5 +46,5 @@ if __name__ == "__main__":
 
     while True:
       time.sleep(60)
-      en_cleanup_t = threading.Thread(target=dir_cleanup, args = (ignored_lst, gw_queues_dir,))
-      en_cleanup_t.start()
+      gw_cleanup_t = threading.Thread(target=dir_cleanup, args = (ignored_lst, gw_queues_dir,))
+      #gw_cleanup_t.start()
