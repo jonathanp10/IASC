@@ -11,6 +11,7 @@ gw_queues_dir = "{}/gw_queues".format(iasc_path)
 gw_dir = "{}/{}".format(working_dir, "gw")
 gw_downloads = "{}/{}".format(gw_dir, "downloads")
 gw_stats_path = "{}/{}".format(gw_dir, "gw_stats.csv")
+DATA_FILE_PREFIX = "rpi_lora_lte"
 
 
 

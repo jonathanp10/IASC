@@ -47,7 +47,7 @@ def pseudo_recieve():
     curr_file = open(rx_msgs[0], 'rb')
     curr_msg = curr_file.read()
     curr_file.close()
-    if "rpi_lora_lte" not in str(curr_msg, 'utf-8'):
+    if DATA_FILE_PREFIX not in str(curr_msg, 'utf-8'):
         print("[pseudo_receive] pseudo recieve illegal msg" + curr_msg[:60])
         print("[pseudo_receive] ILLEGAL: " + rx_msgs[0])
         exit(2)
@@ -58,7 +58,12 @@ def pseudo_recieve():
 
 def extract_metadata(metadata):
     print("BEFORE CONVERTING TO STR: {}".format(metadata))
-    metadata = str(metadata, 'utf-8')
+    try:
+       metadata = str(metadata, 'utf-8')
+    except UnicodeDecodeError:
+      print(metadata)
+      exit(1)
+
     print("AFTER CONVERTING TO STR: {}".format(metadata))
     logging.debug("[{}][{}][Entered function]".format(__name__, inspect.currentframe().f_code.co_name + "metadata is: " + metadata))
     metadata_lst = metadata.split('.csv_')
@@ -79,8 +84,10 @@ def handle_msgs(rx_fifo, ignored_lst, compression_mode):
             time.sleep(gw_sleep_time_in_sec)
         else:
             msg, source_id = rx_fifo.get() 
+            logging.info("[{}] Handling msg from EN {}".format(__name__, source_id))
             metadata = msg.split(b'\n')[0]
             print("Metadata: {}".format(metadata))
+            logging.info("[{}] Metadata: {}".format(__name__, metadata))
             first, last, sequence_num, filename = extract_metadata(metadata)
             msg_data = b'\n'.join(msg.split(b'\n')[1::])
             logging.info("[{}] msg_metadata: {} {} {} {} id {} \n".format(__name__, filename, str(first), str(last), str(sequence_num), source_id, msg_data))
@@ -111,10 +118,10 @@ def handle_msgs(rx_fifo, ignored_lst, compression_mode):
                 cnt +=1
                 print("GW uploaded {} files".format(str(cnt)))
                 append_gw_stats(filename + "_" + source_id, end-start, compression_mode) # filename, size, start-time, TTH, compressed
-                if check_success(filename, source_id):
-                    print("Something went wrong... output file is not identical to original file.\n")
-                else:
-                    print(filename + " UPLOAD PERFECTLY MATCH :) ")
+#if check_success(filename, source_id):
+#                   print("Something went wrong... output file is not identical to original file.\n")
+#               else:
+#                   print(filename + " UPLOAD PERFECTLY MATCH :) ")
                
 
 def append_gw_stats(filename, tth, compression_mode): 
@@ -133,6 +140,8 @@ def run_rx(rx_fifo):
     RESET = DigitalInOut(board.D25)
     spi = busio.SPI(board.SCK, MOSI=board.MOSI, MISO=board.MISO)
     rfm9x = adafruit_rfm9x.RFM9x(spi, CS, RESET, 915.0)
+    rfm9x.node = 10
+    rfm9x.ack_delay = ACK_DELAY
     logging.info("[{}] Configured Lora".format(__name__))
     while True:
         #msg, source_id = pseudo_recieve()

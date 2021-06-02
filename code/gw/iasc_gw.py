@@ -35,13 +35,15 @@ if __name__ == "__main__":
 
     init_stats_csv("gw_stats.csv")
 
+    # run gw rx
+    run_rx_t = threading.Thread(target=run_rx, args = (rx_fifo,))
+    run_rx_t.start()
+
+
     # run gw rx fifo handler
     run_rx_fifo_handler = threading.Thread(target=handle_msgs, args = (rx_fifo, ignored_lst, compression_mode,))
     run_rx_fifo_handler.start()
     
-    # run gw rx
-    run_rx_t = threading.Thread(target=run_rx, args = (rx_fifo,))
-    run_rx_t.start()
 
 
     while True:
