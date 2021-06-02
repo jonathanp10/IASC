@@ -12,7 +12,7 @@ gw_dir = "{}/{}".format(working_dir, "gw")
 gw_downloads = "{}/{}".format(gw_dir, "downloads")
 gw_stats_path = "{}/{}".format(gw_dir, "gw_stats.csv")
 
-
+ACK_RETRIES = 100
 
 def init_stats_csv(csv_name):
    stats_log = open(csv_name, 'w')
