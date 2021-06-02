@@ -14,6 +14,7 @@ gw_stats_path = "{}/{}".format(gw_dir, "gw_stats.csv")
 DATA_FILE_PREFIX = "rpi_lora_lte"
 
 ACK_RETRIES = 100
+ACK_DELAY = 0.1
 
 def init_stats_csv(csv_name):
    stats_log = open(csv_name, 'w')
