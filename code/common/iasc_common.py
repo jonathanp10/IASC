@@ -1,5 +1,5 @@
 import os, logging
-max_payload_len =  252
+max_payload_len =  251
 max_metadata_flags_len = 9 # 1 first, 1 last, 3 sequence + seperators + \n
 en_sleep_time_in_sec = 5
 gw_sleep_time_in_sec = 10
@@ -13,7 +13,7 @@ gw_downloads = "{}/{}".format(gw_dir, "downloads")
 gw_stats_path = "{}/{}".format(gw_dir, "gw_stats.csv")
 DATA_FILE_PREFIX = "rpi_lora_lte"
 
-
+ACK_RETRIES = 100
 
 def init_stats_csv(csv_name):
    stats_log = open(csv_name, 'w')
