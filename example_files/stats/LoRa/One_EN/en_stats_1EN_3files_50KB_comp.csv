@@ -1,0 +1,4 @@
+filename, file size, TTH (time to handle), compression
+rpi_lora_lte_records_2021-06-02T18-49-05.970764.csv,51208,97.8113385559991,True
+rpi_lora_lte_records_2021-06-02T18-49-11.115172.csv,51208,99.69768185199791,True
+rpi_lora_lte_records_2021-06-02T18-49-15.284018.csv,51208,101.20170566100205,True

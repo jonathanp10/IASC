@@ -61,10 +61,12 @@ def run_rx(ignored_lst, compression_mode):
     logging.info("[{}]: Configured LoRa".format(__name__))
     try:
         rfm9x = adafruit_rfm9x.RFM9x(spi,CS,RESET,915.0)
-        rfm9x.node = 2
+        rfm9x.node = 1
         rfm9x.destination = 10
         rfm9x.ack_retries = ACK_RETRIES
         rfm9x.ack_delay = ACK_DELAY
+        rfm9x.enable_crc = True
+        #rfm9x.spreading_factor = 8
         logging.info("[{}]: Configured LoRa".format(__name__))
     except RuntimeError as error:
         print("Simulation Mode - No actual Lora")
