@@ -56,10 +56,9 @@ def send_file_to_gw_with_lora(filename, compression_mode, rfm9x=None):
         if rfm9x == None:
             lora_pseudo_send(msg)
         else:
-        #print("MSG LENGTH: {}".format(len(msg)))
-        #print(msg)
+            #print("MSG LENGTH: {}".format(len(msg)))
+            #print(msg)
             rfm9x.send_with_ack(msg)
-        #lora_pseudo_send(msg)
         sequence_num += 1
         max_payload_len_without_metadata = max_payload_len - max_metadata_flags_len - len(filename)
         idx += max_payload_len_without_metadata 

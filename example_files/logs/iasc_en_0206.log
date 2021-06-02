@@ -1,0 +1,551 @@
+2021-06-02 17:23:55,454:INFO     [__main__]: Compression mode is Compression Mode is OFF
+2021-06-02 17:23:55,480:INFO     [en.en_rx_manager]: Configured LoRa
+2021-06-02 17:23:55,544:INFO     [en.en_rx_manager]: Configured LoRa
+2021-06-02 17:23:55,545:INFO     [en.en_rx_manager]: The sorted pending queue is: ['rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv']
+2021-06-02 17:23:59,466:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_1_0_0_NOT_READY
+2021-06-02 17:23:59,518:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_1_0_0\ntime[sec], I[mA]xgchywln,fvkqhzjw\nhwfgtuki,yztcgbaq\nchaozyyv,glncsqge\nvbewyuez,mnplfdpk\nczxegeeg,vyvlkpbh\nhukpgzca,kpbzqayj\nsnkkeiyb,iykmghwk\nbnatpviv,mudufqwb\nvasgduey,fplswjrv\nlrplkpzv,spuw'
+2021-06-02 17:24:00,096:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_1_NOT_READY
+2021-06-02 17:24:00,154:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_1\nxzuf\nerhvcjzt,vlohnuhd\ngxkedyps,oukzpgzh\nwoppebpf,fjdvnjhw\ncyqebxkv,dqdfgkci\nlpflkogm,xnastiee\ntvpmzwnj,ynvmdwgf\njqqszsht,ezhvqdwq\ngjcksqqi,fbjcyumy\nevvabvrs,rbpuogvr\nyxnmezvq,ocoliuei\nbxkrbm'
+2021-06-02 17:24:00,739:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_2_NOT_READY
+2021-06-02 17:24:00,790:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_2\nkd,aixiftdi\nowqqmewi,ndnbiypt\njqrtunml,jhedoouy\ngopgnzau,kvsroxdo\nmpuvanby,wjuwbytc\nrkvlfvld,emosjfji\njqadreat,wkcaiqrl\nbafkdiat,oejikhxs\neowiswds,hufxdbue\nuprgvlqr,wwqgtjgs\nbuktmblv,stnicbcl'
+2021-06-02 17:24:01,365:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_3_NOT_READY
+2021-06-02 17:24:01,416:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_3\n\nbtomihwc,xkigjctb\nhpedrbwn,rrbxsejf\nazbgfnii,ycmenxzb\neazdcrih,usdryeah\nbudibhup,mkmvqlao\nwlowhzts,kxcuqfms\nmenevffx,zvcjsbqx\ncyjmufhf,oukuotuz\ndsazgbfg,kdnrjlwg\neqjndhhm,mupltnbh\nwvkwbfqj,q'
+2021-06-02 17:24:03,628:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_4_NOT_READY
+2021-06-02 17:24:03,680:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_4\ngxjgaok\nqkcoyrtz,rplxqgwu\nyjatagxm,xzrsfcrw\ntymrussk,lisnzlrd\nxnlyeuno,qtbnqmke\nvopmxlej,gybzxlhq\nifvtlmye,mdxceckt\nekwibfrp,ystptvva\nsrauxzev,lgwoagjx\njgnljtvh,fgjkldjx\njvqcmgub,dhghfbmx\ncnz'
+2021-06-02 17:24:04,254:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_5_NOT_READY
+2021-06-02 17:24:04,305:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_5\nbxecv,omtdabyy\nreiarvus,rufosfcz\ngsgchwwa,jmftdbib\napuotvxr,lbehwnjs\nebixpimi,tsnqmfow\ntlsivqkn,ctksfpwp\nxgcltbwe,vnylhhzh\nbdykxghf,wbghszup\nogefjsmi,brdwcrwo\nihdntjbg,kiyzpjit\nkkeiknbi,vmxtz'
+2021-06-02 17:24:04,880:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_6_NOT_READY
+2021-06-02 17:24:04,931:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_6\nuek\nizpxtobf,rorrdesy\ngutzpzae,llmggieu\nhubbjuaw,msreqejj\nwwlkgipm,tsmbascl\ntqzbqunp,buybrciv\nwbtwpdls,yhzjorqt\ndzyzknsh,olnimswi\nicxretmo,aouzbdmf\nhalzextm,ibjpkflr\npnirwegm,klhusrfh\nrgrvpdp'
+2021-06-02 17:24:05,504:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_7_NOT_READY
+2021-06-02 17:24:05,564:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_7\nr,hyyjazgo\nlguzvcec,yjpahwwj\nwxjzhwso,mdalyqzc\nubqfncxx,qynawrbu\ngbzkzknd,nbxsmefa\nmdxkrjew,dkcuvbks\nkcsrzhyr,kofvpnlc\nerchmnci,pswkmvty\njoxzecsl,nsfsyaup\nylxbwiod,wptldzcc\nrqznuytx,qomjpbnz\n'
+2021-06-02 17:24:20,503:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_8_NOT_READY
+2021-06-02 17:24:20,554:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_8\nbgcjxjni,kqeegsqo\nwhrimgcn,kblcyzkj\nvncswwds,axnsoalq\nbeutepfu,suvkqfhz\ngzfxwzgo,dotlqiqm\nesxnjgao,sqgwvvwh\ngmpdxeui,irvpgzzz\nelnfmdau,utxartmz\ndeurhnws,pmjliuub\ntvuepsiv,swssttsa\noelbxube,xc'
+2021-06-02 17:24:21,129:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_9_NOT_READY
+2021-06-02 17:24:21,181:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_9\nbhyxyl\nkemtawtj,tlplanlz\ngqtnisbz,lfefhuwf\npsetxhdy,mcdegjzv\nqxjyaowl,kwnlbkkf\nqhabwsjd,gpdbzqct\nxxhotoyh,sjdaubyl\nwitbuoxm,qpgiahga\nmizdpplr,jdenvcqb\nhweghjou,rnhhzyzh\npuvsfhpx,ucbwewrh\nkoln'
+2021-06-02 17:24:26,027:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_10_NOT_READY
+2021-06-02 17:24:26,079:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_10\nystr,ccuwkivi\nfismcqyf,gcbwfhua\nvfszwssh,yfegzves\nqmigxbvg,fsplzycm\nnqakbhqu,rhhwgodc\nidmrdmhy,xijygymq\nvzghegiv,uuzthczh\nuvmqqdpy,jihtxyyf\nizojsywo,ohzsvpgx\nmddvdrfo,owyggipy\nzyewxhfj,ierrwv'
+2021-06-02 17:24:26,659:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_11_NOT_READY
+2021-06-02 17:24:26,711:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_11\ntm\ncbqakcpa,bkgxpnjx\natehyatc,lpuiuxtn\ngwxboavn,miblcdcc\nyrfunycn,qkmotzqn\nhtfryuqj,wmrjzreo\nywljnflx,kkejdnyg\ncucvngmh,rlpxbvzj\nazeifwjk,abzpghca\ncnpfqpwr,bpefyfix\nynapoxvp,ouoptcal\nqaglrygo'
+2021-06-02 17:24:31,530:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_12_NOT_READY
+2021-06-02 17:24:31,588:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_12\n,evxdqbwr\nrfdjahdp,neeqwxym\nwwhnxawa,mpnfodyw\nuktsqwpx,bbrlnuvb\nnerlogbs,ebzqdart\nvqtfjkdr,twzwjfvc\nubtivdwr,vspdrmiz\nzszngdae,rktxonfu\nagmzxfee,jcastlcu\nlznmlzsa,pnfeptyg\npxledoxr,kfycdqij\ne'
+2021-06-02 17:24:32,171:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_13_NOT_READY
+2021-06-02 17:24:32,223:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_13\nzfympfh,ydzvrggz\nhzfsrwtx,uhgwobxw\ntghtaaxg,ebntnjpx\nqohryvya,tgcwntax\nryqdbvsf,czyivpaq\naegyoqmv,dizzvwkw\nmufpfeiw,gnqhfrqo\nixljdqaw,fyjwbcbw\nucwddgne,hlehlsds\nkazdtqkw,notqqppc\njdudrikh,ugw'
+2021-06-02 17:24:46,844:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_14_NOT_READY
+2021-06-02 17:24:46,896:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_14\njlmmq\nuoccoqjx,mqbmyssq\nxckjptgk,pclcanae\nzoslxqqn,rzyjrzrr\nurxglwtk,ntceuvyr\nlkauiger,nxxoqkzx\njymgybjv,peslmfbi\nzfrokrdw,jgcfcvnr\ntkkoatrn,buldcyaz\njwcpbysk,laagogml\nleectzue,cpfobgge\nlcipj'
+2021-06-02 17:24:54,063:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_15_NOT_READY
+2021-06-02 17:24:54,115:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_15\nedq,lqcsvxid\nfjtoleqm,lvtbahnq\nvhoirdaa,ukidkvqw\nfrgkdgnm,mzurghrw\nizjjjqyc,blohrvdh\nzpdtnwln,hckakieh\nsqjphmed,nptnsgkr\nrbbehaps,vaognkdy\nlvcxwwev,gbtipsgk\nekcivguc,jsmefuuy\nyugsgiqo,fejlzqe'
+2021-06-02 17:24:57,794:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_16_NOT_READY
+2021-06-02 17:24:57,846:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_16\na\nmczqqsqi,xiwdyhqb\nzapscmmg,lqtmgvfx\ndzravmuz,xddtmoia\nrhvcjopb,ezazxcqb\nvjxqkupg,hvmgswpl\nioncehnr,amhrdlwu\nbdaainfd,dulechft\nruckmigp,uahzvdld\nkbqssrtg,aufenmkv\niarjqwuj,yhpjdthi\njuywyhrh,'
+2021-06-02 17:25:07,449:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_17_NOT_READY
+2021-06-02 17:25:07,501:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_17\narcdqtgm\nukcpiwwc,fvpifnwt\nfnmravli,gjuagwzl\nrtvryxuh,kxwasrgr\nobalpvdr,svfbrpuv\nvfkhwtbs,foqmjdgj\nojvkhrib,vnkfnpem\ngtdimoke,gzjubrtx\nleckcoyt,becqaugt\nedewfhfc,ttynvagi\nlsytblvn,mkjmabbx\nqq'
+2021-06-02 17:25:16,150:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_18_NOT_READY
+2021-06-02 17:25:16,202:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_18\ndbznat,daptkdfp\nkqwwsaby,xbiwobeq\ntkvoaaox,zlfhgizn\nhoogvvce,bqbnatqo\nkexldnmd,fpnwzsco\nxuxkbejd,xbzgpeed\nkoxgsumo,baiurkah\nnpnqqpqd,trsipbpk\nerumbsup,efownrhm\nyqvkpftu,tabhcjjm\noyqsxgjg,igkz'
+2021-06-02 17:25:37,437:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_19_NOT_READY
+2021-06-02 17:25:37,489:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_19\nobzu\nzdpoowod,pxruknqk\nrpmqngem,enfmffsd\nmojgadsz,klzvrxmy\ngbidqtnf,mymjvhtx\njuiouqty,ougwuccc\npmowwnpt,spridsjp\nkxtmiyct,jzwqlybf\nvysknkct,qitlnbyo\ngvmhpxhd,xpqxrndk\nhaxyrqbj,bjiowcwb\nrjjvmn'
+2021-06-02 17:25:38,064:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_20_NOT_READY
+2021-06-02 17:25:38,116:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_20\nxr,mbtivbez\njdozvojl,aklwtzmc\nppaazegb,qtkycxvz\ncrcqfaco,dnbxbvqy\nscmpeujg,eyxendxo\njbzmrgik,fzhoiuft\nagbktvfb,colslkaz\nfftyvxgd,usgexjlb\nhyvpptkh,pgpdcssy\nzbkszjip,vgaakpnk\nqkxcojoj,erwqkhct'
+2021-06-02 17:26:23,030:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_21_NOT_READY
+2021-06-02 17:26:23,082:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_21\n\nfiopukoy,vfgvxueg\nevgwpxvt,wkyqntgp\nrzbyuurq,eshuwuin\nkvdlvcir,wpiwrzrr\nifuczequ,oozopidh\nnboqhwxi,cldpetjn\nppxshttl,ghgyfqsm\nbmytkhff,wffjiezp\netdkshsp,rnfptfou\nyyexnyog,mgjtzupl\nvemxdydq,t'
+2021-06-02 17:26:23,657:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_22_NOT_READY
+2021-06-02 17:26:23,708:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_22\nfkfvzok\ngifxtzme,miyebxdi\nvmownclx,lpptntro\nvarozngh,yfljnkna\nlztbkykj,khgvydso\ntwmuembr,iejvjaxn\naofmsgld,yrzirllj\nzcmhcsvz,yzwifcfm\njnviqvlv,ioaytdno\nurouecsm,mscjdcsh\ntercgwjq,wmhaxgos\nfus'
+2021-06-02 17:26:31,718:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_23_NOT_READY
+2021-06-02 17:26:31,769:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_23\nnljhu,bgudmgcz\nwajniryo,tnmghddm\notshvsrb,mesraegw\nsuwrqjkx,vlvgmnme\njrellglr,lmyraygd\ntvcpyath,srrhivcf\ncpweopqu,tlqndnge\nmuetdizx,aqdbmivf\noicebewz,xavrgfpc\ngqrnydfg,ycxxptzr\nowvjrhsf,qrkgv'
+2021-06-02 17:26:32,342:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_24_NOT_READY
+2021-06-02 17:26:32,393:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_24\nluo\ndpaqvfmd,dirhxujh\nyjiyrpbm,ddogapol\nsmybapsf,iatrrzyh\njmjnoqef,yctygyov\nuuwcteun,gatbjiys\niqzoemlv,bftnzbsu\nzmdqabkq,ehgxkpor\nityqbedx,fchuczoe\ncskkjcfa,niikhymj\nomuiniao,howlfnyv\nsmyihpw'
+2021-06-02 17:26:55,494:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_25_NOT_READY
+2021-06-02 17:26:55,545:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_25\np,itjvljgv\nmduvuowk,rtpqubvf\naxozrdbb,ektooqjr\nhdufeuyg,khaederp\nxpbsvlmy,almgbwcn\nssnmioed,hkblegal\nahbmyiba,nzxkcgsf\ntrbdaifm,xpobibku\nnziolknm,amizetbm\nzkcgtwfq,omzbxuwy\nmgfgufdv,gnkcxgzp\n'
+2021-06-02 17:26:56,118:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_26_NOT_READY
+2021-06-02 17:26:56,170:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_26\nmwfphxgp,mntqzmpj\ntgfcnjwc,qpgyatdg\nveydkcty,dkizersk\nfthwamvq,vvxcxrky\nnqaqxhqr,ddkwcfre\npzyvlsyr,txndzmjs\ngkkzutel,wfgsymxc\ngslzslrn,pmlnfhcn\ntcsuivcb,qwdjvdcg\ngumdrqhj,dommzltu\nfvhzttlb,gs'
+2021-06-02 17:26:56,750:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_27_NOT_READY
+2021-06-02 17:26:56,801:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_27\nkhbdjy\nwlszsjeu,odlafeqq\npzllcsyh,wftpprjj\nkamajzlb,gzmcpuyn\nzyqztpna,ramwenxt\nrotuijfi,yakjsnhd\nfgqwzfis,gfrhzyhw\ntbgmocmy,urqrfxcv\nqpvykwvr,xdcfgwmx\nwgwcfnmt,getmcijr\ntpbywmlb,dqnalvzz\nvqki'
+2021-06-02 17:27:09,379:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_28_NOT_READY
+2021-06-02 17:27:09,430:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_28\nvbpw,rrwevfqv\nxethfvpo,xejajufo\nooibfryn,mobikfup\nlwqcctvm,vhzsolyn\nuuxurjkb,bouepgoz\nkrwjkemo,mvxybumv\ngdhgpnde,xsuqarko\nwlichsco,vihgnmxs\ndkjjrbtt,rkonmatu\nfvmwmyof,uaawhbnn\nincjdhml,ygiedh'
+2021-06-02 17:27:10,005:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_29_NOT_READY
+2021-06-02 17:27:10,056:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_29\nbc\nuxvbuukz,npsvvpvn\ndvmxjrkl,qirukzux\nbfhkgigq,hyfjxbxe\ngjoqxgzn,pwkwabhq\nhrhatjjt,hvisimkf\nqmfojqlv,hzzzzhqe\njawpzoqy,zfaojykv\nxzmqkkri,osuiqmwf\nnysgdkzd,fnpdfnzf\nhzxjlama,fndztbwm\nhxhstgsb'
+2021-06-02 17:27:20,789:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_30_NOT_READY
+2021-06-02 17:27:20,841:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_30\n,iaudnhwv\nshghbzxj,iwyywoqw\nqtydsxcf,jzsdlyza\noxduumog,stellqvg\nunuqodks,mmdcmhqf\nkmpczfsy,fdmycoax\npntdwhxo,kbyexqyy\ngegerpjy,bkiaubno\nwxmoxbdv,vykyjmxp\nbklkfjxr,rqigbkwp\niuwkoonf,jzwqqsyk\ni'
+2021-06-02 17:27:23,329:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_31_NOT_READY
+2021-06-02 17:27:23,380:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_31\nznayolg,kdgidnis\ndexjkllk,dgvqdruv\nxnzqayrs,jgxryzgl\niyawkags,mxoiwgoh\nzyqiuyyp,iavoedor\nbbvcuhoy,anbytmkp\nqzpndocq,ldwvuwuh\njonqprum,htetzczg\nrovrxtoo,wgtgjden\ncmqivlxm,xrkyhwzj\naktwvkbl,gmy'
+2021-06-02 17:27:23,954:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_32_NOT_READY
+2021-06-02 17:27:24,005:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_32\nwfwum\nzcmosjxp,dctrxmdh\nlgaseysu,kmykgwmp\ngzqwbdjz,bxdvjpti\nxizynxcr,eckdclcd\ntswvzitc,hhyscuel\nngyedydm,ptwppjic\nwaumands,oydsjvar\nwtwveeae,rrggqurl\neqsshhkm,owmdgftb\nlenzzeyx,audtiajt\nxtlxo'
+2021-06-02 17:27:24,579:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_33_NOT_READY
+2021-06-02 17:27:24,630:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_33\nool,kxrsqosc\nwjerphtq,kvsmfsnq\njddfufab,trhgbaew\nlypxgvct,oqiacyew\nbnxwnayb,wutfkjuy\ncpthyoxf,zoozusas\nccyjugan,mmsauphf\nsetuszrz,rggtsxig\ngzetywxw,zxzhxvyr\ndvcgkrot,gifxwuvh\nsgyzwyxv,ruksncx'
+2021-06-02 17:27:25,207:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_34_NOT_READY
+2021-06-02 17:27:25,259:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_34\nh\nhjmepryh,hrsgmriw\nmkqimwkl,gagvgbfy\nrjumycxu,acelqqbf\nzbzcpfky,bzkfdtln\ngsneaqgw,nyavpvqs\naswsnqkh,psfpvicw\nivzwmrfg,vigqwmlb\nathqegvx,bysszkxw\njoikhgbr,yzoqcitr\niemcdkhn,mhhpvkmz\nowcwdudv,'
+2021-06-02 17:27:25,843:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_35_NOT_READY
+2021-06-02 17:27:25,901:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_35\nejjxfwux\nzqnkadkc,xbijqlca\njbpllufq,vvevrlnf\nkaqdbkcd,ucwarnkg\nbhzthszj,eiswmdbo\nqjvjroeh,xrerhdqu\nsetywbor,jfkzfmvb\ncvwbfhid,xamtdioa\nlufhzajl,fdfsuzqa\nwyahkdgu,pmyefrcw\nfjuukphg,idvbidup\nlh'
+2021-06-02 17:27:26,475:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_36_NOT_READY
+2021-06-02 17:27:26,526:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_36\novntdx,nfufmkce\nqkcgkjzq,bwmtkyvv\nhkxmozyl,fyesepms\nydaryimi,sjzahowv\nxwtbgese,iswvpgdj\noliwffpd,xkoqwjhg\ntdatglxk,ywozjgmo\nzwspufss,zfygjzbx\ndotzerkh,zrbuyaav\nevbeoahs,gjtxmmdo\nroyonvzz,bhnt'
+2021-06-02 17:27:27,100:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_37_NOT_READY
+2021-06-02 17:27:27,152:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_37\naptq\nmwbnzycg,shftbdus\ndqkpvlgl,lyhijtpf\nhrhdlrpe,caadkgfy\ncrliwbft,fczicwyn\nrrnrvhss,kqunhppj\nkrddutxu,eoydomsm\nknmyoyjk,kydgbmnl\nxaalrcmr,kmvmsquf\nfejjwulx,ilrkzkrh\ncawjbyya,pdsiarxm\nngurbf'
+2021-06-02 17:27:27,724:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_38_NOT_READY
+2021-06-02 17:27:27,775:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_38\nkb,roxuglgb\nyjgfrnee,qvlnfvsv\nmyskrdkz,tdjtwldf\nbumfpyqd,rqfcggot\nlpkhukbl,atsjvkmi\nnukozpvu,elhffukk\nwfoskaaz,eygzrlgr\nmldfaqme,uqdadqvv\nymnfowhw,vqdtlbeo\nuxqcpwvc,fjsijhqx\nmmnghaqw,ktflvlhh'
+2021-06-02 17:27:28,354:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_39_NOT_READY
+2021-06-02 17:27:28,406:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_39\n\nbgxdehko,akvzebmq\nbllabguy,zqebzasl\ncqoijesh,nchgxhpw\nbhxufsgd,tmbcyflo\nudsailwg,jnkjnhir\nnzilgnsx,nyfsmnuk\nnvltsolo,dacgzjqu\ndjzkhkew,dskbbxcq\nehhesokr,gszbfkka\nijhdvhbr,pnauphaw\naokorpzz,f'
+2021-06-02 17:27:28,986:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_40_NOT_READY
+2021-06-02 17:27:29,037:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_40\nemjzxcd\nqfvmrvzc,mkxhhbxt\nwpcxnwin,dvgokwro\ngacqhhpx,nvqmixqb\newcmcyao,vtknvqrv\nnthbjdfr,wfuakzjm\niyekjnax,cpcpbtds\nyltuqhkl,zmrachwy\nelwjsppi,rrrfhlal\nkvickwqg,gftarigm\nvreiwfim,qoztprkd\nitm'
+2021-06-02 17:27:29,611:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_41_NOT_READY
+2021-06-02 17:27:29,663:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_41\natcnn,skspupfl\nojndzues,dppfubiu\nkqduuwdb,brywpiqn\ntjnuauix,fsdhacsg\nlbsvldow,myknskff\nstjvotrz,udqoturk\nqtjyjryg,fsxgqgfi\ncoahrywp,zsuwgfbq\nevnnhmom,cicjmrhy\naaqldnhf,gncfptrw\nlkhapbgi,nevsc'
+2021-06-02 17:27:30,235:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_42_NOT_READY
+2021-06-02 17:27:30,287:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_42\nhzs\nnarwrhzf,uaqawjoi\nljhywooc,glpqffyk\nlnhllqfm,jncgqrte\ntaohgrfh,abxbxxcz\nzrqqemxi,mwnfhkpo\nbqpsqyvy,ilulxymt\nwarbhids,vfiisahd\npnpykywm,topquayd\nzyfextvr,foljrnhy\nbfvpwiti,vropyccd\nizqlwet'
+2021-06-02 17:27:30,861:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_43_NOT_READY
+2021-06-02 17:27:30,920:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_43\nw,rxvpceec\nditiputy,tawkymfh\nhfrwpjwd,ektjgezu\nvfomanih,bqhczhul\ndeftkrld,imcbfcze\naxubttnb,ggdggaoq\nhkjlulgh,btrsgyen\nqwvfjznf,nyklbgff\njbjptjxa,jbjyfisi\nrvdmpiwn,revswvcq\nocenbdmx,xtczaoky\n'
+2021-06-02 17:27:31,502:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_44_NOT_READY
+2021-06-02 17:27:31,554:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_44\nmrarecrx,ridvwxwl\nqddmtlwu,hlcmnoss\nbmpxxldg,wiceituy\nfevdcwgy,zlysuqql\nfdpckhkz,iojubknm\njdqnhgae,ythxmwss\nrocduwff,vfptllei\nobqfwhrx,tqtoixnv\ntcyvkqjm,voqrsfgm\nxhwksnxc,orfrialf\nlfmcuxqf,yn'
+2021-06-02 17:27:32,127:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_45_NOT_READY
+2021-06-02 17:27:32,178:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_45\nckkrpr\nrwoiefyk,dfsvgwjq\nlzprvgue,nhillkyr\npxkjhhdn,lkbiapmt\nwdmqnmqi,bmtggngd\nswojqxaf,uqbomtzg\nfnjumjkb,leviumtq\nkuwhgkob,isdqlzrl\nensrqyml,snlsawcf\nnotdkbbd,uvhbuuyf\nqklsrlku,adqxmxsq\nmviv'
+2021-06-02 17:27:32,751:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_46_NOT_READY
+2021-06-02 17:27:32,803:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_46\nswlb,rfpganhx\nxnxobzak,hxgjlhhl\nioixgugj,nqhmwvky\nbpoykrem,hrjontob\nrefuahlp,xihjtdwu\niuivbuml,siosdfbl\nxewysvef,slkzbxhw\niveqjuaq,uvjufcpu\ncgilhabe,tnuumsmd\nozozrthr,hjkemnik\npmvgprxp,ljzhsp'
+2021-06-02 17:27:33,377:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_47_NOT_READY
+2021-06-02 17:27:33,428:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_47\nst\nrvgvqgix,kjzkidli\nyqlervyd,sabnudtv\nzkmzwwmg,xpxaibsg\nkhylidgf,tvnkhpgj\ndugsboho,wnodmhsa\nhisuwgzu,slrbqoed\nrinsnhcl,eyiymrvg\nnnkwpcba,egublsuz\nopldlgua,curbxecs\nutxutcjq,haxbyzju\nyhezqaxi'
+2021-06-02 17:27:34,006:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_48_NOT_READY
+2021-06-02 17:27:34,058:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_48\n,hhwitvej\ntsjuwwyr,vswbrqyz\ntagoevqn,fqwcmlto\npevunihg,atzfhami\nqrkldgmo,mdtthxfz\nlspriuyi,phzvlhib\nujdespud,rgjhqgoi\nqzjjadxo,mqqbhsjw\ncqxonugl,lkqrvlzt\nidvjxcad,lkmexswo\ngmvvwcfu,ltikiakn\nv'
+2021-06-02 17:27:34,637:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_49_NOT_READY
+2021-06-02 17:27:34,689:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_49\nsbclljb,pyjkrzmk\nfsjimxjq,mwfbcvqu\nxjdnyyms,oycoojqo\nhwsalbfq,ryrftzlo\nlcknegpr,lqehomdo\ngyoovsza,gwrnrapp\nyzvwdmhk,iswpvgip\nfqhgerap,gfxoawvi\nfnsnrsxk,afdqlded\nwjadcabb,gdwpddvh\nasaradil,hzg'
+2021-06-02 17:27:35,262:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_50_NOT_READY
+2021-06-02 17:27:35,313:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_50\ninszg\naisinybf,pnaftyxu\ncwiyfhth,hfopgxrh\ngjfngmqb,hnecltte\nzgnbfwfm,nzeenhsx\nwfxhmlef,glefyqmf\ntxtofjju,ffbneeyx\nffuikvyx,qpmpkukj\nzxjtrzdf,gplutfbl\nxexoqcrz,mrrhdrmh\nmtgkvxut,phydaayl\naqtat'
+2021-06-02 17:27:35,887:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_51_NOT_READY
+2021-06-02 17:27:35,946:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_51\nqsg,ntxhemau\ngllkjuqe,gbnoazak\nqftrkmiz,owsqnzwe\nxfxupven,srsqugvn\nbszslfhp,ucemnuai\nzwwayclh,xmgmkcif\nlvnpxmpw,gztnyemt\nrudqfdpw,xqvbdvmv\nunnzaxbz,haewmtgc\niaxnalam,zahxioeh\nhkjjqwam,xhxbtvi'
+2021-06-02 17:27:36,520:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_52_NOT_READY
+2021-06-02 17:27:36,572:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_52\ne\nmwzibmel,hbgujvtf\nwxiquqho,geppaiux\nkwrsayaz,xkdmdrrj\nqylryhva,jleudtod\npzoxozdx,zbtnjsxh\nzawouipg,envqghif\nvzmwbjzk,heoeispl\nbovgfvpt,boeawkfu\nudxrclag,qlwpluew\nqpodoluo,haumdjvr\ncbqwdslr,'
+2021-06-02 17:27:37,152:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_53_NOT_READY
+2021-06-02 17:27:37,203:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_53\nlwfuupei\nzvvanijt,qdgkjayt\nmqfqvoqy,wnjifhri\nmmxgbxmh,ldlurdpq\nmwxatjei,ywmpkakw\ngsehxazb,tdfuavkk\nsltquhnn,drgwwayx\nschbbjza,xjasyoqo\npbcwndqg,zmfptnbg\nhcdgqrtz,fdzcbpbv\nhwbnfhne,unjiwjbp\ndm'
+2021-06-02 17:27:37,777:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_54_NOT_READY
+2021-06-02 17:27:37,829:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_54\nfuwzjd,rfowlkmi\nrmnzxgxs,vqfcryfg\nprjqettd,jiduyqxh\nkkbeqcyb,jqsewfru\ntoshasrx,wvymajzd\neckxrqux,fspzdvsk\npjossrgx,uuqbqjdb\nkogoppzw,dwkfkftc\nyqulatvg,adfqzbyo\npsdiwose,opmjrttx\npfdojupm,dkon'
+2021-06-02 17:27:38,402:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_55_NOT_READY
+2021-06-02 17:27:38,453:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_55\nhmzo\njaatxhux,ffjosruc\nbwzhmcwp,nztosmrx\nwvazwhes,punexkpb\ngoxqwjgm,dkypdsso\neruciapu,goegeguj\nofahqstk,dkrohuza\nxxjffbxh,qbbvcqbr\nxlpzgmax,hbfidwob\nyxwbdith,iodffkda\noqsyzrhm,egdmndlk\nhtzuox'
+2021-06-02 17:27:39,027:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_56_NOT_READY
+2021-06-02 17:27:39,078:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_56\nrv,tqercqwy\njqprguaj,yivqrrxp\ndqjmhdpk,pzoilymz\nmihrauav,hjyqgiqs\nqiwmghtz,jolcurtk\nbaybtvvb,omhhkjkv\nxnntydho,evmdkogv\nhnkctein,pifktqfq\ndpkkejcx,ipfxufdv\nbzxxsqzy,aawskrwl\nrjmztjjv,cjyanhfj'
+2021-06-02 17:27:39,659:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_57_NOT_READY
+2021-06-02 17:27:39,710:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_57\n\ngojulboz,zexmupsq\nmmdtxevh,ofuijxwp\niaaijxqi,zvbtihks\ncizcxuyb,bjoacbhy\nkottvurr,giimpzio\nhtacckay,cxzthaab\njhuutxky,zwpgoasc\nvztjdygs,bdsrunho\nkosfxcaw,mkfrvpai\nmxplbbgp,lwbkfzag\ncefxowrv,t'
+2021-06-02 17:27:40,293:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_58_NOT_READY
+2021-06-02 17:27:40,345:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_58\nkmpmwvj\nugznkdfo,zmmntmhf\nmvsbpaob,fgqkvhnf\nyafqbtmj,usnrkqpt\ntmaxwyvy,schtljon\ndzraxvjf,ntnanwsq\npaatccjt,andyxpwl\ncyhbzaoz,yehjusei\nxutuisfg,jgmvtuiu\nmvjvjjbd,jyipfxcr\nxdwtfvzx,zqyorhbw\nbqc'
+2021-06-02 17:27:40,919:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_59_NOT_READY
+2021-06-02 17:27:40,977:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_59\naeiiq,zsnyzbcj\ngrbydpiq,hmrotduv\ndgcgpagz,auuggoyc\nybzrudzl,wadogkmk\nmwaaaric,tsxkonke\nkkzhjuzd,iheuxeih\nrmhczozs,koqzclfo\nvjcxgwjd,shkdeqap\nqmihrhlx,vkdfhkea\nubffzend,tngfwqkt\nvgyykopn,klkgf'
+2021-06-02 17:27:41,552:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_60_NOT_READY
+2021-06-02 17:27:41,603:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_60\nghc\ntlcwxavr,unlmbmqz\nnvuihaqs,ncmtmier\njikpocsc,njzihrbo\nvhvrprkw,xfhsgpda\ngvinhhaq,calelueo\ncwsmyxmr,rysutmgo\nxrirotdt,qlgzpgwi\nsfwmeljo,rtkoaohy\ngmrfbzzq,sksndzto\neifkbibo,vorvisca\ncwljvtx'
+2021-06-02 17:27:42,177:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_61_NOT_READY
+2021-06-02 17:27:42,228:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_61\np,eevffvvs\ngedeyris,ogajccuh\nxbccfhth,czfvlxfb\ndelqsvmi,phikblct\nrenmeouc,vpjlddcj\noyoilkwd,dadjoqvv\nculelsut,lsapeelz\nkgorvjfp,jnzcukex\nhqriemvf,kxiynmfz\nubmwqskd,viaqnnzv\nnbmqxemw,jyxbtety\n'
+2021-06-02 17:27:42,811:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_62_NOT_READY
+2021-06-02 17:27:42,863:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_62\ntwblncow,nmhdcjey\nbjgukgoy,ioisirhn\njazcosnj,apjjclgc\nkxewyunx,wyvxkarh\nhhgffzzb,mnxxcses\nknpqujvt,oagaglcf\nqifajduc,bzstlupf\nwqvaytfw,nivzvfcp\nrrsheqky,oalizgav\ntsbktvjg,xqvqnxde\nvnntujxf,ys'
+2021-06-02 17:27:43,436:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_63_NOT_READY
+2021-06-02 17:27:43,488:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_63\nlmnxlg\nakllsnkl,brctbudr\npvmsrkzg,qkklwwhi\nbflzruyp,miggdhas\nzynjupwy,tmzuaybi\nfmgdldyg,yfptvazn\nzknaqcxe,qwnxilxo\nryopefoh,iafbzydo\ndexycczo,qzemurlu\npjmpilwz,dhuqzuxw\neunytiqn,zagowpmh\nqakx'
+2021-06-02 17:27:44,062:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_64_NOT_READY
+2021-06-02 17:27:44,113:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_64\nnxap,wncjvxft\nrxruqmrc,clldebxd\nxbaaryha,mbcchlvr\nmrhikqfg,exanlhlb\nbljjfpgg,jtmgzcsl\nyrjmftls,kwbhnlim\nvbqxzkds,qwjptiut\nsazertka,duqkqmqs\nfanvvhwm,lpdvzixy\npsuztonm,ghwmuowl\nviihtjqq,vbdubk'
+2021-06-02 17:27:44,687:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_65_NOT_READY
+2021-06-02 17:27:44,739:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_65\nko\nstypuxuq,mjnufcth\nmpkjobhy,wzzphdfc\nfmwjqmqe,utssxxas\njljoheby,uswcydjt\nuigxvdas,ieufggdn\njjeidkcn,bebnqiub\nibpxquct,mzzoigoz\nielsfehw,ivmxvlxm\nqabsbgnb,lzcaqeli\ngxiulyed,ceoxabpy\ngcwdohac'
+2021-06-02 17:27:45,321:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_66_NOT_READY
+2021-06-02 17:27:45,372:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_66\n,krirfshl\nmwmcrfjp,fblopobj\ntplnyzet,gkypeitu\ntvzrgtlb,hzguhhdw\nnbzlgqjp,rtvivwwm\nbbchlkkf,czvnkwkf\naboamoxd,nsubtyve\nofsozeoh,iypymuak\nfhwxfxrc,drdolsig\nfcatuore,xunohlhw\nvlujqttd,rqylahrw\nk'
+2021-06-02 17:27:45,955:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_67_NOT_READY
+2021-06-02 17:27:46,014:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_67\nxcxjefc,vvongwlj\ngzbcsder,oyyyicqx\nbkfeheys,xwhyiifs\nmnkycltv,mfaxbchz\nnblmyofs,ylzmdpaj\nhlxtzjik,lcxftovo\nlymxorad,pjmwaedb\nhiihizhx,madtbjtx\nybqckppo,wmmegfrf\nyyubyezw,eqzpzkeq\nynergrew,otl'
+2021-06-02 17:27:46,588:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_68_NOT_READY
+2021-06-02 17:27:46,640:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_68\nrpzrd\njtvzvzqb,rulpdkci\njnrdyakg,mvnxepok\nnynsakpx,vxpjxgdx\nbcjrlell,dbhmpori\nvapzmiyc,clxtxgdy\ngvynskvj,sjbouwme\notvnhqpq,pvcdsdzs\nzxjkvlmr,ptjkzdyn\nvfnftisx,czgycqkz\nitohauii,qeykdouq\nrllaf'
+2021-06-02 17:27:47,226:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_69_NOT_READY
+2021-06-02 17:27:47,278:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_69\nvxi,skgpmbig\npfwqtxkq,aagzzemf\nnckmvrhh,hhgekavn\nthsnqeuo,rvmdfrkl\nelkespyx,cbobsvjo\nqfldhiwt,hklwveep\nbcfljmot,mleptmzl\nrxadqzcc,avmbzwma\neebtmrry,dsnkqfyp\nskhdlbly,hqswqiyl\nwzxorche,qavloss'
+2021-06-02 17:27:47,851:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_70_NOT_READY
+2021-06-02 17:27:47,903:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_70\nw\nxzcrkncr,pjiymsty\nieqsbbzt,usggzhut\nrkzxeiqq,ktdqyzyh\ngnclnvry,oupkvmot\nxszleiit,rfhtloej\nmmkwtkrw,lsyvicnc\nfbkrycvb,ivochwej\noxvyhywq,mqtzurqh\nchzrpxgi,tsrrpgon\njkymdukl,fcolbtsc\nmcguqpvp,'
+2021-06-02 17:27:48,483:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_71_NOT_READY
+2021-06-02 17:27:48,535:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_71\nndbgjxha\nvkgfmoqk,bhmytunk\ndzncwhqh,sqoiaklu\njhqcgllo,gcgjcfzo\nbichdmrh,oubndahu\nqkveioqt,dhfgimqt\nrlkpezdi,jjyhdgbf\nrdloenop,canjgsxw\netvxiuya,gnrnljym\nemncbexv,qgyhwrxm\nkzbyosyl,ztptxrmk\nif'
+2021-06-02 17:27:49,109:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_72_NOT_READY
+2021-06-02 17:27:49,161:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_72\nhicunw,accqgmfv\nlesxumhq,wnzjgkvd\nicofpujf,wwcsdydi\npnurlulp,venqpnwi\noxxdudot,vanxhnbg\ncnuemnrf,ldwvrtau\nklbewran,qssxuwnf\nolonbiai,nkpsnsek\ncyknugsr,qiykqnnz\nbgdzlrjt,fylsbhdo\nbenliasm,fkoi'
+2021-06-02 17:27:49,734:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_73_NOT_READY
+2021-06-02 17:27:49,786:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_73\nsllm\nlcrowqim,aizetucl\nbztzmalf,hrazlbzp\nkixwjvpa,xhshuctw\neavzpjtf,yvkotdha\nwiudzpxe,dcqwfnww\nwgaziujy,bmmgrhpl\npanfukun,nxspnxac\nxywerttv,ldffmbse\ngszcnijq,jfdiqvhm\nrvxbygug,lwanxgjv\ndwcjdz'
+2021-06-02 17:27:50,359:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_74_NOT_READY
+2021-06-02 17:27:50,411:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_74\nbo,eggbecqc\ndemlfubs,jwawwykz\nbbtpncgg,vwrmecfu\nwcgzjykr,cjdxzqiv\nhcbdhdxk,ftingpwn\nuljruvjh,zlvxsrex\nipwlhhwb,rslzeynv\nbiovmmkc,nuftvwxk\nwvtnfqoc,eweedjxq\nhzjtwxkm,hidmejfe\nwgwpphtu,jbdyvobu'
+2021-06-02 17:27:50,992:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_75_NOT_READY
+2021-06-02 17:27:51,051:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_75\n\nyvceflcm,zbwykals\nprhlekda,fsizbxel\nrmzcfgjz,usqjxxvd\nzdunkpcc,ctplvjep\nlxcyuurh,xcoivgng\nookrwbwk,nqulgyqu\nbtauxcwb,imgcgdzg\nncbasxvj,ndzlekcv\nlcohwkam,sebeinrm\nqquuuaal,squdgisp\njascsmkk,j'
+2021-06-02 17:27:51,634:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_76_NOT_READY
+2021-06-02 17:27:51,685:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_76\nrkiapos\nufuufwgf,luxhbsun\neyxhtock,ntwtirtl\nmporqazb,duuqfvaq\nrlioiydt,crfohexr\nzwrnrlge,brznktgx\nfsbfadvw,txucvohs\nzjwhvhfm,nskalfix\neurwsdks,ofwxrdoi\nnvytlkyp,irzjshqj\nnaebqkem,yapawzpf\nlmk'
+2021-06-02 17:27:52,259:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_77_NOT_READY
+2021-06-02 17:27:52,310:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_77\nglshd,mvipwdoq\nxpqadtlv,ksjaxeev\ncpwykgnb,bmoosxsm\nnedttleq,azxeeyiq\nflxbfjhp,dpfcahcb\nxttwytsm,vnyvwpoh\nrgeinien,qvbodxkd\nofpwhufk,zcpmrtsh\nztbnqngr,wikabyvp\nulkpcsvh,eixzuczf\nicfogehl,tedxl'
+2021-06-02 17:27:52,884:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_78_NOT_READY
+2021-06-02 17:27:52,936:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_78\ndbi\nauufvbua,suzfvoom\nftaveegh,iecwnsuk\nncktnwvg,qnqpdusk\nkykwfufh,txakrzus\nhnjmkdwk,uiuezlbl\nxmvglxde,qbccitdd\nfrtdrcdt,kgigdnbj\nskvwmmml,zpydklmq\nhudlrkia,fwpihxda\ntezcivmg,vxgdaicn\nxnbvjsd'
+2021-06-02 17:27:53,509:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_79_NOT_READY
+2021-06-02 17:27:53,561:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_79\nk,wkwqnflr\nnvujnqbc,ozbciacp\nipshijow,onlppgse\ndmiyjyvw,bceyxwdk\nozhzzgox,uwagummh\nloqqvqlc,sliowzzb\nwndduosk,jdvhixzy\nzidqjklj,bmaebjbm\nfewhsmvd,ztabpwzq\nownqpzee,jpdbgiob\nlovucmxe,rfyxydrn\n'
+2021-06-02 17:27:54,143:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_80_NOT_READY
+2021-06-02 17:27:54,194:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_80\neeodvlmx,lziimmcv\nrlvwpckf,gjfzrnhw\nkojulcqh,zqiejepz\naixqlhde,bymjgwfx\noypsmncr,ozbqwjgi\nicxrxxzn,dhudjfcj\nelfhdzar,mxsfptuw\nipaxuimh,ykdpbbcp\nhvohqrcl,dqwmhqzb\npozkekjo,uzclincq\nyhsfqgnk,tw'
+2021-06-02 17:27:54,767:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_81_NOT_READY
+2021-06-02 17:27:54,819:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_81\nspysqi\nhwwybjjm,rteahqaq\nywdyoeof,ijphyumx\nhvyunbcd,ulhhcsid\njvggczhu,jzbomaar\nrpaaytpn,ptulsupj\naanburzp,yxofmjjy\nddexwbmq,wksyzngp\nvonlcitp,kgvcfqgw\nbupnqvrp,xupwrbns\nnguwdpqr,btoprgmw\ntpby'
+2021-06-02 17:27:55,392:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_82_NOT_READY
+2021-06-02 17:27:55,444:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_82\nyxks,xobrbznv\nieahwgcz,jezbxjyw\nmzqdezkj,djinmdsh\nhgmofoke,noqacctc\nvdowgdiz,zwyceqzk\nzlofbkpx,wlxvhgmk\nxyxtbdnz,jdycjpfq\nbuinkkos,uszaiekf\nwktnsngb,rvhutdas\nyfywuesa,qfhpaopz\ncppuhagq,xbcmdz'
+2021-06-02 17:27:56,019:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_83_NOT_READY
+2021-06-02 17:27:56,077:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_83\nby\nywlwoynw,cjptffes\nyvvjsayf,ewzotbsv\nrwzynvdo,xlcdiken\nxhslogpw,ezwmtegd\neeeectqr,slktqsds\nljjqcviv,hmcieevu\nwukfayau,rphwizbz\nuqktsxcu,nyeikcjo\nksesnsio,gmvpwojw\njqqkausy,wlthjzym\nvwhrsjmu'
+2021-06-02 17:27:56,657:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_84_NOT_READY
+2021-06-02 17:27:56,708:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_84\n,evhiupmb\ncowhuxrd,zqhotkeh\nkddfvdiz,ancbwawy\nphmxpogr,namvajau\nrkyfsbzj,kfocfsmt\nouocjjkn,wwzfamfm\ngaaebtlw,gapdmyfj\nvmswobsu,iqzulrfi\ninziujyx,yreyzhfa\nzavljzfw,snwdfifv\nuhvdpsei,wwueutkv\nv'
+2021-06-02 17:27:57,323:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_85_NOT_READY
+2021-06-02 17:27:57,375:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_85\nsqkpdpg,tzehewgo\npbqzxhqp,anifhdok\nbtdwumac,ekxvvvpp\nllqolwnl,qsfeklte\nhfymevyg,wyflprlk\neiybivkc,rjptpqpi\nwqntqezh,afmluzxe\ntgyqiiek,tuvhwiws\npymgvdfv,wqqwyzzv\nqiesughl,kqpsgueq\nmmexisoi,bgj'
+2021-06-02 17:27:57,948:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_86_NOT_READY
+2021-06-02 17:27:58,000:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_86\neipdz\ngqvugjhu,hfbdktpq\nqpovglwm,pfivgyvj\nrabvcbth,qozajbcr\nmyubkwmy,bynqnyqc\nbeietyjd,giojpflm\nxlrixiaw,svidxlfr\nlvrvqogp,rknygxpt\nixkvtkiy,mknmmjmy\nokkvxsmg,fekefyul\nkebrxxrc,miehebjl\njrkqy'
+2021-06-02 17:27:58,574:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_87_NOT_READY
+2021-06-02 17:27:58,625:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_87\nfgl,jggdixzo\ndlapovsl,jdfzxbst\nuureumua,vkqxmfls\nqaogmfnq,xcrjtkgw\ndtpobdiv,zsrlpixv\nrejagquz,vexfzzvv\nsvuhaqsv,fyqwcukl\nyxzwcakq,wbpfgmim\nzifokhod,ivjoyjid\nornvnbly,vtywhyqj\nsxgwcmge,ncyvybj'
+2021-06-02 17:27:59,199:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_88_NOT_READY
+2021-06-02 17:27:59,251:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_88\nh\nsnagdrpu,cozjqaih\nguowzblz,mdamttim\nemngixrg,fifszhdn\nitlmiten,qegpausg\nvjzhatav,beohkuah\nowzrbdjr,kqhyxcra\neisybejs,dqvehtjy\nafofbpqo,tdndreyi\nvwpldvww,fkedlpkr\ntvaygvec,botebpcv\naazsyoyx,'
+2021-06-02 17:27:59,828:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_89_NOT_READY
+2021-06-02 17:27:59,880:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_89\ndkbqaanx\nrzamrlrq,xzjbtmoa\nhvvraplo,astetkus\nykfosacn,wrkznzxg\nmyrlwdrj,pycggkij\nrctjsqan,lxgfluri\nncexkbta,ffkhfwat\nvaymmopm,ghtltley\nczxpojcw,wzmyshrh\neocpexnf,veelnkwd\niqeplews,kjspoure\nkr'
+2021-06-02 17:28:00,453:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_90_NOT_READY
+2021-06-02 17:28:00,505:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_90\nysvnzl,qpgbabob\nhkevxvnl,xpnqmezc\nnicmncnw,ktregcjz\nfyhbiypu,xohclech\nbzryntcg,lzeflqsi\nmxqhuurx,wowcemnw\negbayxhx,slgznswa\nfzspqumq,eprpakun\nsqsumtor,pzsdgdll\nmjbgqxrc,eeaztjoj\nfcgupklh,jgmr'
+2021-06-02 17:28:01,079:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_91_NOT_READY
+2021-06-02 17:28:01,138:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_91\ntguc\nbkluuqwv,jnkqjlxq\nfqdbuwsd,dsajqdmd\npjqbvowz,mglwvbun\nbhkciimd,kcskaaru\nppdqlnvd,hnuyffez\ndkejlzlv,ezfhsmzh\nrwzxkvvm,fraonzwe\nputcmkwh,uiqwnsvs\nscjaleuz,lironpph\nkeeutkcw,rtltjvas\nmxhetb'
+2021-06-02 17:28:01,712:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_92_NOT_READY
+2021-06-02 17:28:01,764:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_92\nxj,vnnsumxy\ntgsernre,zswdodjk\nfoqwfgap,tjtjmbzj\nketcxfnh,kagpgtqu\npnjveecj,apiiiynf\npxadkusc,zlkqdgjk\noqmbwlzu,gsslqvrr\nthsepmzi,pudqjrfp\nqynxsfph,rtbddpce\neqlpsaxw,colzmqex\nagyqytyx,aefgcjtt'
+2021-06-02 17:28:02,341:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_93_NOT_READY
+2021-06-02 17:28:02,392:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_93\n\nxgqpbppq,rgnkordg\nqxbulxxj,bkkrwbvu\nxcxfntil,yzkwvktn\nfxicguwr,emypvzky\nhqnfyzqa,fyiadjat\nipdqztai,xybdejys\nwodrixhg,tbcorqdw\nclntptah,qwfcebdi\ndoiemusq,ulqherar\nagghdcop,byxeqxro\ndgvlwhln,a'
+2021-06-02 17:28:02,975:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_94_NOT_READY
+2021-06-02 17:28:03,027:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_94\nvwzxfzn\nskkdplaa,nktmjrkz\nmigbuigz,dweoostp\nyqcehfnd,bztswmbl\nayrmgrha,voskcfeg\nhwhlqstd,kpvaniig\npbbpvbvv,dhpnypql\nrdgbcijq,ycsywnip\nqedqhztg,vvpcnubs\njwpbhbku,xlfwvhnn\ngycllrsd,qzamsmcl\ndyf'
+2021-06-02 17:28:03,600:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_95_NOT_READY
+2021-06-02 17:28:03,652:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_95\nkpkfs,heivdwov\nazzoagql,lfdlyxdj\naqgxsksx,ybgalqxn\nmnfptasl,btbvsfyj\nfywyiwrr,asbyohid\nptrvnfwu,dmjkdjbn\nupkvxrax,njygxthi\nilqiyzsc,adzfhyvd\nglczxpsb,ubqbcdah\nzulxqprt,mbdhzjwu\nqrwfjugj,bqcyb'
+2021-06-02 17:28:04,225:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_96_NOT_READY
+2021-06-02 17:28:04,277:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_96\nela\nnbbflfvd,mgjssntv\novgjwiia,ttucuhqb\nqfbsnoiq,abstflsa\npntxcndl,funtzosj\npgyraxib,jtodwutt\nowggcyux,mxsighzl\ndnomqbci,kkabprrf\nlnyiepur,ooaqdknb\ntheyxezz,bnzinxah\neirdaake,ppkvfyhy\nvpyugep'
+2021-06-02 17:28:04,851:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_97_NOT_READY
+2021-06-02 17:28:04,902:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_97\nl,rxuxlqqh\nltorjdtm,rvlkpiuu\nmbctklvv,ckfjqxys\ntgzicgas,focesmsh\nbrieumob,iawbkvtv\ndpgptmwv,jvqnsjom\nscotgfgi,rrcskccu\nlgdbgeub,aycfqvuq\ninmuoljf,xxmvxfzr\nmflwbkwq,upimaaxa\nhvdmyhbn,mpcinrcd\n'
+2021-06-02 17:28:05,483:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_98_NOT_READY
+2021-06-02 17:28:05,534:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_98\nrvrjgrch,dzpyjoik\nxrowrmjl,ibvliobw\nvfnssgeo,buaefyaj\nglgciuef,xsglkqpn\nxznctpvv,kjrtemjg\nezjvrgov,wjczmpyi\npvtyxjig,jaevyoph\nhgbttknb,jdqsmvzc\nqdytingj,pcbcuear\nvoyttapd,txcpohvr\njkxnzqks,yf'
+2021-06-02 17:28:06,115:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_99_NOT_READY
+2021-06-02 17:28:06,174:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_99\niuxtxp\nepnuhrsh,bvdwqbrm\nxjcuuffm,zjsjixwa\nojaksjmx,vixrvwsl\nkqdfhwnx,yylfncpi\ntdjvntso,zykagvij\nuplfqyqw,zdwrtnil\nrrhtmzfe,djtaquwr\nqyjxyogt,dqkelhef\ncsgkfxar,iubfqxiu\nnnnounjs,iyolyujj\nauzx'
+2021-06-02 17:28:06,749:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_100_NOT_READY
+2021-06-02 17:28:06,801:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_100\nyqsz,khpasopx\nqypefold,tcrtllhm\ncsurxvgu,yzqbgtrf\nnftnrybi,nhtdkefz\nqbgzqpoi,cxjylwbt\nhdttgocc,kdjamecn\nearekxyj,mznukppt\natfmripf,ojymjvcz\ngzqprgib,slxuwukl\nblzauhyl,qlkngmab\nbjbxvusq,ewmstr'
+2021-06-02 17:28:07,376:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_101_NOT_READY
+2021-06-02 17:28:07,427:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_101\nob\nqiyxcbxi,vayinpco\npepgwtiv,gywwgvka\ncrnmurvj,jaghaore\nvrjqgzsq,wnrvuqvg\nqrdxphyg,gsnlxmhe\npatspsyc,dglpyjdn\nguvwcddo,ueudrdeb\nuqxiuwec,qwohkwnm\nkwzxkung,vunuxlrb\njfoewakr,nbgtgoin\nwjgkmsqc'
+2021-06-02 17:28:08,001:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_102_NOT_READY
+2021-06-02 17:28:08,053:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_102\n,lngqfxby\nqfbfrght,jigjrlcd\nxnqzqgux,epzhuhnr\nulfmpscj,gpfjhrah\nzotqwijl,fucgzqfn\nhascddqy,bdlkdsej\nydxsuone,ncdycfow\nsehehdyy,imzjbekn\nwjpndxzs,gvjafjid\ntdhldlms,yvxlaezj\nkxhbhwfy,djwgowwa\nb'
+2021-06-02 17:28:08,634:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_103_NOT_READY
+2021-06-02 17:28:08,686:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_103\nmctpjki,zkzrbkcx\nkgflmgcy,voexxgxl\nbbhtbuwb,hijtjrvx\nszpsypay,osyeyzhn\nwihvpqhe,odkjllfp\nouieyxhh,eqcyroyx\nqqjuhkku,bkeamptl\nvgfukxdy,ongrrika\ndyuycxuu,rcjlijjl\nwjrhaiyg,hviqtimw\nmuvrqbay,xwc'
+2021-06-02 17:28:09,259:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_104_NOT_READY
+2021-06-02 17:28:09,311:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_104\nemwmc\nkbgdeoyx,uhidzuwz\nayhsjxla,xlfkmooa\nkoqmtclf,fnspeezh\nfntmivvx,mikogemi\npepywvhb,jzpbfhvb\nzkjpeydi,ltihfpyg\nsndvlcwj,qqoqpmdo\nncpfywkl,gfruasuf\ncetsabzs,xftvllpf\npsulkmdi,ajehgczg\ndgdsu'
+2021-06-02 17:28:09,884:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_105_NOT_READY
+2021-06-02 17:28:09,936:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_105\ntgt,djlwmcfl\nzdlthwwe,gshszobt\nvoetpfrr,ddpiarqo\npahwwsvf,kiueygwc\nzysuhjqy,oyyskllr\najgejwts,gerzakgz\njutlxqhe,jwxnadzr\njipczwpe,ppnlessc\nbdeorcxl,tilybusj\nnajsfebk,aeiopfxh\npugnxnsd,ubutpvc'
+2021-06-02 17:28:10,509:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_106_NOT_READY
+2021-06-02 17:28:10,561:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_106\nv\nfcfqsgnp,gikywkdb\nwlrwxrml,dyvayqsb\nkglthmlk,srpmnefa\njsvsxjqv,lbcrycac\njuqvywwc,ofiuqqej\nekuymvmh,ylgpzgfn\nmjzjfbsk,mlwhgxoc\naaddjkwx,aqscrywu\nvwardyzv,wrqygrdy\nccqupjjp,whiwijms\navyhqrmo,'
+2021-06-02 17:28:11,141:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_107_NOT_READY
+2021-06-02 17:28:11,200:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_107\npmdvxoiq\nktcotwvm,ecxjjxpy\nrwaxiqrp,smfzwfak\nqhjezfne,nkpvvxvj\nhdtowdwf,ojhsqxwn\nfipwvhjm,vxgdcwqx\nqqbddfcs,whrmgtkf\nikukxyqw,bmvjapmb\nsfhvnkxf,xproilum\nanbsbmbz,burrxcoc\nqzyiwbod,vjrqtgyh\nmj'
+2021-06-02 17:28:11,780:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_108_NOT_READY
+2021-06-02 17:28:11,831:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_108\noqtbdr,qmjkrwjt\ndowdwhlk,dtmbdxyc\nauugaxlr,dudvjpxk\nfqqjsbkp,aphmubvp\nyoersepp,szwaizpg\nwajegzuk,yyjlnuhd\nshjuusht,xizbtmpg\npzusewlm,itcmuwgt\ndnhwymvd,uuoecmxm\ndizgsbls,dttwcywt\nnwgytdsk,ptcd'
+2021-06-02 17:28:12,405:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_109_NOT_READY
+2021-06-02 17:28:12,456:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_109\nybsv\ndhqvgirf,mynshror\nxnvudtat,xrvsguye\nppwazdsj,wsflpplz\nitrdpykz,ucozdhzz\nbwwdzlfa,xwzfrmje\nqagamhid,hrrrlkef\nxbsupxuo,onbgkepn\ndfbgyvya,wdrjycbw\njwckzuix,ukzvduow\nytoozxcw,iwwhprtg\nyiohca'
+2021-06-02 17:28:13,030:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_110_NOT_READY
+2021-06-02 17:28:13,081:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_110\nzr,sngcdymf\nylxvbdwk,chafpkpe\nlunbyane,pcevledc\nmtvpddib,dxokbbbd\nidnjeaco,fkcyztgb\nxlbkgxwp,jbdmqwgj\njqcsbugk,wgxviyoa\newgtakuk,shqpvfne\njwsbqxcu,dlonftcp\nbtewcdct,khzdjguu\nyzanczgi,ohvqvidz'
+2021-06-02 17:28:13,656:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_111_NOT_READY
+2021-06-02 17:28:13,707:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_111\n\nvnwltqsz,uggmiqxc\npvscyocl,vgiijzor\nkrvcomfa,rbtgpolz\nzhjycxjp,zbywwneu\nluszzlky,zarhxyew\ngnssaswv,ohycidji\naajxvgwd,avmuohbo\nzemdsttx,ucajgkbv\nfyzqhhoa,osfeqooa\nxmiccasa,hjjtknso\nkvpikgbt,f'
+2021-06-02 17:28:14,290:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_112_NOT_READY
+2021-06-02 17:28:14,341:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_112\nziegwhv\ntehsvxnj,fsbssqlz\niivcvqdc,yyserwxs\nkietmjjj,ecbccqho\nzijchltp,tsdrnmoz\njcunnidp,qwnuzwcj\nevholjke,detlfpzd\nrssenmgm,nohkxvxh\nxyfjxftf,dwfxcwea\ncmrmmwxo,lptdnfvz\nfcnwsevn,ykrkppva\nnub'
+2021-06-02 17:28:14,915:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_113_NOT_READY
+2021-06-02 17:28:14,967:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_113\nspeog,mhhfvgry\nppdmsknp,nkdbhefb\naxcvkbkb,aepxisqd\nqwkaowos,cmsmmtwc\njxczlnkp,qcotmyzz\nlicqtqnt,shibrkbr\nbdfhluxy,gpktonqu\ncsxeclwp,ynswhotl\nptfdumno,xgiwraxx\nqeocpins,jttlmwfn\nfdieccta,qqxlm'
+2021-06-02 17:28:15,540:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_114_NOT_READY
+2021-06-02 17:28:15,592:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_114\naxp\njapebwhm,jnggummp\ncbjbmtka,xgzvtteo\notfcnrcw,trvqtawv\nsdyhqrtr,nzjxcoir\nphfkhjro,paeuidal\nhtgkwtze,cucbcxlg\nhykzjkuo,gkkvauhc\nprcunedo,qakvycjw\nedgcawms,bwlorlgs\nbfwomfet,fwxvhvdx\nlgoexmz'
+2021-06-02 17:28:16,165:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_115_NOT_READY
+2021-06-02 17:28:16,224:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_115\nl,hudfwotv\ndrahhwmz,jluevmpt\nabhfwzmc,qqhspwyg\nenbmosef,ikszqxrp\nicicbmmw,nxiepdbw\nlnjtrbyj,kxsmagaj\nfvkxxxsa,jofcufsn\nehmcreki,hkackdpp\nhcruhhny,cfdryyvd\nwlmtwhcp,rizefdqb\newbzrkiw,hgspasqr\n'
+2021-06-02 17:28:16,804:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_116_NOT_READY
+2021-06-02 17:28:16,855:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_116\nvzyqbsls,reuucuva\npkkvfexb,dnwgnbij\nphwcvzqb,xzhkjtwi\nigjpttwc,ilsgzpys\nmuocfxav,xineonin\npywhvslj,ikanrfus\nozpqkuzg,zspbfuaf\nrredsirj,egncmhha\nwpneoxzt,wglaovpe\nczcswwgr,uefcztei\ncpckpgtc,pb'
+2021-06-02 17:28:17,448:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_117_NOT_READY
+2021-06-02 17:28:17,499:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_117\nfzyies\nibyowbtf,ccctrjln\nnihyczhn,hqvantpo\nahishzic,pnodknxa\noigtoezw,gpmxwrcu\nmfxbpeqv,scnbmpku\nxiadzfgz,qmfrzomx\nkmakhlea,mdfwamtk\nuimcvnfw,gkrfsxdn\nteiymtip,vzxxqewd\novmckeku,jcfmxzed\ngics'
+2021-06-02 17:28:18,073:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_118_NOT_READY
+2021-06-02 17:28:18,125:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_118\nijrj,oiexxvfd\nokcdygwq,jggohwkv\nkhgudbpr,mkukzqag\neludqijc,fqfvqtgb\nkeruboee,rldupdoj\nvyejnaak,bueamwba\nfdpireqw,ppfxwrkp\ntxnduqrn,ebyttnow\npdblworo,gqrcxdlg\nozhlcmxf,zsokfksj\nydqdlrhs,ftmcqd'
+2021-06-02 17:28:18,698:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_119_NOT_READY
+2021-06-02 17:28:18,749:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_119\nzp\nctgqxzpc,jkebjkur\nesrgpfrw,qcghfcex\nbxdgibvy,krlyseik\nujrvponw,xpzjszec\njosmfrgt,adhjoyec\nlyqncnpe,lrwiqqsd\nqavdipwe,wzvsgebt\nmumsmqja,ggwtixzl\nffrkhmri,ygjhdpyg\nnwgxfyws,yugozjlh\nzdrshgjh'
+2021-06-02 17:28:19,322:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_120_NOT_READY
+2021-06-02 17:28:19,373:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_120\n,ttldggki\nmrkhookj,whfpvnhy\nwohsuwux,lewglsmq\npvflpoxd,nvbkhkht\ntcxfahot,uxegmbjp\njioccuhv,sranoisa\nanfxripo,umpcpruw\njbkfqklg,atpqjlti\nwoqrvvzw,gkscablb\nuwmewdmr,msryqhyx\nxqssqtix,tjdamelh\nz'
+2021-06-02 17:28:19,955:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_121_NOT_READY
+2021-06-02 17:28:20,006:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_121\nibgleuy,jignyovs\nkqdpanvc,thlyttjj\nnwqibtpp,ycrwgzgj\nzsqhtytz,zrdombap\ndqydeqnw,whlxbyzh\nfqbewnuv,eonfvrcd\nbskmfxvg,iqfiptwh\navxjvtoh,skzzdkah\norvdhgcg,bmslspuv\nfqjqrmxm,igsxdoug\ncuhadzse,dms'
+2021-06-02 17:28:20,580:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_122_NOT_READY
+2021-06-02 17:28:20,632:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_122\npcafk\nuaxwwajb,ptqmvpcu\nwtxgjaov,xmhjrfnx\ncrpvqmlo,wzgtxcoy\ntbokuupo,msfynogw\nlpdxmfbh,zufzijut\nhmawlrze,iivzxcgo\ntmemuynr,ztkxrysd\nqcfhbcns,qgiuyhpw\numlepkkw,pcwtmseh\nivymldcm,kgsdaqbo\njqpmc'
+2021-06-02 17:28:21,205:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_123_NOT_READY
+2021-06-02 17:28:21,264:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_123\nfpe,svkbjtkc\nnsorvvrk,ftjdalck\nrrgcwopr,ipyullxz\nfmqbkjqc,crlrhzld\npxjnvese,slpugnal\neucacmtu,iobewgbp\nigecuobq,ewndrczy\nzkuvekay,lsimllaz\ntwvposed,rungpsnt\nzjgdoweu,mkiwwtgz\nkkgkjmad,houoqhy'
+2021-06-02 17:28:21,837:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_124_NOT_READY
+2021-06-02 17:28:21,889:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_124\nu\norqycwxh,fmftpacr\nfqxqkebt,sxacpoyz\nbjmxtroy,uydpzino\nvecxwjqx,dgfzuapt\nbgvjlkfo,nbntfohi\nxgenbfka,zaapacci\nbdkhdcoy,qccalhwd\nthlqwhxx,wlmotord\nfdybpdzt,klgdackl\nvpjappcg,hljqluyc\nmyvnabxn,'
+2021-06-02 17:28:22,470:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_125_NOT_READY
+2021-06-02 17:28:22,522:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_125\nxrfcmkxv\nrpoypebt,wohfnapz\nxrbqcljw,gjvrhdeo\nggklywfk,lnypxbvt\ngwbhpozi,irqopdfv\nsddjioqx,aoudtpjh\nofxpgtob,ikfitcyc\nmblxcaba,rwqfbqde\nrzipcdfq,xtyzqujg\nrbcywjsf,ncpgzluk\njgejznpu,ouroviry\nwp'
+2021-06-02 17:28:23,105:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_126_NOT_READY
+2021-06-02 17:28:23,156:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_126\nqhcnoz,dowoftcu\nluuvsyys,ghpspxjl\nbzxxcfop,qkawlxjb\nifsoqsgk,iljstsfg\nndzxbyka,gnybakrg\nkpunahax,zqcjzpzg\nudhsviti,ozntxpzv\npvyxgxco,riaqtddy\nkynmfzou,cagtxfau\nvblecudp,pkizsrth\nxswoqjbm,vhot'
+2021-06-02 17:28:23,730:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_127_NOT_READY
+2021-06-02 17:28:23,781:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_127\ntjxi\nevxudhhk,zpjrcxgk\nmespqrdu,bzbdmnba\nitzyzxnp,obhwgnyx\nppvwlmer,lcxpvsfe\nmmebnldu,zkynpdfu\nrnppaxux,hhmlpoim\nmbidzpsf,hvvxidxk\nbmljmayo,ncutedyn\nkwjeajbo,tnyttpwv\njqulzbsv,bsnxuhrc\noworbb'
+2021-06-02 17:28:24,354:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_128_NOT_READY
+2021-06-02 17:28:24,405:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_128\nzt,ggbiqiqs\nponjvjnv,thgezewh\nhhileywj,einrusls\negdxrtbo,btwvurun\nkaofcwdb,azpkzduh\njinupjoz,dwiqnjba\nqsxtfebf,sfhrlpqf\nlclekgsb,jdmivgqb\nygqdserx,wrpapbai\npbqoocur,pfdkfspy\nwmuvtrhi,dwryxdgh'
+2021-06-02 17:28:24,979:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_129_NOT_READY
+2021-06-02 17:28:25,031:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_129\n\nsmeqdzsg,mptrhbut\neimcsjwy,sdjadabb\njvjgpvos,usxdklep\nkszbmgcx,xmthzypl\nabvgcipr,wxkdqgre\nmebgfhhg,raeiamra\ncblwiocl,zckqlwui\ntdijaqvf,dehkxnio\njrhkeyoz,httyyhhm\nkgjuxntm,tlsenoql\nziqyuehw,f'
+2021-06-02 17:28:25,612:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_130_NOT_READY
+2021-06-02 17:28:25,663:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_130\npztkqzo\nqetpmzqs,rzenfpmu\nqzbtmpll,oqfygsuj\nxvrucqth,dteilojm\nbjirpsgz,qqwtvsoc\novwhelks,cwnefunh\nepnogonf,sbzeipnv\nsncsjhcs,tpvalidy\neujnvkay,vvpbdvxc\nhwyzsblw,vcsirvex\nsbpvbnpq,wbafddla\nude'
+2021-06-02 17:28:26,236:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_131_NOT_READY
+2021-06-02 17:28:26,296:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_131\nreohh,cbmfoyzj\nlucsypse,fkpjbgcm\ntkbhwqzb,tigcqqli\nwpumcmbw,eetyhgwa\nuodurkdf,yqclsisq\nrirlille,omaquwsr\nawdifefa,gyjpqlct\nrcmyozpd,qhxffnck\nsnmehjii,temxkhdo\nctcjfsrb,mqthcrwq\nxbuaflic,zcvuv'
+2021-06-02 17:28:26,870:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_132_NOT_READY
+2021-06-02 17:28:26,921:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_132\nhxr\nkfrttrbf,picvrqvq\njpjarfaw,fpbalknw\nbhavpcyn,xqvhvkne\nsibrobyy,pzrnelry\nevmohcts,rxzevwzh\nxheiqytt,sqzdfvnl\noxknzjem,xwrrlqfo\nbitfgoqn,ctpvnqby\nihntipuz,hozfooot\ncvoypvap,wxtcxwta\nurjfzpo'
+2021-06-02 17:28:27,504:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_133_NOT_READY
+2021-06-02 17:28:27,555:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_133\ns,atzhtvzz\nfpvbaslj,anlwzbeu\nkadewlqp,kzlcerpy\nenqmhsrs,otkoljaa\nfumvcfmh,jbeynwmk\nphsgxyxg,wnnktavk\nktjesnma,qtvkfjve\nejnvkgec,mthcgfow\nmjrzsugn,nyxkjhxm\nmyrlsrdm,tvrfwkbq\nlbiydbfe,frbxpqzh\n'
+2021-06-02 17:28:28,138:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_134_NOT_READY
+2021-06-02 17:28:28,189:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_134\nzvtntflp,gypqekpg\nvrbyutfo,yfuuemtn\nhlviwelr,kfsdcyue\nicqxwxun,xfdbisrr\nyfqyqzam,xtaznpzy\nbwzfukpr,jhxrsewf\nsxvizjto,dkkspotd\nqpeptwdb,fpxansne\nopknzwnm,qoochpau\nttssvzsw,wikrkeum\napupekxb,rk'
+2021-06-02 17:28:28,773:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_135_NOT_READY
+2021-06-02 17:28:28,824:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_135\nwaeyxf\nfsliihrf,ganqufdx\nqptpfncx,wzywqnck\nfcirvrdu,mifcunho\nbnqsomnl,xbuhpmop\nnvtkjysh,tkhlbvhw\nxcvnnamj,vywzdjgf\nhzakbhsd,rijadcrb\njjndtjgv,ofbflret\nyhoqahqq,ggovtqjw\nazfywqck,efnurclu\nmwjv'
+2021-06-02 17:28:29,397:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_136_NOT_READY
+2021-06-02 17:28:29,449:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_136\ncycn,amgtfwbk\ntxhavxgj,alsmicra\nivvhltjg,esidycpy\nikcvempy,hqnjxpyy\niedtslbz,npjziycy\narivnuya,pmkzeqze\ntoizspop,tbsqjkuw\npfyfqyyw,iaujwdzs\nqlxqtyfa,ozrlfkdt\nvlqycxto,cxblputz\nrawfmmoz,vuviek'
+2021-06-02 17:28:30,022:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_137_NOT_READY
+2021-06-02 17:28:30,073:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_137\nlo\nkwxknwhy,daqmpmzj\ncwqoftfn,ejsnkoqx\nyivasbjm,dekyaoms\nbcptedui,rjdzbukv\nxfevndok,nvcplxxc\ndxpmigzk,gvlmjlgf\nfeysspux,vfrsznhy\nwmgizdzx,eqptrrkl\ncduwfohj,flxqrslb\nuzoarjjh,ezkeqwfz\nppkrbfzi'
+2021-06-02 17:28:30,646:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_138_NOT_READY
+2021-06-02 17:28:30,698:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_138\n,jyrcfoxt\naeuacnhc,btwupnkr\nzckgetyd,vlbgbumb\nvqxopbfp,esemnsgb\nnkjoepsj,amgphako\njiutfokb,ceolfxua\nplwydnkn,hhhlhnem\nubqhsnzm,zhrewhei\nifcjsnbm,fftsyswh\nkshlmpkr,wvwswdwd\nkqzxijax,wtxuivul\nc'
+2021-06-02 17:28:31,278:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_139_NOT_READY
+2021-06-02 17:28:31,337:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_139\nquhlixa,dtobazsk\nfqyutjrm,wxtrrfyg\ndjhgpift,ibiujxrb\nnatwfcny,eiolwxpu\naesyvyrr,asanwsht\niyoalioj,kcxmdrhd\neoscywzo,fkjmiwfu\nblfrhwox,vahmfxtl\npvhklnbe,xzecylpq\nnmoezbmk,mduegxtm\nvphgcpkd,ruz'
+2021-06-02 17:28:31,910:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_140_NOT_READY
+2021-06-02 17:28:31,962:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_140\nvxnwg\nswwdsqmj,kkyrmlpd\ngqtiusin,mnohouzi\nagosegkd,dxswbisf\nrybmtewx,ackdqydz\nrpmpsvmd,apsydbur\nokpdxopn,gzjzhhyi\nqttymgbk,tsovyjsw\nhvzbmofb,kkjsslxb\nokxzzfya,vqlefvlv\nsvklqfus,coqrrjql\nzfjzn'
+2021-06-02 17:28:32,535:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_141_NOT_READY
+2021-06-02 17:28:32,587:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_141\noxh,mgvdzkdy\nfkikxszp,mfgbzktn\njhsiqyvu,feryptvu\njoybyshp,azdvdjtx\nkcbctoxn,lajfhusg\ndarxbrld,copfpbzs\nltqrvgqk,beempmwg\nrrhokpeb,hbgewmro\nzzhewgew,pclhaojr\nupwwyuns,kcafmjzh\nbqumvvgm,quaxnmo'
+2021-06-02 17:28:33,161:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_142_NOT_READY
+2021-06-02 17:28:33,212:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_142\nw\ngcbookjb,qxxhevep\nyeuuraic,ybwreazf\nuncriywp,tlwphgwx\nfvcfvvce,svtxwcbg\nbwyrawcg,ojubecol\ntdlkvjzi,svmgisba\ndpzqupik,vycwufim\nvntetpej,srabbidm\nbwngmpgl,ovlztvvp\nmkrnznim,gzjbiysw\nsygapfiw,'
+2021-06-02 17:28:33,795:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_143_NOT_READY
+2021-06-02 17:28:33,847:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_143\nlxemqmww\nviowhvve,angyupjf\ndcmbfvsf,kbgnfour\npcilzfiu,factwvxo\nshxbwibd,wjvngqdt\nayzrvuph,dbuxdvkw\nxmqmcqyr,hbgbkpha\nechdhmow,lkodmbaw\nnryrqvek,clfmgjbj\nurgbmldo,jofoehvv\nwxepedzk,hhikepkt\nfd'
+2021-06-02 17:28:34,430:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_144_NOT_READY
+2021-06-02 17:28:34,482:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_144\ntpvizj,dxcwjdyg\nthklioty,xtdyjlth\naxpogerl,twbddqji\nlzcvovtk,tzolosqu\ntmhjghtk,gugxztyp\nqurdchxs,sjwmotzs\nbmzgvtnb,noukdxhv\npsdhxuwh,gafqjxos\neyjyjmps,ctmliklj\nboiyfxce,srmvxdip\nfogjzqfc,axyg'
+2021-06-02 17:28:35,055:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_145_NOT_READY
+2021-06-02 17:28:35,107:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_145\nanua\nrvhdvaui,uxmrouom\nbqxthwht,dizgprfc\ngotoglti,czzptfyv\njyzhpcpv,xkrukgxd\nsxmdfezi,cumpqvgg\nbvasidtl,fsrotwmr\nldkzjgdo,fkvrqprf\nmifsnjci,reocdncw\niqwvjnur,prmqmuuo\naooepszk,carmkrzl\nlkyeym'
+2021-06-02 17:28:35,680:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_146_NOT_READY
+2021-06-02 17:28:35,731:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_146\nqk,nrstdxfc\nmbsudebd,vfssbpcj\nrrtnupgi,uyypawgl\nohghvrxg,bowzgbhv\nltieuafc,pvjwxynd\nvnllddij,tpswwiku\ncjxotzoe,pmkhprnf\nabkkicks,pzhqheok\nyfeqagfa,phlqztsb\nrokwlrvt,ewjvuote\nnlndipuo,nfnxlkei'
+2021-06-02 17:28:36,304:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_147_NOT_READY
+2021-06-02 17:28:36,362:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_147\n\nobhgqyoo,otsshuja\ndeuoooxw,xfctxfbx\nzrrrnpec,ihiyfvtx\nlyacgwka,ggienvju\nzbnvovuk,awcygvaq\ncsnbthro,adjjirul\nwowmcpei,wrtwkich\nllszshga,pigshlmr\natgpaycg,ljibzqzd\nbobxengo,czzpgxcy\nonkazitp,d'
+2021-06-02 17:28:36,943:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_148_NOT_READY
+2021-06-02 17:28:36,994:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_148\nspfiiqa\ntwewcoqf,mojxshkh\nbmwtsjxo,fdulwaud\ngiqfojmb,udqaghwc\ncvgrwkbg,mcgovwjj\nghasqcwj,kwauqipq\ngumwjpcx,fxmteoum\ndplavwap,lvxidxlj\nxpqwtfjt,rnmkzgee\nyjajwcmf,utrvsbik\nqypnenea,gvvkgham\nmdh'
+2021-06-02 17:28:37,584:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_149_NOT_READY
+2021-06-02 17:28:37,635:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_149\ncqarz,pboqtwbj\nkrqadzcg,tuxebwai\nsyirghyh,xqrmmuvz\ndjpcakqp,ppclhhfk\nscgopldt,pyjtpedn\nzsrbuxra,qgnwsbcl\nylqgevkv,rxwanzkc\ncwtpkonj,blhgecgt\nripsljhx,vrqppssb\nrgsqwenh,zjxwcvfc\nmpqhgijx,uwvpw'
+2021-06-02 17:28:38,210:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_150_NOT_READY
+2021-06-02 17:28:38,261:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_150\ncim\nqormprxc,njdknthz\nrouzmqcn,uqrmlewh\norapmxzy,hvgjrgeh\nnjikcjgk,rqgvmsnw\npbgchssw,cahutgwx\nxpqdppfs,zcnrljgh\nevxajymj,zzrtmvup\nwfshfxhp,zpofkama\nxhaxdhzb,qitulgon\nzdkikklp,neztzvap\njrnjwsf'
+2021-06-02 17:28:38,835:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_151_NOT_READY
+2021-06-02 17:28:38,886:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_151\nd,ftgcfrhv\nzpdqdswg,bbihwelt\nyozpucdr,ynscaphm\nectccokw,awdwcdlb\nunbbacpz,twltzprx\nozkfflvh,hvzdwveb\njqyomfss,cmypnzgg\ntrefvrsb,wkdgxfgf\nqvkproic,yatakstn\nnidtmydu,fvwayusd\nhxwjornq,mmmnnxha\n'
+2021-06-02 17:28:39,468:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_152_NOT_READY
+2021-06-02 17:28:39,520:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_152\nmquctrhm,dsuthdas\ngwecibnk,lggarplx\nhbeotbet,ctycsecn\nnxrmzmqv,rgexmeyr\needdbcus,ouneawre\nqvjkrovf,obbhmban\nxtdvgqev,rcwyybif\nwovtkqet,sqlnrjpk\nxdsqxprc,dlibztey\nxnrigsxv,pjnomcsy\ndkqsnxsm,km'
+2021-06-02 17:28:40,102:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_153_NOT_READY
+2021-06-02 17:28:40,153:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_153\ntnzmbw\nywyuqjpr,dgpgnuqk\ngjdiuced,qhskxkyo\nosmksbtt,yuqdwvkg\nndabxuks,qmscwvdo\nqzocwdhi,xlapztde\njyxuadyn,ecpidraf\nvykympgq,iielxumo\nixecrmtw,ecipsrot\nsprociex,bucscsjx\nyiymrnsq,jogybwmc\nmnkn'
+2021-06-02 17:28:40,728:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_154_NOT_READY
+2021-06-02 17:28:40,779:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_154\npesc,obqyuhgh\ngimsyjgm,qttbbpfo\nqdjyhzux,iialdljg\nvujflhve,tcjxquhz\nxqcufnch,kwqyowqu\nwlxcymyt,sdhztmmo\nkjdtkxjv,uokkykbr\nxzndymla,rtlpopdz\nhpzpthfo,vhxktxwp\newvyyeyx,svybdlci\nmrjpzzrh,xsvbst'
+2021-06-02 17:28:41,353:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_155_NOT_READY
+2021-06-02 17:28:41,412:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_155\ndp\npmktfnbv,ahqxrgao\ngybafvom,ldjywidy\ntivpsapw,qsmyzbij\nojfzrqdj,srfmitjb\nwpoeqlxb,kjbbwvan\ntduyleeb,xataioan\nkfemgmtt,gixmgjyd\nycyjdenu,mywtmxcv\nqrjqdhcl,exysuaon\nrnrlyaox,qhucimtm\njmeqrguw'
+2021-06-02 17:28:41,986:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_156_NOT_READY
+2021-06-02 17:28:42,037:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_156\n,psdzxeiy\nwyvswjxh,hxwgobgw\natrhbbjm,mxiehbge\nakxzqtlf,xlrclquj\nuwjtipac,oqmevlet\nhxfubccf,yvhwaczs\nnrtztojc,pwloxado\nllbdmgda,gohrqisn\ngilhsagv,ogmbrxdt\ndnnrgncr,kjbsbzyq\nxxewuahl,khfnvhlf\nn'
+2021-06-02 17:28:42,617:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_157_NOT_READY
+2021-06-02 17:28:42,669:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_157\nskkrmgl,egogxtak\ndwxkdrha,amnayuji\nfbyvutyl,rnakphbs\njftmxmmx,sdbqbdtf\nuneuybnd,nzlwrzjj\niyadlnqg,ovspjgks\ngkdurzmz,qdgkqhqh\naxtcdbsn,wvuzqfwe\nnfnsnnsw,xmdfpoor\nohgeltou,ryofewmn\njkzqazgi,qyc'
+2021-06-02 17:28:43,242:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_158_NOT_READY
+2021-06-02 17:28:43,294:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_158\naejne\neywnyxcb,pyqcccni\npjpabzds,zhgdbndj\nkvruorrw,lnnadzly\nsjpkntji,qgqhvxyo\ndwzrtzjd,rurflvvo\nncutgcus,mvnnudey\nlummrpiy,kavrejct\nvseghepg,jnkgwulk\njondmrzi,unrsudwl\npdydpfzw,yyscjzov\nsfjbm'
+2021-06-02 17:28:43,868:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_159_NOT_READY
+2021-06-02 17:28:43,919:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_0_159\nkrp,qxjxjxkm\nxbefeqpb,kmuybise\nynxgiubp,kzpopcnw\nlwlunwqm,yfortpgs\nxitqyors,kkchyogc\nujslboou,uuccdkms\nlmpufmwh,ipcxwunw\nfdwgzher,ranazzdc\nnuitfqip,yyqqocmz\npsqbwrxv,bhfdnisl\nkmfnjspq,zuchrzo'
+2021-06-02 17:28:44,458:INFO     [en.en_tx_manager][lora_pseudo_send][Entered function] generating /home/pi/Desktop/iasc/en_gw_bridge/1_rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_1_160_NOT_READY
+2021-06-02 17:28:44,509:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] the msg that is sent:
+b'rpi_lora_lte_records_2021-05-26T17-53-59.624962.csv_0_1_160\nw\nakgeteze,uhjxakih\nyhfcidbj,jzlvunds\nfwlbrwsz,ppmgraag\nyiaqaozr,xyndsjaq\nfubxrpbk,jxwuekto\nzcgrydgr,rztxgtnl\nvknzypzh,juophrrg\nakmaesgb,xmegsvrf\napahhgnv,awzofrwx\n'
+2021-06-02 17:28:44,510:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-02 17:28:49,517:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-02 17:28:54,524:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-02 17:28:59,530:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-02 17:29:04,537:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-02 17:29:09,544:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-02 17:29:14,550:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-02 17:29:19,557:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-02 17:29:24,564:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-02 17:29:29,571:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-02 17:29:34,577:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-02 17:29:39,584:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-02 17:29:44,591:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-02 17:29:49,598:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-02 17:29:54,605:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-02 17:29:59,611:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-02 17:30:04,618:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-02 17:30:09,625:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-02 17:30:14,632:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-02 17:30:19,638:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-02 17:30:24,645:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-02 17:30:29,652:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-02 17:30:34,659:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-02 17:30:39,662:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-02 17:30:44,669:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-02 17:30:49,676:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-02 17:30:54,683:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-02 17:30:59,690:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-02 17:31:04,696:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-02 17:31:09,703:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-02 17:31:14,710:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-02 17:31:19,717:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
