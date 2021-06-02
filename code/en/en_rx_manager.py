@@ -65,6 +65,9 @@ def run_rx(ignored_lst, compression_mode):
         rfm9x.destination = 10
         rfm9x.ack_retries = ACK_RETRIES
         rfm9x.ack_delay = ACK_DELAY
+        #rfm9x.tx_power = 7
+        #rfm9x.spreading_factor = 8
+        rfm9x.enable_crc = True
         logging.info("[{}]: Configured LoRa".format(__name__))
     except RuntimeError as error:
         print("Simulation Mode - No actual Lora")

@@ -50,16 +50,16 @@ def send_file_to_gw_with_lora(filename, compression_mode, rfm9x=None):
     while idx < len(data):
         payload, last = get_lora_payload(data,idx,filename)  # get block in size of LoRa payload from the compressed data. If it's the last payload in the chunk - returns last = 1
         metadata = bytes(get_metadata(filename, last, sequence_num), 'utf-8')
-        print("metadata length: {}\n Metadata is {}".format(len(metadata), metadata))
+        #print("metadata length: {}\n Metadata is {}".format(len(metadata), metadata))
         msg = metadata + payload
         # blocking send msg
         if rfm9x == None:
             lora_pseudo_send(msg)
         else:
-            print("MSG LENGTH: {}".format(len(msg)))
-            print(msg)
+        #print("MSG LENGTH: {}".format(len(msg)))
+        #print(msg)
             rfm9x.send_with_ack(msg)
-        lora_pseudo_send(msg)
+        #lora_pseudo_send(msg)
         sequence_num += 1
         max_payload_len_without_metadata = max_payload_len - max_metadata_flags_len - len(filename)
         idx += max_payload_len_without_metadata 
