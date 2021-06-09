@@ -1,6 +1,7 @@
 import os, sys, inspect, logging, zipfile, adafruit_rfm9x
 import time
 import lzma
+from timeit import default_timer as timer
 
 # modify PYTHONPATH in order to imprt internal modules from parent directory.
 current_dir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
@@ -35,6 +36,7 @@ def get_metadata(filename, last, sequence_num):
 
 
 def send_file_to_gw_with_lora(filename, compression_mode, rfm9x=None):
+    practical_lora_tth = 0
     logging.debug("[{}][{}][Entered function] with filename: {}".format(__name__, inspect.currentframe().f_code.co_name, filename))
     sequence_num = 0
     file_path = pending_dir + "/" + filename
@@ -58,11 +60,15 @@ def send_file_to_gw_with_lora(filename, compression_mode, rfm9x=None):
         else:
             #print("MSG LENGTH: {}".format(len(msg)))
             #print(msg)
+            start = timer()
             rfm9x.send_with_ack(msg)
+            end = timer()
+            practical_lora_tth += end-start
         sequence_num += 1
         max_payload_len_without_metadata = max_payload_len - max_metadata_flags_len - len(filename)
         idx += max_payload_len_without_metadata 
         logging.info("[{}][{}] the msg that is sent:\n{}".format(__name__, inspect.currentframe().f_code.co_name, msg))
+    return practical_lora_tth
 
 def get_lora_payload(data, idx, filename):
     payload = b''

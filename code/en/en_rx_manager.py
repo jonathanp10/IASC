@@ -1,5 +1,6 @@
 import os, sys, inspect, logging, argparse
 from timeit import default_timer as timer
+import time
 import busio
 from digitalio import DigitalInOut
 import board
@@ -16,7 +17,7 @@ from gw.gw_tx_manager import upload_to_cloud
 def get_timestamp_lst(filename):
     logging.debug("[{}][{}][Entered function] filename is {}".format(__name__, inspect.currentframe().f_code.co_name, filename))
     original_filename = filename
-    filename.replace("rpi_lora_lte_records_", "")
+    filename.replace(DATA_FILE_PREFIX, "")
     filename = filename.replace(".csv", "")
     filename = filename.replace('-', '.')
     filename = filename.replace(':', '.')
@@ -50,7 +51,7 @@ def get_pending_files_queue(ignored_files):
 
 def send_file_to_gw(filename, compression_mode, rfm9x=None):
     logging.debug("[{}][{}][Entered function] filename is {}".format(__name__, inspect.currentframe().f_code.co_name, filename))
-    send_file_to_gw_with_lora(filename, compression_mode, rfm9x)
+    return send_file_to_gw_with_lora(filename, compression_mode, rfm9x)
 
 
 def run_rx(ignored_lst, compression_mode, sim_mode=False):
@@ -84,15 +85,15 @@ def run_rx(ignored_lst, compression_mode, sim_mode=False):
         for pending_file in pending_files_queue:
             if pending_file in ignored_lst:
                 continue
-            start = timer()
+            start = time.time() #timer()
             if CELLULAR_EN_MODE:
                 upload_to_cloud(pending_dir + "/" + pending_file)
             elif sim_mode:  # simulation mode - don't pass rfm9x object.
                 send_file_to_gw(pending_file, compression_mode)
             else:  # regular LoRa transmission
-                send_file_to_gw(pending_file, compression_mode, rfm9x)
+                practical_lora_tth = send_file_to_gw(pending_file, compression_mode, rfm9x)
             end = timer()
-            en_stats[pending_file] = [pending_file, os.path.getsize("{}/{}".format(pending_dir,pending_file)), end-start, compression_mode] # filename, size, start-time, TTH, compressed
+            en_stats[pending_file] = [pending_file, os.path.getsize("{}/{}".format(pending_dir,pending_file)), start, compression_mode, practical_lora_tth] # filename, size, start-time, TTH, compressed
             ignored_lst.append(pending_file)
         set_stats_csv(en_stats, "en_stats.csv")
         
