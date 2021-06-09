@@ -95,5 +95,5 @@ def run_rx(ignored_lst, compression_mode, sim_mode=False):
             end = time.time() #timer()
             en_stats[pending_file] = [pending_file, os.path.getsize("{}/{}".format(pending_dir,pending_file)), end-start, compression_mode, practical_lora_tth] # filename, size, start-time, TTH, compressed
             ignored_lst.append(pending_file)
-        set_stats_csv(en_stats, "en_stats.csv")
+            set_stats_csv(en_stats, "en_stats.csv")
         
