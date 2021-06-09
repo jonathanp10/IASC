@@ -43,7 +43,6 @@ if __name__ == "__main__":
     run_rx_t = threading.Thread(target=run_rx, args = (rx_fifo,args.sim))
     run_rx_t.start()
 
-
     while True:
       time.sleep(cleaner_sleep_time_in_sec)
       gw_cleanup_t = threading.Thread(target=dir_cleanup, args = (ignored_lst, gw_queues_dir,))

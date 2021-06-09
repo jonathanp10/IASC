@@ -28,7 +28,7 @@ def get_rand_csv_data():
 def generate_sensor_res(file_size_in_kb):
    num_of_lines = get_num_of_csv_lines(file_size_in_kb)
    time_str = get_time_str()
-   filename = "rpi_lora_lte_records_" + time_str
+   filename = DATA_FILE_PREFIX + time_str
    filepath = pending_dir + "/" + filename
    print("generating " + filename + "...")
 

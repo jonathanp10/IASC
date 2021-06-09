@@ -7,12 +7,14 @@ gw_queues_dir = "{}/gw_queues".format(iasc_path)
 gw_dir = "{}/{}".format(working_dir, "gw")
 gw_downloads = "{}/{}".format(gw_dir, "downloads")
 gw_stats_path = "{}/{}".format(gw_dir, "gw_stats.csv")
+DATA_FILE_PREFIX = "rpi_lora_lte"
 
 
 # LoRa Configuration
 LoRa_FREQ = 915.0
 ACK_RETRIES = 100
 ACK_DELAY = 0.1
+LORA_RECEIVE_TIMEOUT = 1000
 GW_NODE_ID = 10
 LORA_ENABLE_CRC = True
 EN_ID = int(os.environ.get('EN_ID'))

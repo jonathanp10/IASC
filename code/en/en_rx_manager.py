@@ -59,7 +59,6 @@ def run_rx(ignored_lst, compression_mode, sim_mode=False):
         CS = DigitalInOut(board.CE1)
         RESET = DigitalInOut(board.D25)
         spi = busio.SPI(board.SCK, MOSI=board.MOSI, MISO=board.MISO)
-        logging.info("[{}]: Configured LoRa".format(__name__))
         try:
             rfm9x = adafruit_rfm9x.RFM9x(spi,CS,RESET,LoRa_FREQ)
             rfm9x.node = EN_ID
@@ -72,7 +71,6 @@ def run_rx(ignored_lst, compression_mode, sim_mode=False):
             print("ERROR: Please check LoRa-RPi wiring\n")
             logging.info("[{}]: ERROR: Failed to initialize RFM9X object. Probably wiring issue\n".format(__name__,))
             return False # TODO: some exit code?
-            
             
     while True:
         en_stats = {}
