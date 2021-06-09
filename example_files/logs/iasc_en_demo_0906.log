@@ -1,0 +1,132 @@
+2021-06-09 18:09:26,451:INFO     [__main__]: Compression mode is Compression Mode is ON
+2021-06-09 18:09:26,564:INFO     [en.en_rx_manager]: Configured LoRa
+2021-06-09 18:09:26,565:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-09 18:09:31,571:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-09 18:09:36,578:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-09 18:09:41,584:INFO     [en.en_rx_manager]: The sorted pending queue is: ['iasc2021-06-09T18-09-36.654747.csv']
+2021-06-09 18:10:17,385:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] Sent file: iasc2021-06-09T18-09-36.654747.csv
+
+2021-06-09 18:10:17,395:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-09 18:10:22,401:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-09 18:10:27,409:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-09 18:10:32,416:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-09 18:10:37,422:INFO     [en.en_rx_manager]: The sorted pending queue is: ['iasc2021-06-09T18-10-36.846511.csv']
+2021-06-09 18:11:12,090:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] Sent file: iasc2021-06-09T18-10-36.846511.csv
+
+2021-06-09 18:11:12,091:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-09 18:11:17,097:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-09 18:11:22,104:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-09 18:11:27,111:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-09 18:11:32,118:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-09 18:11:37,124:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-09 18:11:42,128:INFO     [en.en_rx_manager]: The sorted pending queue is: ['iasc2021-06-09T18-11-37.097809.csv']
+2021-06-09 18:12:19,116:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] Sent file: iasc2021-06-09T18-11-37.097809.csv
+
+2021-06-09 18:12:19,117:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-09 18:12:24,123:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-09 18:12:29,130:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-09 18:12:34,137:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-09 18:12:39,142:INFO     [en.en_rx_manager]: The sorted pending queue is: ['iasc2021-06-09T18-12-37.348266.csv']
+2021-06-09 18:13:17,452:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] Sent file: iasc2021-06-09T18-12-37.348266.csv
+
+2021-06-09 18:13:17,454:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-09 18:13:22,460:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-09 18:13:27,464:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-09 18:13:32,471:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-09 18:13:37,477:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-09 18:13:42,484:INFO     [en.en_rx_manager]: The sorted pending queue is: ['iasc2021-06-09T18-13-37.551328.csv']
+2021-06-09 18:14:18,345:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] Sent file: iasc2021-06-09T18-13-37.551328.csv
+
+2021-06-09 18:14:18,347:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-09 18:14:23,354:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-09 18:14:26,566:INFO     [common.iasc_dir_cleaner]: Cleaner in progress!
+
+2021-06-09 18:14:26,567:INFO     [common.iasc_dir_cleaner]: Cleaner aggressive mode is OFF
+
+2021-06-09 18:14:26,568:INFO     [common.iasc_dir_cleaner]: Cleaner removed file with age 289.79470586776733: iasc2021-06-09T18-09-36.654747.csv
+
+2021-06-09 18:14:26,569:INFO     [common.iasc_dir_cleaner]: Cleaner removed file with age 169.29622793197632: iasc2021-06-09T18-11-37.097809.csv
+
+2021-06-09 18:14:26,570:INFO     [common.iasc_dir_cleaner]: Cleaner removed file with age 109.02702927589417: iasc2021-06-09T18-12-37.348266.csv
+
+2021-06-09 18:14:26,571:INFO     [common.iasc_dir_cleaner]: Cleaner removed file with age 229.54540634155273: iasc2021-06-09T18-10-36.846511.csv
+
+2021-06-09 18:14:26,572:INFO     [common.iasc_dir_cleaner]: Cleaner is done: 4 files were deleted
+
+2021-06-09 18:14:28,360:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-09 18:14:33,367:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-09 18:14:38,374:INFO     [en.en_rx_manager]: The sorted pending queue is: ['iasc2021-06-09T18-14-37.795390.csv']
+2021-06-09 18:15:14,546:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] Sent file: iasc2021-06-09T18-14-37.795390.csv
+
+2021-06-09 18:15:14,547:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-09 18:15:19,554:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-09 18:15:24,560:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-09 18:15:29,567:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-09 18:15:34,573:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-09 18:15:39,580:INFO     [en.en_rx_manager]: The sorted pending queue is: ['iasc2021-06-09T18-15-38.031306.csv']
+2021-06-09 18:16:20,500:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] Sent file: iasc2021-06-09T18-15-38.031306.csv
+
+2021-06-09 18:16:20,502:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-09 18:16:25,508:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-09 18:16:30,513:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-09 18:16:35,520:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-09 18:16:40,526:INFO     [en.en_rx_manager]: The sorted pending queue is: ['iasc2021-06-09T18-16-38.282221.csv']
+2021-06-09 18:17:20,556:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] Sent file: iasc2021-06-09T18-16-38.282221.csv
+
+2021-06-09 18:17:20,557:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-09 18:17:25,563:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-09 18:17:30,570:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-09 18:17:35,576:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-09 18:17:40,582:INFO     [en.en_rx_manager]: The sorted pending queue is: ['iasc2021-06-09T18-17-38.538352.csv']
+2021-06-09 18:18:18,926:INFO     [en.en_tx_manager][send_file_to_gw_with_lora] Sent file: iasc2021-06-09T18-17-38.538352.csv
+
+2021-06-09 18:18:18,928:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-09 18:18:23,934:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-09 18:18:28,947:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-09 18:18:33,954:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-09 18:18:38,960:INFO     [en.en_rx_manager]: The sorted pending queue is empty
+Going to sleep for 5 sec
+2021-06-09 18:18:43,966:INFO     [en.en_rx_manager]: The sorted pending queue is: ['iasc2021-06-09T18-18-38.774197.csv']

@@ -41,7 +41,7 @@ def set_stats_csv(stats_dict, csv_name):
    stats_log = open(csv_name, 'a')
    #logging.info(csv_title)
    for key in stats_dict:
-      csv_line = "{},{},{},{},{}\n".format(stats_dict[key][0], stats_dict[key][1], stats_dict[key][2], stats_dict[key][3], stats_dict[key][4])
+      csv_line = "{},{},{},{}\n".format(stats_dict[key][0], stats_dict[key][1], stats_dict[key][2], stats_dict[key][3])#, stats_dict[key][4])
       stats_log.write(csv_line)
       #logging.info(csv_line)
    stats_log.close()

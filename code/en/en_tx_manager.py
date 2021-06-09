@@ -60,15 +60,15 @@ def send_file_to_gw_with_lora(filename, compression_mode, rfm9x=None):
         else:
             #print("MSG LENGTH: {}".format(len(msg)))
             #print(msg)
-            start = timer()
+            #start = timer()
             rfm9x.send_with_ack(msg)
-            end = timer()
-            practical_lora_tth += end-start
+            #end = timer()
+            #practical_lora_tth += end-start
         sequence_num += 1
         max_payload_len_without_metadata = max_payload_len - max_metadata_flags_len - len(filename)
         idx += max_payload_len_without_metadata 
-        logging.info("[{}][{}] the msg that is sent:\n{}".format(__name__, inspect.currentframe().f_code.co_name, msg))
-    return practical_lora_tth
+        logging.debug("[{}][{}] the msg that is sent:\n{}".format(__name__, inspect.currentframe().f_code.co_name, msg))
+    logging.info("[{}][{}] Sent file: {}\n".format(__name__, inspect.currentframe().f_code.co_name, filename))
 
 def get_lora_payload(data, idx, filename):
     payload = b''

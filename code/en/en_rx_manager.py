@@ -51,7 +51,7 @@ def get_pending_files_queue(ignored_files):
 
 def send_file_to_gw(filename, compression_mode, rfm9x=None):
     logging.debug("[{}][{}][Entered function] filename is {}".format(__name__, inspect.currentframe().f_code.co_name, filename))
-    return send_file_to_gw_with_lora(filename, compression_mode, rfm9x)
+    send_file_to_gw_with_lora(filename, compression_mode, rfm9x)
 
 
 def run_rx(ignored_lst, compression_mode, sim_mode=False):
@@ -91,9 +91,9 @@ def run_rx(ignored_lst, compression_mode, sim_mode=False):
             elif sim_mode:  # simulation mode - don't pass rfm9x object.
                 send_file_to_gw(pending_file, compression_mode)
             else:  # regular LoRa transmission
-                practical_lora_tth = send_file_to_gw(pending_file, compression_mode, rfm9x)
+                send_file_to_gw(pending_file, compression_mode, rfm9x)
             end = time.time() #timer()
-            en_stats[pending_file] = [pending_file, os.path.getsize("{}/{}".format(pending_dir,pending_file)), end-start, compression_mode, practical_lora_tth] # filename, size, start-time, TTH, compressed
+            en_stats[pending_file] = [pending_file, os.path.getsize("{}/{}".format(pending_dir,pending_file)), end-start, compression_mode] # filename, size, start-time, TTH, compressed
             ignored_lst.append(pending_file)
             set_stats_csv(en_stats, "en_stats.csv")
         
