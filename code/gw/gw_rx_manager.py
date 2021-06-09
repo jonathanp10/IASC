@@ -88,7 +88,7 @@ def handle_msgs(rx_fifo, ignored_lst, compression_mode):
             msg, source_id = rx_fifo.get() 
             logging.info("[{}][{}] Handling msg from EN {}".format(__name__,inspect.currentframe().f_code.co_name, source_id))
             metadata = msg.split(b'\n')[0]
-            print("Metadata: {}".format(metadata))
+#print("Metadata: {}".format(metadata))
             logging.info("[{}][{}] Metadata: {}".format(__name__,inspect.currentframe().f_code.co_name, metadata))
             first, last, sequence_num, filename = extract_metadata(metadata)
             if filename == "__DROPPED_PACKET__":
@@ -97,7 +97,7 @@ def handle_msgs(rx_fifo, ignored_lst, compression_mode):
             logging.info("[{}][{}] msg_metadata: {} {} {} {} id {} \n".format(__name__,inspect.currentframe().f_code.co_name, filename, str(first), str(last), str(sequence_num), source_id, msg_data))
             logging.debug("[{}] MsgData: {} \n".format(__name__, msg_data))
             filepath = "{}/{}_{}".format(gw_queues_dir, filename, source_id)
-            print("Filpath: " + filepath)
+#print("Filpath: " + filepath)
 
             # first msg - create new file
             if first:
@@ -118,7 +118,7 @@ def handle_msgs(rx_fifo, ignored_lst, compression_mode):
                 upload_to_cloud(filepath)
                 queues_dict.pop(filepath)
                 ignored_lst.append("{}_{}".format(filename, source_id))
-                end = timer()
+                end = time.time()
                 cnt +=1
                 print("GW uploaded {} files".format(str(cnt)))
                 append_gw_stats(filename + "_" + source_id, end-start, compression_mode) # filename, size, start-time, TTH, compressed
