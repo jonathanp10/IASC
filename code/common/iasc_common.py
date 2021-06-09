@@ -7,7 +7,7 @@ gw_queues_dir = "{}/gw_queues".format(iasc_path)
 gw_dir = "{}/{}".format(working_dir, "gw")
 gw_downloads = "{}/{}".format(gw_dir, "downloads")
 gw_stats_path = "{}/{}".format(gw_dir, "gw_stats.csv")
-DATA_FILE_PREFIX = "rpi_lora_lte"
+DATA_FILE_PREFIX = "iasc"
 
 
 # LoRa Configuration
@@ -41,7 +41,7 @@ def set_stats_csv(stats_dict, csv_name):
    stats_log = open(csv_name, 'a')
    #logging.info(csv_title)
    for key in stats_dict:
-      csv_line = "{},{},{},{}\n".format(stats_dict[key][0], stats_dict[key][1], stats_dict[key][2], stats_dict[key][3])
+      csv_line = "{},{},{},{},{}\n".format(stats_dict[key][0], stats_dict[key][1], stats_dict[key][2], stats_dict[key][3], stats_dict[key][4])
       stats_log.write(csv_line)
       #logging.info(csv_line)
    stats_log.close()
