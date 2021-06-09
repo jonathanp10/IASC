@@ -92,8 +92,8 @@ def run_rx(ignored_lst, compression_mode, sim_mode=False):
                 send_file_to_gw(pending_file, compression_mode)
             else:  # regular LoRa transmission
                 practical_lora_tth = send_file_to_gw(pending_file, compression_mode, rfm9x)
-            end = timer()
-            en_stats[pending_file] = [pending_file, os.path.getsize("{}/{}".format(pending_dir,pending_file)), start, compression_mode, practical_lora_tth] # filename, size, start-time, TTH, compressed
+            end = time.time() #timer()
+            en_stats[pending_file] = [pending_file, os.path.getsize("{}/{}".format(pending_dir,pending_file)), end-start, compression_mode, practical_lora_tth] # filename, size, start-time, TTH, compressed
             ignored_lst.append(pending_file)
             set_stats_csv(en_stats, "en_stats.csv")
         
