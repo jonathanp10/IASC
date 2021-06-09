@@ -37,7 +37,7 @@ if __name__ == "__main__":
     while True:
       time.sleep(cleaner_sleep_time_in_sec)
       en_cleanup_t = threading.Thread(target=dir_cleanup, args = (ignored_files,pending_dir,))
-      #en_cleanup_t.start()
+      en_cleanup_t.start()
     
 
 
