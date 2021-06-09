@@ -48,29 +48,32 @@ def get_pending_files_queue(ignored_files):
     return sorted_pending_files
 
 
-def send_file_to_gw(filename, compression_mode, rfm9x):
+def send_file_to_gw(filename, compression_mode, rfm9x=None):
     logging.debug("[{}][{}][Entered function] filename is {}".format(__name__, inspect.currentframe().f_code.co_name, filename))
     send_file_to_gw_with_lora(filename, compression_mode, rfm9x)
 
 
-def run_rx(ignored_lst, compression_mode):
-    # configure LoRa module
-    CS = DigitalInOut(board.CE1)
-    RESET = DigitalInOut(board.D25)
-    spi = busio.SPI(board.SCK, MOSI=board.MOSI, MISO=board.MISO)
-    logging.info("[{}]: Configured LoRa".format(__name__))
-    try:
-        rfm9x = adafruit_rfm9x.RFM9x(spi,CS,RESET,915.0)
-        rfm9x.node = 1
-        rfm9x.destination = 10
-        rfm9x.ack_retries = ACK_RETRIES
-        rfm9x.ack_delay = ACK_DELAY
-        rfm9x.enable_crc = True
-        #rfm9x.spreading_factor = 8
+def run_rx(ignored_lst, compression_mode, sim_mode=False):
+    if not sim_mode:
+        # configure LoRa module
+        CS = DigitalInOut(board.CE1)
+        RESET = DigitalInOut(board.D25)
+        spi = busio.SPI(board.SCK, MOSI=board.MOSI, MISO=board.MISO)
         logging.info("[{}]: Configured LoRa".format(__name__))
-    except RuntimeError as error:
-        print("Simulation Mode - No actual Lora")
-        rfm9x = None
+        try:
+            rfm9x = adafruit_rfm9x.RFM9x(spi,CS,RESET,LoRa_FREQ)
+            rfm9x.node = EN_ID
+            rfm9x.destination = GW_NODE_ID
+            rfm9x.ack_retries = ACK_RETRIES
+            rfm9x.ack_delay = ACK_DELAY
+            rfm9x.enable_crc = LORA_ENABLE_CRC
+            logging.info("[{}]: Configured LoRa".format(__name__))
+        except RuntimeError as error:
+            print("ERROR: Please check LoRa-RPi wiring\n")
+            logging.info("[{}]: ERROR: Failed to initialize RFM9X object. Probably wiring issue\n".format(__name__,))
+            return False # TODO: some exit code?
+            
+            
     while True:
         en_stats = {}
         pending_files_queue = get_pending_files_queue(ignored_lst)
@@ -84,10 +87,14 @@ def run_rx(ignored_lst, compression_mode):
             if pending_file in ignored_lst:
                 continue
             start = timer()
-            send_file_to_gw(pending_file, compression_mode, rfm9x)
-            #upload_to_cloud(pending_dir + "/" + pending_file)
+            if CELLULAR_EN_MODE:
+                upload_to_cloud(pending_dir + "/" + pending_file)
+            elif sim_mode:  # simulation mode - don't pass rfm9x object.
+                send_file_to_gw(pending_file, compression_mode)
+            else:  # regular LoRa transmission
+                send_file_to_gw(pending_file, compression_mode, rfm9x)
             end = timer()
             en_stats[pending_file] = [pending_file, os.path.getsize("{}/{}".format(pending_dir,pending_file)), end-start, compression_mode] # filename, size, start-time, TTH, compressed
             ignored_lst.append(pending_file)
         set_stats_csv(en_stats, "en_stats.csv")
-        # break # TODO - remove this when we really want it to work forever. For now it's here to avoid infinite loop.
+        

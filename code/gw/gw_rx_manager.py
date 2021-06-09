@@ -126,22 +126,24 @@ def append_gw_stats(filename, tth, compression_mode):
     gw_stats.close()
 
 
-def run_rx(rx_fifo):
+def run_rx(rx_fifo, sim_mode=False):
     logging.info("[{}] rx manager is awake".format(__name__))
-    # Configure LoRa radio
-    CS = DigitalInOut(board.CE1)
-    RESET = DigitalInOut(board.D25)
-    spi = busio.SPI(board.SCK, MOSI=board.MOSI, MISO=board.MISO)
-    rfm9x = adafruit_rfm9x.RFM9x(spi, CS, RESET, 915.0)
-    logging.info("[{}] Configured Lora".format(__name__))
+    if not sim_mode:
+        # Configure LoRa radio
+        CS = DigitalInOut(board.CE1)
+        RESET = DigitalInOut(board.D25)
+        spi = busio.SPI(board.SCK, MOSI=board.MOSI, MISO=board.MISO)
+        rfm9x = adafruit_rfm9x.RFM9x(spi, CS, RESET, 915.0)
+        logging.info("[{}] Configured Lora".format(__name__))
     while True:
-        #msg, source_id = pseudo_recieve()
-        msg, source_id = lora_receive(rfm9x)
+        if sim_mode:
+            msg, source_id = pseudo_recieve()
+        else:
+            msg, source_id = lora_receive(rfm9x)
         # print("RUN_RX Entered 50 chars: {}".format(msg[:50]))
         if msg == "__EMPTY_DIR__":
             logging.info("[{}] bridge_dir is empty".format(__name__))
             time.sleep(gw_sleep_time_in_sec)
             print("gw_finished")
-            # break
         else:
             rx_fifo.put((msg,source_id))

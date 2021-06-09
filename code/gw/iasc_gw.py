@@ -1,4 +1,4 @@
-import os, sys, inspect, logging, lzma, argparse, threading, time
+import os, sys, inspect, logging, lzma, threading, time
 from queue import Queue as Queue
 
 
@@ -14,19 +14,19 @@ from common.iasc_dir_cleaner import dir_cleanup
 
 
 if __name__ == "__main__":
+    args = parse_args(sys.argv[1:])
+
     LOG_FILE_NAME = "iasc_gw.log"
-    #logging.basicConfig(filename=LOG_FILE_NAME, filemode='w', level=logging.INFO, format="%(asctime)s:%(levelname)-8s %(message)s")
-    logging.basicConfig(filename=LOG_FILE_NAME, filemode='w', level=logging.DEBUG, format="%(asctime)s:%(levelname)-8s %(message)s")
-    
+    if args.dbg:
+        logging.basicConfig(filename=LOG_FILE_NAME, filemode='w', level=logging.DEBUG, format="%(asctime)s:%(levelname)-8s %(message)s")
+    else: 
+        logging.basicConfig(filename=LOG_FILE_NAME, filemode='w', level=logging.INFO, format="%(asctime)s:%(levelname)-8s %(message)s")
+
     # initializations
     ignored_lst = []
     rx_fifo = Queue()
-    arg_parser = argparse.ArgumentParser()
-    arg_parser.add_argument('-comp', required=False, action = "store_true", help = "in this mode en compress all tx files")
-    arg_parser.add_argument('-compression', required=False, action = "store_true", help = "in this mode en compress all tx files")
-    args = arg_parser.parse_args()
 
-    compression_mode = (args.comp or args.compression)
+    compression_mode = args.comp
     if compression_mode:
        compression_mode_str = "Compression Mode is ON"
     else:
@@ -40,11 +40,11 @@ if __name__ == "__main__":
     run_rx_fifo_handler.start()
     
     # run gw rx
-    run_rx_t = threading.Thread(target=run_rx, args = (rx_fifo,))
+    run_rx_t = threading.Thread(target=run_rx, args = (rx_fifo,args.sim))
     run_rx_t.start()
 
 
     while True:
-      time.sleep(60)
+      time.sleep(cleaner_sleep_time_in_sec)
       gw_cleanup_t = threading.Thread(target=dir_cleanup, args = (ignored_lst, gw_queues_dir,))
       #gw_cleanup_t.start()
